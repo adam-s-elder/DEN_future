@@ -8,6 +8,11 @@ library(dplyr)
 library(rvest)
 library(stringr)
 
+helper_scripts <- list.files("helper_functions/")
+for (x in helper_scripts) {
+  source(paste0("helper_functions/", x))
+}
+
 portaldb <- dbConnect(RSQLite::SQLite(), zotero_loc)
 
 dt_names <- dbListTables(portaldb)
@@ -80,34 +85,10 @@ parameter_notes_df <- left_join(
   wanted_field_value_df |> rename(articleItemID = itemID),
   by = "articleItemID")
 
-
-parse_params <- function(str_vector) {
-  split_list <- str_split(str_vector, pattern = ",")
-  failed_parse_length <-
-    which((split_list |> map(length) |> do.call(what = c)) != 4)
-  if (length(failed_parse_length) > 0) {
-    warning("Some parameters were not coded properly and have an incorrect format: \n",
-            paste0(do.call(split_list[failed_parse_length], what = c),
-                       collapse = "\n"),
-            "\nCheck these rows: ",
-            paste0(failed_parse_length, collapse = ", "))
-  }
-  split_list <- split_list[-failed_parse_length]
-  split_param_df <- list_transpose(split_list) |>
-    map(trimws) |> as.data.frame()
-  colnames(split_param_df) <- param_order
-  na_mat <- matrix(NA, nrow = length(failed_parse_length), ncol = 4)
-  na_df <- as.data.frame(na_mat)
-  colnames(na_df) <- colnames(split_param_df)
-  split_param_df <- bind_rows(split_param_df, na_df)
-  base_idx <- 1:length(str_vector)
-  fix_idx <- c(setdiff(base_idx, failed_parse_length), failed_parse_length)
-  return(split_param_df[match(base_idx, fix_idx), ])
-}
-
+parameter_info_list <- parse_params(parameter_notes_df$param_value)
 parameter_notes_df <- bind_cols(
   parameter_notes_df |> rename(param_string = param_value),
-  parse_params(parameter_notes_df$param_value)
+  parameter_info_list$param_df
 )
 
 collapsed_vals <- parameter_notes_df |> select(all_of(param_order)) |> apply(
