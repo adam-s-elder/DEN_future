@@ -113,6 +113,10 @@ workforce_data <- wf_data |> select(-`NA-`) |>
     location = "64 HD accross US and collonies"
          )
 
+final_combined <- bind_rows(workforce_data, ag_data_final, hd_perf_data) |>
+  mutate(source = "Case Investigation and Contact Tracing Efforts From Health Departments in the United States, November 2020 to December 2021.") |>
+  rename(param_name = param, param_value = value,
+         pm_start_date = start_date, pm_end_date = end_date,
+         pm_location = location)
 
-final_combined <- bind_rows(workforce_data, ag_data_final, hd_perf_data)
-
+write_csv(final_combined, file = "output/final_combined.csv")
