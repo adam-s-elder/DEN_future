@@ -1,346 +1,346 @@
-"","param_name","param_value","pm_start_date","pm_end_date","pm_location","source","param_type"
-"1","participation_percentage","87","07/01/2020","09/30/2020","King County","A Multifaceted Evaluation of a COVID-19 Contact Tracing Program in King County, Washington.","manual"
-"2","participation_percentage","76","04/01/2021","06/30/2020","King County","A Multifaceted Evaluation of a COVID-19 Contact Tracing Program in King County, Washington.","manual"
-"3","contact_time_from_test","3.4","07/01/2020","06/30/2021","King County","A Multifaceted Evaluation of a COVID-19 Contact Tracing Program in King County, Washington.","manual"
-"4","contact_time_from_symptom","6.1","07/01/2020","06/30/2021","King County","A Multifaceted Evaluation of a COVID-19 Contact Tracing Program in King County, Washington.","manual"
-"5","positive_cases","101731","07/01/2020","09/30/2020","King County","A Multifaceted Evaluation of a COVID-19 Contact Tracing Program in King County, Washington.",NA
-"6","primary_interview_completed","42900","07/01/2020","06/30/2021","King County","A Multifaceted Evaluation of a COVID-19 Contact Tracing Program in King County, Washington.","manual"
-"7","num_users_total","1490","11/02/2020","11/30/2020","UW Campus - students","WA Notify: the planning and implementation of a Bluetooth exposure notification tool for COVID-19 pandemic response in Washington State.",NA
-"8","adoption_rate","6","11/02/2020","11/30/2020","UW Campus - students","WA Notify: the planning and implementation of a Bluetooth exposure notification tool for COVID-19 pandemic response in Washington State.",NA
-"9","num_users_total","6","11/19/2020","11/30/2020","UW Campus - employees","WA Notify: the planning and implementation of a Bluetooth exposure notification tool for COVID-19 pandemic response in Washington State.",NA
-"10","adoption_rate","4","11/19/2020","11/30/2020","UW Campus - students","WA Notify: the planning and implementation of a Bluetooth exposure notification tool for COVID-19 pandemic response in Washington State.",NA
-"11","num_users_total","1000000","11/30/2020","12/07/2020","WA","WA Notify: the planning and implementation of a Bluetooth exposure notification tool for COVID-19 pandemic response in Washington State.",NA
-"12","num_users_total","1900000","11/30/2020","04/02/2020","WA","WA Notify: the planning and implementation of a Bluetooth exposure notification tool for COVID-19 pandemic response in Washington State.",NA
-"13","adoption_rate","25","11/30/2020","04/02/2020","WA","WA Notify: the planning and implementation of a Bluetooth exposure notification tool for COVID-19 pandemic response in Washington State.",NA
-"14","notifications_sent_total_weekly","4500","12/30/2020","04/02/2020","WA","WA Notify: the planning and implementation of a Bluetooth exposure notification tool for COVID-19 pandemic response in Washington State.",NA
-"15","case_reached_perc","8","12/30/2020","04/02/2020","WA","WA Notify: the planning and implementation of a Bluetooth exposure notification tool for COVID-19 pandemic response in Washington State.",NA
-"16","hr_hours","550","6/30/2020","07/30/2020","Maricopa","Using Automation, Prioritization, and Collaboration to Manage a COVID-19 Case Surge in Maricopa County, Arizona, 2020.",NA
-"17","cases_assigned_count","58570","6/30/2020","07/30/2020","Maricopa","Using Automation, Prioritization, and Collaboration to Manage a COVID-19 Case Surge in Maricopa County, Arizona, 2020.",NA
-"18","case_reached_from_test_med","264","6/15/2020","6/29/2020","Maricopa","Using Automation, Prioritization, and Collaboration to Manage a COVID-19 Case Surge in Maricopa County, Arizona, 2020.",NA
-"19","cases_reached_total","55056","6/30/2020","7/30/2020","Maricopa","Using Automation, Prioritization, and Collaboration to Manage a COVID-19 Case Surge in Maricopa County, Arizona, 2020.",NA
-"20","cases_reached_perc","94","6/30/2020","7/30/2020","Maricopa","Using Automation, Prioritization, and Collaboration to Manage a COVID-19 Case Surge in Maricopa County, Arizona, 2020.",NA
-"21","hr_cost","54000000","08/01/2020","NA","Chicago","Unified Response to COVID-19 Case Investigation and Contact Tracing, Chicago, December 2020-April 2021.",NA
-"22","hr_cost","14000000","08/01/2020","NA","Chicago","Unified Response to COVID-19 Case Investigation and Contact Tracing, Chicago, December 2020-April 2021.",NA
-"23","cases_assigned_count","67882","12/27/2020","4/24/2021","Chicago","Unified Response to COVID-19 Case Investigation and Contact Tracing, Chicago, December 2020-April 2021.",NA
-"24","notifications_sent_max","64011","12/27/2020","4/24/2021","Chicago","Unified Response to COVID-19 Case Investigation and Contact Tracing, Chicago, December 2020-April 2021.",NA
-"25","case_reached_count","37422","12/27/2020","4/24/2021","Chicago","Unified Response to COVID-19 Case Investigation and Contact Tracing, Chicago, December 2020-April 2021.",NA
-"26","case_interviewed_count","24450","12/27/2020","4/24/2021","Chicago","Unified Response to COVID-19 Case Investigation and Contact Tracing, Chicago, December 2020-April 2021.",NA
-"27","contact_named_count","34083","12/27/2020","4/24/2021","Chicago","Unified Response to COVID-19 Case Investigation and Contact Tracing, Chicago, December 2020-April 2021.",NA
-"28","contact_reached_count","22240","12/27/2020","4/24/2021","Chicago","Unified Response to COVID-19 Case Investigation and Contact Tracing, Chicago, December 2020-April 2021.",NA
-"29","case_reached_from_test_med","120","12/27/2020","4/24/2021","Chicago","Unified Response to COVID-19 Case Investigation and Contact Tracing, Chicago, December 2020-April 2021.",NA
-"30","contact_reached_from_named_med","24","12/27/2020","4/24/2021","Chicago","Unified Response to COVID-19 Case Investigation and Contact Tracing, Chicago, December 2020-April 2021.",NA
-"31","hr_hours","445000","12/27/2020","2/01/2022","Chicago","Unified Response to COVID-19 Case Investigation and Contact Tracing, Chicago, December 2020-April 2021.",NA
-"32","lowest_est","445000","12/27/2020","2/01/2022","Chicago","Unified Response to COVID-19 Case Investigation and Contact Tracing, Chicago, December 2020-April 2021.",NA
-"33","adoption_rate","51","11/15/2020","03/15/2021","WA","Trading-off privacy and utility: the Washington State experience assessing the performance of a public health digital exposure notification system for  coronavirus disease 2019.",NA
-"34","num_users_max","3000000","11/15/2020","03/15/2021","WA","Trading-off privacy and utility: the Washington State experience assessing the performance of a public health digital exposure notification system for  coronavirus disease 2019.",NA
-"35","notifications_sent_max","902824","11/15/2020","03/15/2021","WA","Trading-off privacy and utility: the Washington State experience assessing the performance of a public health digital exposure notification system for  coronavirus disease 2019.",NA
-"36","contact_reached_from_named_max","742336","11/15/2020","03/15/2021","WA","Trading-off privacy and utility: the Washington State experience assessing the performance of a public health digital exposure notification system for  coronavirus disease 2019.",NA
-"37","contact_named_ratio","7.9","11/15/2020","03/15/2021","WA","Trading-off privacy and utility: the Washington State experience assessing the performance of a public health digital exposure notification system for  coronavirus disease 2019.",NA
-"38","infections_prevented","5500","11/15/2020","03/15/2021","WA","Trading-off privacy and utility: the Washington State experience assessing the performance of a public health digital exposure notification system for  coronavirus disease 2019.",NA
-"39","contact_reached_from_named","127.2","11/15/2020","03/15/2022","WA","Trading-off privacy and utility: the Washington State experience assessing the performance of a public health digital exposure notification system for  coronavirus disease 2019.",NA
-"40","cases_assigned_total","76936","11/15/2020","03/15/2021","WA","Trading-off privacy and utility: the Washington State experience assessing the performance of a public health digital exposure notification system for  coronavirus disease 2019.",NA
-"41","cases_reached_total","76936","11/15/2020","03/15/2021","WA","Trading-off privacy and utility: the Washington State experience assessing the performance of a public health digital exposure notification system for  coronavirus disease 2019.",NA
-"42","contact_named_count_mean","1.33","05/18/2020","08/17/2020","United States*","A Patient-Initiated Digital COVID-19 Contact Notification Tool (TellYourContacts): Evaluation Study.","digital"
-"43","case_reached_from_test_max","24","9/26/2021","11/20/2021","VT","The public health impact of COVID-19 variants of concern on the effectiveness of contact tracing in Vermont, United States.",NA
-"44","case_reached_from_test_max","72","8/01/2021","9/25/2021","VT","The public health impact of COVID-19 variants of concern on the effectiveness of contact tracing in Vermont, United States.",NA
-"45","case_reached_from_test_max","24","11/25/2020","1/19/2021","VT","The public health impact of COVID-19 variants of concern on the effectiveness of contact tracing in Vermont, United States.",NA
-"46","case_reached_from_test_med","72","8/01/2021","9/25/2021","VT","The public health impact of COVID-19 variants of concern on the effectiveness of contact tracing in Vermont, United States.",NA
-"47","case_reached_from_test_med","48","9/26/2021","11/20/2021","VT","The public health impact of COVID-19 variants of concern on the effectiveness of contact tracing in Vermont, United States.",NA
-"48","case_reached_from_test_med","48","11/25/2020","1/19/2021","VT","The public health impact of COVID-19 variants of concern on the effectiveness of contact tracing in Vermont, United States.",NA
-"49","contact_reached_perc","52","9/26/2021","11/20/2021","VT","The public health impact of COVID-19 variants of concern on the effectiveness of contact tracing in Vermont, United States.",NA
-"50","contact_reached_perc","53","8/01/2021","9/25/2021","VT","The public health impact of COVID-19 variants of concern on the effectiveness of contact tracing in Vermont, United States.",NA
-"51","case_interviewed_perc","83","8/01/2021","9/25/2021","VT","The public health impact of COVID-19 variants of concern on the effectiveness of contact tracing in Vermont, United States.",NA
-"52","contact_named_perc","80","8/01/2021","9/25/2021","VT","The public health impact of COVID-19 variants of concern on the effectiveness of contact tracing in Vermont, United States.",NA
-"53","contact_reached_perc","91","11/25/2020","1/19/2021","VT","The public health impact of COVID-19 variants of concern on the effectiveness of contact tracing in Vermont, United States.",NA
-"54","contact_named_perc","84","9/26/2021","11/20/2021","VT","The public health impact of COVID-19 variants of concern on the effectiveness of contact tracing in Vermont, United States.",NA
-"55","contact_named_perc","90","11/25/2020","1/19/2021","VT","The public health impact of COVID-19 variants of concern on the effectiveness of contact tracing in Vermont, United States.",NA
-"56","case_interviewed_perc","78","9/26/2021","11/20/2021","VT","The public health impact of COVID-19 variants of concern on the effectiveness of contact tracing in Vermont, United States.",NA
-"57","case_interviewed_perc","84","11/25/2020","1/19/2021","VT","The public health impact of COVID-19 variants of concern on the effectiveness of contact tracing in Vermont, United States.",NA
-"58","cases_assigned_count","14106","9/26/2021","11/20/2021","VT","The public health impact of COVID-19 variants of concern on the effectiveness of contact tracing in Vermont, United States.",NA
-"59","cases_assigned_count","6559","11/25/2020","1/19/2021","VT","The public health impact of COVID-19 variants of concern on the effectiveness of contact tracing in Vermont, United States.",NA
-"60","cases_assigned_count","1633","4/13/2020","6/08/2020","San Francisco","Outcomes of Contact Tracing in San Francisco, California-Test and Trace During Shelter-in-Place.",NA
-"61","case_interviewed_count","1394","4/13/2020","6/08/2020","San Francisco","Outcomes of Contact Tracing in San Francisco, California-Test and Trace During Shelter-in-Place.",NA
-"62","contact_named_perc","51.1","4/13/2020","6/08/2020","San Francisco","Outcomes of Contact Tracing in San Francisco, California-Test and Trace During Shelter-in-Place.",NA
-"63","contact_infected_perc","9.1","4/13/2020","6/08/2020","San Francisco","Outcomes of Contact Tracing in San Francisco, California-Test and Trace During Shelter-in-Place.",NA
-"64","contact_named_count","1214","4/13/2020","6/08/2020","San Francisco","Outcomes of Contact Tracing in San Francisco, California-Test and Trace During Shelter-in-Place.",NA
-"65","contact_reached_count","1017","4/13/2020","6/08/2020","San Francisco","Outcomes of Contact Tracing in San Francisco, California-Test and Trace During Shelter-in-Place.",NA
-"66","contact_infected_count","120","4/13/2020","6/08/2020","San Francisco","Outcomes of Contact Tracing in San Francisco, California-Test and Trace During Shelter-in-Place.",NA
-"67","case_reached_from_test_med","24","4/13/2020","6/08/2020","San Francisco","Outcomes of Contact Tracing in San Francisco, California-Test and Trace During Shelter-in-Place.",NA
-"68","case_reached_from_symptom_med","144","4/13/2020","6/08/2020","San Francisco","Outcomes of Contact Tracing in San Francisco, California-Test and Trace During Shelter-in-Place.",NA
-"69","hr_cost","2500","06/01/2020","12/02/2021","New York","Lessons Learned from the Launch and Implementation of the COVID-19 Contact Tracing Program in New York City: a Qualitative Study.",NA
-"70","contact_named_count","540000","06/01/2020","12/02/2021","New York","Lessons Learned from the Launch and Implementation of the COVID-19 Contact Tracing Program in New York City: a Qualitative Study.",NA
-"71","contact_named_perc","38","06/01/2020","12/02/2021","New York","Lessons Learned from the Launch and Implementation of the COVID-19 Contact Tracing Program in New York City: a Qualitative Study.",NA
-"72","contact_reached_from_named_med","5.76","06/01/2020","12/02/2021","New York","Lessons Learned from the Launch and Implementation of the COVID-19 Contact Tracing Program in New York City: a Qualitative Study.",NA
-"73","case_reached_from_test_med","48","06/01/2020","12/31/2021","New York","Lessons Learned from the Launch and Implementation of the COVID-19 Contact Tracing Program in New York City: a Qualitative Study.",NA
-"74","case_reached_perc","89","06/01/2020","12/02/2021","New York","Lessons Learned from the Launch and Implementation of the COVID-19 Contact Tracing Program in New York City: a Qualitative Study.",NA
-"75","cases_assigned_count","1450000","06/01/2020","12/02/2021","New York","Lessons Learned from the Launch and Implementation of the COVID-19 Contact Tracing Program in New York City: a Qualitative Study.",NA
-"76","contact_reached_from_named_med","180","04/04/2020","05/19/2020","New Haven","Lessons Learned From COVID-19 Contact Tracing During a Public Health Emergency: A Prospective Implementation Study.",NA
-"77","case_reached_from_test_med","108","04/04/2020","05/19/2020","New Haven","Lessons Learned From COVID-19 Contact Tracing During a Public Health Emergency: A Prospective Implementation Study.",NA
-"78","cases_assigned_count","1686","04/04/2020","05/19/2020","New Haven","Lessons Learned From COVID-19 Contact Tracing During a Public Health Emergency: A Prospective Implementation Study.",NA
-"79","cases_not_assigned_count","18","04/04/2020","05/19/2020","New Haven","Lessons Learned From COVID-19 Contact Tracing During a Public Health Emergency: A Prospective Implementation Study.",NA
-"80","cases_reached_count","959","04/04/2020","05/19/2020","New Haven","Lessons Learned From COVID-19 Contact Tracing During a Public Health Emergency: A Prospective Implementation Study.",NA
-"81","case_interviewed_count","826","04/04/2020","05/19/2020","New Haven","Lessons Learned From COVID-19 Contact Tracing During a Public Health Emergency: A Prospective Implementation Study.",NA
-"82","adoption_rate","29","12/10/2020","07/01/2021","CA Notify","Defining Key Performance Indicators for the California COVID-19 Exposure Notification System (CA Notify).",NA
-"83","case_reached_from_test_avg","112.8","12/10/2020","07/01/2021","CA Notify","Defining Key Performance Indicators for the California COVID-19 Exposure Notification System (CA Notify).",NA
-"84","Parameter estimations","112.8","12/10/2020","07/01/2021","CA Notify","Defining Key Performance Indicators for the California COVID-19 Exposure Notification System (CA Notify).",NA
-"85","contact_named_ratio","2","12/10/2020","07/01/2021","CA Notify","Defining Key Performance Indicators for the California COVID-19 Exposure Notification System (CA Notify).",NA
-"86","contact_named_count","110497","12/10/2020","07/01/2021","CA Notify","Defining Key Performance Indicators for the California COVID-19 Exposure Notification System (CA Notify).",NA
-"87","cases_reached_count","68107","12/10/2020","07/01/2021","CA Notify","Defining Key Performance Indicators for the California COVID-19 Exposure Notification System (CA Notify).",NA
-"88","cases_assigned_count","446643","12/10/2020","07/01/2021","CA Notify","Defining Key Performance Indicators for the California COVID-19 Exposure Notification System (CA Notify).",NA
-"89","notifications_sent_total","1654201","12/10/2020","07/01/2021","CA Notify","Defining Key Performance Indicators for the California COVID-19 Exposure Notification System (CA Notify).",NA
-"90","num_users_total","10910971","12/10/2020","07/01/2021","CA Notify","Defining Key Performance Indicators for the California COVID-19 Exposure Notification System (CA Notify).",NA
-"91","monetary_cost","227887","03/15/2021","04/13/2021","unknown","Digital Point Solutions for Extending Contact Tracing Capacity.",NA
-"92","state a","227887","03/15/2021","04/13/2021","unknown","Digital Point Solutions for Extending Contact Tracing Capacity.",NA
-"93","contact_named_count","18700","03/15/2021","04/13/2021","unknown","Digital Point Solutions for Extending Contact Tracing Capacity.",NA
-"94","contact_named_perc","44","03/15/2021","04/13/2021","unknown","Digital Point Solutions for Extending Contact Tracing Capacity.",NA
-"95","parameter inference","44","03/15/2021","04/13/2021","unknown","Digital Point Solutions for Extending Contact Tracing Capacity.",NA
-"96","cases_assigned_count","21540","03/15/2021","04/13/2021","unknown","Digital Point Solutions for Extending Contact Tracing Capacity.",NA
-"97","num_users_total","21540","03/15/2021","04/13/2021","unknown","Digital Point Solutions for Extending Contact Tracing Capacity.",NA
-"98","contact_named_ratio","0.97","01/01/2021","07/31/2021","Members of large CA health care plan","Factors Influencing the Results of COVID-19 Case Outreach-Results From a California Case Investigation/Contact Tracing Program.",NA
-"99","contact_named_household_count","4188","01/01/2021","07/31/2021","Members of large CA health care plan","Factors Influencing the Results of COVID-19 Case Outreach-Results From a California Case Investigation/Contact Tracing Program.",NA
-"100","contact_named_perc","36.7","01/01/2021","07/31/2021","Members of large CA health care plan","Factors Influencing the Results of COVID-19 Case Outreach-Results From a California Case Investigation/Contact Tracing Program.",NA
-"101","parameter inference","36.7","01/01/2021","07/31/2021","Members of large CA health care plan","Factors Influencing the Results of COVID-19 Case Outreach-Results From a California Case Investigation/Contact Tracing Program.",NA
-"102","case_reached_from_test_med","35.3","01/01/2021","07/31/2021","Members of large CA health care plan","Factors Influencing the Results of COVID-19 Case Outreach-Results From a California Case Investigation/Contact Tracing Program.",NA
-"103","cases_not_assigned_count","3872","01/01/2021","07/31/2021","Members of large CA health care plan","Factors Influencing the Results of COVID-19 Case Outreach-Results From a California Case Investigation/Contact Tracing Program.",NA
-"104","cases_assigned_count","9391","01/01/2021","07/31/2021","Members of large CA health care plan","Factors Influencing the Results of COVID-19 Case Outreach-Results From a California Case Investigation/Contact Tracing Program.",NA
-"105","case_interviewed_perc","65.6","01/01/2021","07/31/2021","Members of large CA health care plan","Factors Influencing the Results of COVID-19 Case Outreach-Results From a California Case Investigation/Contact Tracing Program.",NA
-"106","hr_hours","20000","01/01/2021","07/31/2021","Members of large CA health care plan","Factors Influencing the Results of COVID-19 Case Outreach-Results From a California Case Investigation/Contact Tracing Program.",NA
-"107","hr_cost","600","08/01/2020","06/12/2021","Members of large CA health care plan","Factors Influencing the Results of COVID-19 Case Outreach-Results From a California Case Investigation/Contact Tracing Program.",NA
-"108","contact_named_perc","14","05/01/2020","09/30/2020","Fulton County","Implementation of close contact elicitation at the time of COVID-19 testing-Atlanta, GA, October-November 2020.",NA
-"109","cases_assigned_count","26817","05/01/2020","09/30/2020","Fulton County","Implementation of close contact elicitation at the time of COVID-19 testing-Atlanta, GA, October-November 2020.",NA
-"110","case_interviewed_count","12068","05/01/2020","09/30/2020","Fulton County","Implementation of close contact elicitation at the time of COVID-19 testing-Atlanta, GA, October-November 2020.",NA
-"111","contact_infected_count","522","08/17/2020","12/31/2020","New York","Integrating Contact Tracers Into Point-of-Care Testing Workflow to Accelerate the Tracing of People With Exposure to COVID-19, August-December 2020, New York City.",NA
-"112","contact_reached_from_named_med","0","08/17/2020","12/31/2020","New York","Integrating Contact Tracers Into Point-of-Care Testing Workflow to Accelerate the Tracing of People With Exposure to COVID-19, August-December 2020, New York City.",NA
-"113","contact_reached_count","5102","08/17/2020","12/31/2020","New York","Integrating Contact Tracers Into Point-of-Care Testing Workflow to Accelerate the Tracing of People With Exposure to COVID-19, August-December 2020, New York City.",NA
-"114","contact_named_household_count","7573","08/17/2020","12/31/2020","New York","Integrating Contact Tracers Into Point-of-Care Testing Workflow to Accelerate the Tracing of People With Exposure to COVID-19, August-December 2020, New York City.",NA
-"115","contact_named_ratio","1.24","08/17/2020","12/31/2020","New York","Integrating Contact Tracers Into Point-of-Care Testing Workflow to Accelerate the Tracing of People With Exposure to COVID-19, August-December 2020, New York City.",NA
-"116","case_reached_from_test_med","0","08/17/2020","12/31/2020","New York","Integrating Contact Tracers Into Point-of-Care Testing Workflow to Accelerate the Tracing of People With Exposure to COVID-19, August-December 2020, New York City.",NA
-"117","contact_named_count","11486","08/17/2020","12/31/2020","New York","Integrating Contact Tracers Into Point-of-Care Testing Workflow to Accelerate the Tracing of People With Exposure to COVID-19, August-December 2020, New York City.",NA
-"118","contact_named_perc","62","08/17/2020","12/31/2020","New York","Integrating Contact Tracers Into Point-of-Care Testing Workflow to Accelerate the Tracing of People With Exposure to COVID-19, August-December 2020, New York City.",NA
-"119","cases_assigned_count","11683","08/17/2020","12/31/2020","New York","Integrating Contact Tracers Into Point-of-Care Testing Workflow to Accelerate the Tracing of People With Exposure to COVID-19, August-December 2020, New York City.",NA
-"120","case_interviewed_count","8878","08/17/2020","12/31/2020","New York","Integrating Contact Tracers Into Point-of-Care Testing Workflow to Accelerate the Tracing of People With Exposure to COVID-19, August-December 2020, New York City.",NA
-"121","contact_named_perc","89","04/04/2020","05/19/2020","New Haven","Lessons Learned From COVID-19 Contact Tracing During a Public Health Emergency: A Prospective Implementation Study.",NA
-"122","contact_named_med","2","04/04/2020","05/19/2020","New Haven","Lessons Learned From COVID-19 Contact Tracing During a Public Health Emergency: A Prospective Implementation Study.",NA
-"123","contact_named_count","2437","04/04/2020","05/19/2020","New Haven","Lessons Learned From COVID-19 Contact Tracing During a Public Health Emergency: A Prospective Implementation Study.",NA
-"124","contact_reached_count","718","04/04/2020","5/19/2020","New Haven","Lessons Learned From COVID-19 Contact Tracing During a Public Health Emergency: A Prospective Implementation Study.",NA
-"125","contact_interviewed_count","687","04/04/2020","5/19/2020","New Haven","Lessons Learned From COVID-19 Contact Tracing During a Public Health Emergency: A Prospective Implementation Study.",NA
-"126","contact_reached_from_named_mean","1.33","05/18/2020","08/17/2020","United States*","A Patient-Initiated Digital COVID-19 Contact Notification Tool (TellYourContacts): Evaluation Study.","digital"
-"127","contact_named_count","1957","05/18/2020","08/17/2020","United States*","A Patient-Initiated Digital COVID-19 Contact Notification Tool (TellYourContacts): Evaluation Study.","digital"
-"128","contact_reached_count","1957","05/18/2020","08/17/2020","United States*","A Patient-Initiated Digital COVID-19 Contact Notification Tool (TellYourContacts): Evaluation Study.","digital"
-"129","notifications_sent_count","1957","05/18/2020","08/17/2020","United States*","A Patient-Initiated Digital COVID-19 Contact Notification Tool (TellYourContacts): Evaluation Study.","digital"
-"130","notifications_sent_mean_per_contact","1.33","05/18/2020","08/17/2020","United States*","A Patient-Initiated Digital COVID-19 Contact Notification Tool (TellYourContacts): Evaluation Study.","digital"
-"131","cases_reported_total","531094","06/15/2020","09/01/2021","Maryland","A State Health Department and Health Information Exchange Partnership: An Effective Collaboration for a Data-Driven Response for COVID-19 Contact Tracing  in Maryland.","manual"
-"132","cases_assigned_total","498739","06/15/2020","08/28/2021","Maryland","A State Health Department and Health Information Exchange Partnership: An Effective Collaboration for a Data-Driven Response for COVID-19 Contact Tracing  in Maryland.","manual"
-"133","cases_reached_count","394044","06/15/2020","08/28/2021","Maryland","A State Health Department and Health Information Exchange Partnership: An Effective Collaboration for a Data-Driven Response for COVID-19 Contact Tracing  in Maryland.","manual"
-"134","reporting_any_contacts_count","287193","06/15/2020","08/28/2021","Maryland","A State Health Department and Health Information Exchange Partnership: An Effective Collaboration for a Data-Driven Response for COVID-19 Contact Tracing  in Maryland.","manual"
-"135","contact_named_count","531221","06/15/2020","08/28/2021","Maryland","A State Health Department and Health Information Exchange Partnership: An Effective Collaboration for a Data-Driven Response for COVID-19 Contact Tracing  in Maryland.","manual"
-"136","contact_interviewed_count","316363","06/15/2020","08/28/2021","Maryland","A State Health Department and Health Information Exchange Partnership: An Effective Collaboration for a Data-Driven Response for COVID-19 Contact Tracing  in Maryland.","manual"
-"137","contact_reached_count","365641","06/15/2020","08/28/2021","Maryland","A State Health Department and Health Information Exchange Partnership: An Effective Collaboration for a Data-Driven Response for COVID-19 Contact Tracing  in Maryland.","manual"
-"138","case_interviewed_total","352356","06/15/2020","08/28/2021","Maryland","A State Health Department and Health Information Exchange Partnership: An Effective Collaboration for a Data-Driven Response for COVID-19 Contact Tracing  in Maryland.","manual"
-"139","staff_hired_count","962","04/15/2020","04/24/2020","Kansas","A Survey of County Health Departments of Kansas Regarding COVID-19.","manual"
-"140","staff_hired_per_10kpop","4.148408","04/15/2020","04/24/2020","Kansas","A Survey of County Health Departments of Kansas Regarding COVID-19.","manual"
-"141","manual_digital","2","12/23/2020","12/28/2020","United States","A Web-Based Digital Contact Tracing Strategy Addresses Stigma Concerns Among Individuals Evaluated for COVID-19.",NA
-"142","cases_reached_perc","0.632","12/23/2020","12/28/2020","United States","A Web-Based Digital Contact Tracing Strategy Addresses Stigma Concerns Among Individuals Evaluated for COVID-19.","manual"
-"143","cases_assigned_count","9762","03/11/2020","05/25/2020","DE","Declines in SARS-CoV-2 Transmission, Hospitalizations, and Mortality After Implementation of Mitigation Measures- Delaware, March-June 2020.",NA
-"144","case_interviewed_count","6527","03/11/2020","05/25/2020","DE","Declines in SARS-CoV-2 Transmission, Hospitalizations, and Mortality After Implementation of Mitigation Measures- Delaware, March-June 2020.",NA
-"145","contact_named_count","2834","03/11/2020","05/25/2020","DE","Declines in SARS-CoV-2 Transmission, Hospitalizations, and Mortality After Implementation of Mitigation Measures- Delaware, March-June 2020.",NA
-"146","contact_interviewed_count","882","03/11/2020","05/25/2020","DE","Declines in SARS-CoV-2 Transmission, Hospitalizations, and Mortality After Implementation of Mitigation Measures- Delaware, March-June 2020.",NA
-"147","contact_named_perc","17","03/11/2020","05/25/2020","DE","Declines in SARS-CoV-2 Transmission, Hospitalizations, and Mortality After Implementation of Mitigation Measures- Delaware, March-June 2020.",NA
-"148","case_reached_from_test_med","192","03/11/2020","05/25/2020","DE","Declines in SARS-CoV-2 Transmission, Hospitalizations, and Mortality After Implementation of Mitigation Measures- Delaware, March-June 2020.",NA
-"149","contact_reached_from_named_mean","48","03/11/2020","05/25/2020","DE","Declines in SARS-CoV-2 Transmission, Hospitalizations, and Mortality After Implementation of Mitigation Measures- Delaware, March-June 2020.",NA
-"150","contact_infected_count","4","03/11/2020","05/25/2020","DE","Declines in SARS-CoV-2 Transmission, Hospitalizations, and Mortality After Implementation of Mitigation Measures- Delaware, March-June 2020.",NA
-"151","cases_assigned_count","2166","10/01/2020","10/31/2020","WA","COVID-19 Contact Tracing Outcomes in Washington State, August and October 2020.",NA
-"152","cases_not_assigned_count","7921","08/01/2020","08/31/2020","WA","COVID-19 Contact Tracing Outcomes in Washington State, August and October 2020.",NA
-"153","cases_not_assigned_count","14102","10/01/2020","10/31/2020","WA","COVID-19 Contact Tracing Outcomes in Washington State, August and October 2020.",NA
-"154","case_positive_from_test_mean","2.819","04/15/2020","04/24/2020","Kansas","A Survey of County Health Departments of Kansas Regarding COVID-19.","manual"
-"155","case_positive_from_test_median","3","04/15/2020","04/24/2020","Kansas","A Survey of County Health Departments of Kansas Regarding COVID-19.","manual"
-"156","case_positive_from_test_median","2","12/23/2020","12/28/2020","United States","A Web-Based Digital Contact Tracing Strategy Addresses Stigma Concerns Among Individuals Evaluated for COVID-19.",NA
-"157","case_reached_from_test_med","2","12/23/2020","12/28/2020","United States","A Web-Based Digital Contact Tracing Strategy Addresses Stigma Concerns Among Individuals Evaluated for COVID-19.","manual"
-"158","contact_named_perc","33","10/01/2020","10/31/2020","WA","COVID-19 Contact Tracing Outcomes in Washington State, August and October 2020.",NA
-"159","case_interviewed_perc","76","10/01/2020","10/31/2020","WA","COVID-19 Contact Tracing Outcomes in Washington State, August and October 2020.",NA
-"160","case_interviewed_perc","65","08/01/2020","08/31/2020","WA","COVID-19 Contact Tracing Outcomes in Washington State, August and October 2020.",NA
-"161","contact_named_count","2589","08/01/2020","08/31/2020","WA","COVID-19 Contact Tracing Outcomes in Washington State, August and October 2020.",NA
-"162","contact_named_perc","45","10/01/2020","10/31/2020","WA","COVID-19 Contact Tracing Outcomes in Washington State, August and October 2020.",NA
-"163","case_interviewed_perc","78","10/01/2020","10/31/2020","WA","COVID-19 Contact Tracing Outcomes in Washington State, August and October 2020.",NA
-"164","contact_interviewed_perc","86","08/01/2020","08/31/2020","WA","COVID-19 Contact Tracing Outcomes in Washington State, August and October 2020.",NA
-"165","contact_named_household_perc","74","10/01/2020","10/31/2020","WA","COVID-19 Contact Tracing Outcomes in Washington State, August and October 2020.",NA
-"166","contact_named_household_perc","80","08/01/2020","08/31/2020","WA","COVID-19 Contact Tracing Outcomes in Washington State, August and October 2020.",NA
-"167","contact_named_ratio","3","10/01/2020","10/31/2020","WA","COVID-19 Contact Tracing Outcomes in Washington State, August and October 2020.",NA
-"168","contact_named_count","2218","10/01/2020","10/31/2020","WA","COVID-19 Contact Tracing Outcomes in Washington State, August and October 2020.",NA
-"169","contact_named_count","2.6","08/01/2020","08/31/2020","WA","COVID-19 Contact Tracing Outcomes in Washington State, August and October 2020.",NA
-"170","contact_named_ratio","2.6","08/01/2020","08/31/2020","WA","COVID-19 Contact Tracing Outcomes in Washington State, August and October 2020.",NA
-"171","contact_reached_from_named_mean","0","10/01/2020","10/31/2020","WA","COVID-19 Contact Tracing Outcomes in Washington State, August and October 2020.",NA
-"172","contact_reached_from_named_mean","0","08/01/2020","08/31/2020","WA","COVID-19 Contact Tracing Outcomes in Washington State, August and October 2020.",NA
-"173","case_positive_from_test_med","48","08/01/2020","08/31/2020","WA","COVID-19 Contact Tracing Outcomes in Washington State, August and October 2020.",NA
-"174","case_positive_from_test_med","48","08/01/2020","08/31/2020","WA","COVID-19 Contact Tracing Outcomes in Washington State, August and October 2020.",NA
-"175","case_reached_from_symptom_med","168","08/01/2020","08/31/2020","WA","COVID-19 Contact Tracing Outcomes in Washington State, August and October 2020.",NA
-"176","case_reached_from_test_med","72","10/01/2020","10/31/2020","WA","COVID-19 Contact Tracing Outcomes in Washington State, August and October 2020.",NA
-"177","cases_assigned_count","7116","06/01/2020","06/30/2020","Mecklenburg","COVID-19 Contact Tracing in Two Counties - North Carolina, June-July 2020.",NA
-"178","case_interviewed_count","5514","06/01/2020","06/30/2020","Mecklenburg","COVID-19 Contact Tracing in Two Counties - North Carolina, June-July 2020.",NA
-"179","case_reached_from_test_med","96","06/01/2020","06/30/2020","Mecklenburg","COVID-19 Contact Tracing in Two Counties - North Carolina, June-July 2020.",NA
-"180","contact_named_perc","52","06/01/2020","06/30/2020","Mecklenburg","COVID-19 Contact Tracing in Two Counties - North Carolina, June-July 2020.",NA
-"181","contact_reached_from_named_med","72","06/15/2020","07/12/2020","Randolph County","COVID-19 Contact Tracing in Two Counties - North Carolina, June-July 2020.",NA
-"182","contact_named_ratio","3","06/15/2020","07/12/2020","Randolph County","COVID-19 Contact Tracing in Two Counties - North Carolina, June-July 2020.",NA
-"183","contact_named_count","1146","06/15/2020","07/12/2020","Randolph County","COVID-19 Contact Tracing in Two Counties - North Carolina, June-July 2020.",NA
-"184","case_reached_from_test_med","72","06/15/2020","07/12/2020","Randolph County","COVID-19 Contact Tracing in Two Counties - North Carolina, June-July 2020.",NA
-"185","case_interviewed_count","584","06/15/2020","07/12/2020","Randolph County","COVID-19 Contact Tracing in Two Counties - North Carolina, June-July 2020.",NA
-"186","cases_assigned_count","589","06/15/2020","07/12/2020","Randolph County","COVID-19 Contact Tracing in Two Counties - North Carolina, June-July 2020.",NA
-"187","contact_interviewed_count","9815","06/01/2020","06/30/2020","Mecklenburg","COVID-19 Contact Tracing in Two Counties - North Carolina, June-July 2020.",NA
-"188","contact_reached_from_named_med","24","06/01/2020","06/30/2020","Mecklenburg","COVID-19 Contact Tracing in Two Counties - North Carolina, June-July 2020.",NA
-"189","contact_named_ratio","4.6","06/01/2020","06/30/2020","Mecklenburg","COVID-19 Contact Tracing in Two Counties - North Carolina, June-July 2020.",NA
-"190","contact_named_count","13401","06/01/2020","06/30/2020","Mecklenburg","COVID-19 Contact Tracing in Two Counties - North Carolina, June-July 2020.",NA
-"191","contact_interviewed_count","552","06/15/2020","07/12/2020","Randolph County","COVID-19 Contact Tracing in Two Counties - North Carolina, June-July 2020.",NA
-"192","contact_named_perc","87","05/01/2020","10/31/2020","loc_C","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"193","contact_named_perc","65","05/01/2020","10/31/2020","loc_B","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"194","contact_named_perc","100","05/01/2020","10/31/2020","loc_A","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"195","case_interviewed_count","43931","05/01/2020","10/31/2020","across US","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"196","case_interviewed_count","2962","05/01/2020","10/31/2020","Loc N","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"197","case_interviewed_count","10290","05/01/2020","10/31/2020","Loc_M","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"198","case_interviewed_count","5228","05/01/2020","10/31/2020","loc_L","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"199","case_interviewed_count","7820","05/01/2020","10/31/2020","loc_K","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"200","case_interviewed_count","369","05/01/2020","10/31/2020","loc_J","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"201","case_interviewed_count","5514","05/01/2020","10/31/2020","loc_I","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"202","case_interviewed_count","3961","05/01/2020","10/31/2020","loc_H","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"203","case_interviewed_count","5823","05/01/2020","10/31/2020","loc_G","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"204","case_interviewed_count","405","05/01/2020","10/31/2020","loc_F","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"205","case_interviewed_count","655","05/01/2020","10/31/2020","loc_E","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"206","case_interviewed_count","136","05/01/2020","10/31/2020","loc_D","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"207","case_interviewed_count","144","05/01/2020","10/31/2020","loc_C","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"208","case_interviewed_count","584","05/01/2020","10/31/2020","loc_B","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"209","case_interviewed_count","40","05/01/2020","10/31/2020","loc_A","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"210","cases_assigned_count","74185","05/01/2020","10/31/2020","across US","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"211","cases_assigned_count","8987","05/01/2020","10/31/2020","Loc_N","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"212","cases_assigned_count","22032","05/01/2020","10/31/2020","Loc_M","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"213","cases_assigned_count","10563","05/01/2020","10/31/2020","loc_K","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"214","cases_assigned_count","493","05/01/2020","10/31/2020","loc_J","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"215","cases_assigned_count","7116","05/01/2020","10/31/2020","loc_I","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"216","cases_assigned_count","5087","05/01/2020","10/31/2020","loc_H","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"217","cases_assigned_count","7041","05/01/2020","10/31/2020","loc_G","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"218","cases_assigned_count","479","05/01/2020","10/31/2020","loc_F","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"219","cases_assigned_count","718","05/01/2020","10/31/2020","loc_E","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"220","cases_assigned_count","137","05/01/2020","10/31/2020","loc_D","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"221","cases_assigned_count","146","05/01/2020","10/31/2020","loc_C","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"222","cases_assigned_count","589","05/01/2020","10/31/2020","loc_B","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"223","cases_assigned_count","40","05/01/2020","10/31/2020","loc_A","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"224","contact_reached_count","604","05/01/2020","10/31/2020","loc_E","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"225","contact_reached_count","982","05/01/2020","10/31/2020","loc_F","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"226","contact_reached_count","6645","05/01/2020","10/31/2020","loc_G","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"227","contact_reached_count","5499","05/01/2020","10/31/2020","loc_H","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"228","contact_reached_count","10070","05/01/2020","10/31/2020","loc_I","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"229","contact_reached_count","155","05/01/2020","10/31/2020","loc_J","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"230","contact_reached_count","6773","05/01/2020","10/31/2020","loc_K","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"231","contact_reached_count","2474","05/01/2020","10/31/2020","loc_L","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"232","contact_reached_count","17909","05/01/2020","10/31/2020","Loc_M","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"233","contact_reached_count","816","05/01/2020","10/31/2020","Loc N","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"234","contact_reached_count","53314","05/01/2020","10/31/2020","across US","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"235","contact_reached_count","341","05/01/2020","10/31/2020","loc_D","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"236","contact_reached_count","382","05/01/2020","10/31/2020","loc_C","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"237","contact_reached_count","602","05/01/2020","10/31/2020","loc_B","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"238","contact_reached_count","62","05/01/2020","10/31/2020","loc_A","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"239","contact_named_count","2848","05/01/2020","10/31/2020","loc_L","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"240","contact_named_count","24190","05/01/2020","10/31/2020","Loc_M","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"241","contact_named_count","1507","05/01/2020","10/31/2020","Loc N","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"242","contact_named_count","74839","05/01/2020","10/31/2020","across US","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"243","contact_named_count","11569","05/01/2020","10/31/2020","loc_K","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"244","contact_named_count","173","05/01/2020","10/31/2020","loc_J","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"245","contact_named_count","13401","05/01/2020","10/31/2020","loc_I","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"246","contact_named_count","6068","05/01/2020","10/31/2020","loc_H","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"247","contact_named_count","10927","05/01/2020","10/31/2020","loc_G","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"248","contact_named_count","1418","05/01/2020","10/31/2020","loc_F","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"249","contact_named_count","712","05/01/2020","10/31/2020","loc_E","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"250","contact_named_count","359","05/01/2020","10/31/2020","loc_D","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"251","contact_named_count","404","05/01/2020","10/31/2020","loc_C","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"252","contact_named_count","117","05/01/2020","10/31/2020","loc_A","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"253","contact_named_count","1446","05/01/2020","10/31/2020","loc_B","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"254","contact_named_perc","33","05/01/2020","10/31/2020","across US","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"255","contact_named_perc","7","05/01/2020","10/31/2020","Loc N","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"256","contact_named_perc","71","05/01/2020","10/31/2020","Loc_M","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"257","contact_named_perc","27","05/01/2020","10/31/2020","loc_L","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"258","contact_named_perc","47","05/01/2020","10/31/2020","loc_K","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"259","contact_named_perc","14","05/01/2020","10/31/2020","loc_J","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"260","contact_named_perc","52","05/01/2020","10/31/2020","loc_I","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"261","contact_named_perc","60","05/01/2020","10/31/2020","loc_H","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"262","contact_named_perc","87","05/01/2020","10/31/2020","loc_G","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"263","contact_named_perc","88","05/01/2020","10/31/2020","loc_F","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"264","contact_named_perc","44","05/01/2020","10/31/2020","loc_E","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"265","contact_named_perc","63","05/01/2020","10/31/2020","loc_D","COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
-"266","contact_interviewed_count","590364","05/01/2020","10/31/2021","New York City","COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.",NA
-"267","contact_reached_count","904927","05/01/2020","10/31/2021","New York City","COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.",NA
-"268","contact_named_count","1218650","05/01/2020","10/31/2021","New York City","COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.",NA
-"269","case_interviewed_count","711379","05/01/2020","10/31/2021","New York City","COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.",NA
-"270","case_reached_count","840922","05/01/2020","10/31/2021","New York City","COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.",NA
-"271","cases_assigned_count","941035","05/01/2020","10/31/2021","New York City","COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.",NA
-"272","contact_named_perc","421544","05/01/2020","10/31/2021","New York City","COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.",NA
-"273","contact_named_ratio","1.4","05/01/2020","10/31/2021","New York City","COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.",NA
-"274","case_reached_from_test_med","2.6","05/01/2020","10/31/2021","New York City","COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.",NA
-"275","case_reached_from_symptom_med","4.7","05/01/2020","10/31/2021","New York City","COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.",NA
-"276","contact_reached_from_named_mean","0.2","05/01/2020","10/31/2021","New York City","COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.",NA
-"277","monetary_cost","600000000","05/01/2020","10/31/2021","New York City","COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.",NA
-"278","hr_hours","19890","06/23/2021","08/17/2021","Philadelphia","Adapting COVID-19 Contact Tracing Protocols to Accommodate Resource Constraints, Philadelphia, Pennsylvania, USA, 2021.","manual"
-"279","hr_hours","12788","09/01/2021","10/26/2021","Philadelphia","Adapting COVID-19 Contact Tracing Protocols to Accommodate Resource Constraints, Philadelphia, Pennsylvania, USA, 2021.","manual"
-"280","cases_assigned_count","7544","06/23/2021","08/17/2021","Philadelphia","Adapting COVID-19 Contact Tracing Protocols to Accommodate Resource Constraints, Philadelphia, Pennsylvania, USA, 2021.","manual"
-"281","cases_assigned_count","15681","09/01/2021","10/26/2021","Philadelphia","Adapting COVID-19 Contact Tracing Protocols to Accommodate Resource Constraints, Philadelphia, Pennsylvania, USA, 2021.","manual"
-"282","case_reached_count","5685","06/23/2021","08/17/2021","Philadelphia","Adapting COVID-19 Contact Tracing Protocols to Accommodate Resource Constraints, Philadelphia, Pennsylvania, USA, 2021.","manual"
-"283","contact_named_count","1922","06/23/2021","08/17/2021","Philadelphia","Adapting COVID-19 Contact Tracing Protocols to Accommodate Resource Constraints, Philadelphia, Pennsylvania, USA, 2021.","manual"
-"284","contact_reached_count","1372","06/23/2021","08/17/2021","Philadelphia","Adapting COVID-19 Contact Tracing Protocols to Accommodate Resource Constraints, Philadelphia, Pennsylvania, USA, 2021.","manual"
-"285","case_reached_from_test_med","72","06/23/2021","08/17/2021","Philadelphia","Adapting COVID-19 Contact Tracing Protocols to Accommodate Resource Constraints, Philadelphia, Pennsylvania, USA, 2021.","manual"
-"286","case_reached_count","9351","09/01/2021","10/26/2021","Philadelphia","Adapting COVID-19 Contact Tracing Protocols to Accommodate Resource Constraints, Philadelphia, Pennsylvania, USA, 2021.","manual"
-"287","case_interviewed_count","4537","09/01/2021","10/26/2021","Philadelphia","Adapting COVID-19 Contact Tracing Protocols to Accommodate Resource Constraints, Philadelphia, Pennsylvania, USA, 2021.","manual"
-"288","case_reached_count","19890","06/23/2021","08/17/2021","Philadelphia","Adapting COVID-19 Contact Tracing Protocols to Accommodate Resource Constraints, Philadelphia, Pennsylvania, USA, 2021.","manual"
-"289","contact_named_count","2375","09/01/2021","10/26/2021","Philadelphia","Adapting COVID-19 Contact Tracing Protocols to Accommodate Resource Constraints, Philadelphia, Pennsylvania, USA, 2021.","manual"
-"290","contact_reached_count","1853","09/01/2021","10/26/2021","Philadelphia","Adapting COVID-19 Contact Tracing Protocols to Accommodate Resource Constraints, Philadelphia, Pennsylvania, USA, 2021.","manual"
-"291","contact_interviewed_count","883","06/23/2021","08/17/2021","Philadelphia","Adapting COVID-19 Contact Tracing Protocols to Accommodate Resource Constraints, Philadelphia, Pennsylvania, USA, 2021.","manual"
-"292","contact_interviewed_count","1234","09/01/2021","10/26/2021","Philadelphia","Adapting COVID-19 Contact Tracing Protocols to Accommodate Resource Constraints, Philadelphia, Pennsylvania, USA, 2021.","manual"
-"293","case_reached_from_test_med","48","09/01/2021","10/26/2021","Philadelphia","Adapting COVID-19 Contact Tracing Protocols to Accommodate Resource Constraints, Philadelphia, Pennsylvania, USA, 2021.","manual"
-"294","contact_reached_from_test_med","72","09/01/2021","10/26/2021","Philadelphia","Adapting COVID-19 Contact Tracing Protocols to Accommodate Resource Constraints, Philadelphia, Pennsylvania, USA, 2021.","manual"
-"295","contact_reached_from_test_med","96","06/23/2021","08/17/2021","Philadelphia","Adapting COVID-19 Contact Tracing Protocols to Accommodate Resource Constraints, Philadelphia, Pennsylvania, USA, 2021.","manual"
-"296","contact_named_household_ratio","1.9","06/15/2020","07/12/2020","central WA","COVID-19 Case Investigation and Contact Tracing in Central Washington State, June-July 2020.",NA
-"297","contact_named_ratio","2.4","06/15/2020","07/12/2020","central WA","COVID-19 Case Investigation and Contact Tracing in Central Washington State, June-July 2020.",NA
-"298","contact_named_count","2293","06/15/2020","07/12/2020","central WA","COVID-19 Case Investigation and Contact Tracing in Central Washington State, June-July 2020.",NA
-"299","contact_named_perc","27","06/15/2020","07/12/2020","central WA","COVID-19 Case Investigation and Contact Tracing in Central Washington State, June-July 2020.",NA
-"300","case_interviewed_perc","71","06/15/2020","07/12/2020","central WA","COVID-19 Case Investigation and Contact Tracing in Central Washington State, June-July 2020.",NA
-"301","cases_assigned_count","4987","06/15/2020","07/12/2020","central WA","COVID-19 Case Investigation and Contact Tracing in Central Washington State, June-July 2020.",NA
-"302","contact_reached_count","2002","06/15/2020","07/12/2020","central WA","COVID-19 Case Investigation and Contact Tracing in Central Washington State, June-July 2020.",NA
-"303","contact_named_household_count","1799","06/15/2020","07/12/2020","central WA","COVID-19 Case Investigation and Contact Tracing in Central Washington State, June-July 2020.",NA
-"304","case_reached_count","3994","06/15/2020","07/12/2020","central WA","COVID-19 Case Investigation and Contact Tracing in Central Washington State, June-July 2020.",NA
-"305","contact_interviewed_count","1941","06/15/2020","07/12/2020","central WA","COVID-19 Case Investigation and Contact Tracing in Central Washington State, June-July 2020.",NA
-"306","contact_interviewed_perc","85","06/15/2020","07/12/2020","central WA","COVID-19 Case Investigation and Contact Tracing in Central Washington State, June-July 2020.",NA
-"307","contact_named_count","95775","05/25/2020","07/24/2020","various","COVID-19 Case Investigation and Contact Tracing Efforts from Health Departments - United States, June 25-July 24, 2020.",NA
-"308","cases_assigned_count","280033","05/25/2020","07/24/2020","various","COVID-19 Case Investigation and Contact Tracing Efforts from Health Departments - United States, June 25-July 24, 2020.",NA
-"309","case_named_contact_count","2506","06/08/2020","08/31/2020","San Fransico","Assessing Testing Strategies and Duration of Quarantine in Contact Tracing for SARS-CoV-2: A Retrospective Study of San Francisco's COVID-19 Contact Tracing  Program, June-August 2020.","manual"
-"310","contact_named_count","6946","06/08/2020","08/31/2020","San Fransico","Assessing Testing Strategies and Duration of Quarantine in Contact Tracing for SARS-CoV-2: A Retrospective Study of San Francisco's COVID-19 Contact Tracing  Program, June-August 2020.","manual"
-"311","contact_tested_count","3008","06/08/2020","08/31/2020","San Fransico","Assessing Testing Strategies and Duration of Quarantine in Contact Tracing for SARS-CoV-2: A Retrospective Study of San Francisco's COVID-19 Contact Tracing  Program, June-August 2020.","manual"
-"312","contact_infected_count","880","06/08/2020","08/31/2020","San Fransico","Assessing Testing Strategies and Duration of Quarantine in Contact Tracing for SARS-CoV-2: A Retrospective Study of San Francisco's COVID-19 Contact Tracing  Program, June-August 2020.","manual"
-"313","monetary_cost","29234","03/01/2020","05/31/2020","Salt Lake City","Coronavirus Disease Contact Tracing Outcomes and Cost, Salt Lake County, Utah, USA, March-May 2020.",NA
-"314","hr_hours","1102","03/01/2020","05/31/2020","Salt Lake City","Coronavirus Disease Contact Tracing Outcomes and Cost, Salt Lake County, Utah, USA, March-May 2020.",NA
-"315","contact_reached_from_named_med","0","03/01/2020","05/31/2020","Salt Lake City","Coronavirus Disease Contact Tracing Outcomes and Cost, Salt Lake County, Utah, USA, March-May 2020.",NA
-"316","case_reached_count","48","03/01/2020","05/31/2020","Salt Lake City","Coronavirus Disease Contact Tracing Outcomes and Cost, Salt Lake County, Utah, USA, March-May 2020.",NA
-"317","case_reached_from_test_med","48","03/01/2020","05/31/2020","Salt Lake City","Coronavirus Disease Contact Tracing Outcomes and Cost, Salt Lake County, Utah, USA, March-May 2020.",NA
-"318","case_reached_count","168","03/01/2020","05/31/2020","Salt Lake City","Coronavirus Disease Contact Tracing Outcomes and Cost, Salt Lake County, Utah, USA, March-May 2020.",NA
-"319","case_reached_from_symptom_med","168","03/01/2020","05/31/2020","Salt Lake City","Coronavirus Disease Contact Tracing Outcomes and Cost, Salt Lake County, Utah, USA, March-May 2020.",NA
-"320","contact_named_count","1499","03/01/2020","05/31/2020","Salt Lake City","Coronavirus Disease Contact Tracing Outcomes and Cost, Salt Lake County, Utah, USA, March-May 2020.",NA
-"321","cases_assigned_count","184","03/01/2020","05/31/2020","Salt Lake City","Coronavirus Disease Contact Tracing Outcomes and Cost, Salt Lake County, Utah, USA, March-May 2020.",NA
-"322","contact_infected_count","374","03/01/2020","05/31/2020","Salt Lake City","Coronavirus Disease Contact Tracing Outcomes and Cost, Salt Lake County, Utah, USA, March-May 2020.",NA
-"323","contact_named_household_perc","57.5","02/01/2021","11/30/2021","NY","Contact tracing: Characteristics of COVID-19 cases that provided contacts.",NA
-"324","case_interviewed_count","550850","02/01/2021","11/30/2021","NY","Contact tracing: Characteristics of COVID-19 cases that provided contacts.",NA
-"325","contact_reached_from_pos_mean","6.4","12/20/2020","01/31/2021","Boston University","Assessment of a COVID-19 Control Plan on an Urban University Campus During a Second Wave of the Pandemic.","manual"
-"326","contact_reached_from_pos_mean","10.1","09/01/2020","09/30/2020","Boston University","Assessment of a COVID-19 Control Plan on an Urban University Campus During a Second Wave of the Pandemic.","manual"
-"327","contact_reached_from_pos_mean","5.4","12/01/2020","12/31/2020","Boston University","Assessment of a COVID-19 Control Plan on an Urban University Campus During a Second Wave of the Pandemic.","manual"
-"328","contact_named_count","2.44","12/20/2020","01/31/2021","Boston University","Assessment of a COVID-19 Control Plan on an Urban University Campus During a Second Wave of the Pandemic.","manual"
-"329","contact_infected_perc","10.3","12/20/2020","01/31/2021","Boston University","Assessment of a COVID-19 Control Plan on an Urban University Campus During a Second Wave of the Pandemic.","manual"
-"330","cases_reached_perc","69.2","12/01/2020","12/31/2020","Maimi University","An Academic-Health Department Community Partnership to Expand Disease Investigation and Contact Tracing Capacity and Efficiency During the COVID-19  Pandemic.","manual"
-"331","case_reached_count","121875","01/01/2021","01/31/2021","North Carolina","Automated Digital Notification of COVID-19 Diagnoses Through Text and Email Messaging - North Carolina, December 2020-January 2021.","digital"
-"332","cases_assigned_count","121875","01/01/2021","01/31/2021","North Carolina","Automated Digital Notification of COVID-19 Diagnoses Through Text and Email Messaging - North Carolina, December 2020-January 2021.","digital"
-"333","case_test_to_result_mean","13.68","04/01/2020","01/08/2021","Oak Ridge National Laboratory","Benchmarking SARS CoV-2 Infection in the Workplace to Support Continuity of Operations.","manual"
-"334","cases_assigned_count","43116","03/23/2021","05/31/2021"," Connecticut","Centering Health Equity Within COVID-19 Contact Tracing: Connecticut's Community Outreach Specialist Program.","manual"
-"335","cases_reached_count","24973","03/23/2021","05/31/2021"," Connecticut","Centering Health Equity Within COVID-19 Contact Tracing: Connecticut's Community Outreach Specialist Program.","manual"
-"336","contact_assigned_count","12198","03/23/2021","05/31/2021","Connecticut","Centering Health Equity Within COVID-19 Contact Tracing: Connecticut's Community Outreach Specialist Program.","manual"
-"337","contact_reached_count","7949","03/23/2021","05/31/2021","Connecticut","Centering Health Equity Within COVID-19 Contact Tracing: Connecticut's Community Outreach Specialist Program.","manual"
-"338","cases_assigned_count","94704","07/09/2020","12/31/2020","New York City","Community-Based Workforce for COVID-19 Contact Tracing and Prevention Activities in New York City, July-December 2020.","manual"
-"339","contact_assigned_count","61246","07/09/2020","12/31/2020","New York City","Community-Based Workforce for COVID-19 Contact Tracing and Prevention Activities in New York City, July-December 2020.","manual"
-"340","case_reached_count","84230","07/09/2020","12/31/2020","New York City","Community-Based Workforce for COVID-19 Contact Tracing and Prevention Activities in New York City, July-December 2020.","manual"
-"341","contact_reached_count","49303","07/09/2020","12/31/2020","New York City","Community-Based Workforce for COVID-19 Contact Tracing and Prevention Activities in New York City, July-December 2020.","manual"
-"342","case_interviewed_count","55592","07/09/2020","12/31/2020","New York City","Community-Based Workforce for COVID-19 Contact Tracing and Prevention Activities in New York City, July-December 2020.","manual"
-"343","contact_reached_count","35005","07/09/2020","12/31/2020","New York City","Community-Based Workforce for COVID-19 Contact Tracing and Prevention Activities in New York City, July-December 2020.","manual"
-"344","case_reached_count","644029","10/01/2020","05/10/2021","New York City","Contact tracing reveals community transmission of COVID-19 in New York City.","manual"
-"345","contact_test_pos_rate","55.8","10/01/2020","05/10/2021","New York City","Contact tracing reveals community transmission of COVID-19 in New York City.","manual"
+,param_name,param_value,pm_start_date,pm_end_date,pm_location,source,param_type
+1,participation_percentage,87,7/1/20,9/30/20,King County,"A Multifaceted Evaluation of a COVID-19 Contact Tracing Program in King County, Washington.",manual
+2,participation_percentage,76,4/1/21,6/30/20,King County,"A Multifaceted Evaluation of a COVID-19 Contact Tracing Program in King County, Washington.",manual
+3,contact_time_from_test,3.4,7/1/20,6/30/21,King County,"A Multifaceted Evaluation of a COVID-19 Contact Tracing Program in King County, Washington.",manual
+4,contact_time_from_symptom,6.1,7/1/20,6/30/21,King County,"A Multifaceted Evaluation of a COVID-19 Contact Tracing Program in King County, Washington.",manual
+5,positive_cases,101731,7/1/20,9/30/20,King County,"A Multifaceted Evaluation of a COVID-19 Contact Tracing Program in King County, Washington.",NA
+6,primary_interview_completed,42900,7/1/20,6/30/21,King County,"A Multifaceted Evaluation of a COVID-19 Contact Tracing Program in King County, Washington.",manual
+7,num_users_total,1490,11/2/20,11/30/20,UW Campus - students,WA Notify: the planning and implementation of a Bluetooth exposure notification tool for COVID-19 pandemic response in Washington State.,NA
+8,adoption_rate,6,11/2/20,11/30/20,UW Campus - students,WA Notify: the planning and implementation of a Bluetooth exposure notification tool for COVID-19 pandemic response in Washington State.,NA
+9,num_users_total,6,11/19/20,11/30/20,UW Campus - employees,WA Notify: the planning and implementation of a Bluetooth exposure notification tool for COVID-19 pandemic response in Washington State.,NA
+10,adoption_rate,4,11/19/20,11/30/20,UW Campus - students,WA Notify: the planning and implementation of a Bluetooth exposure notification tool for COVID-19 pandemic response in Washington State.,NA
+11,num_users_total,1000000,11/30/20,12/7/20,WA,WA Notify: the planning and implementation of a Bluetooth exposure notification tool for COVID-19 pandemic response in Washington State.,NA
+12,num_users_total,1900000,11/30/20,4/2/20,WA,WA Notify: the planning and implementation of a Bluetooth exposure notification tool for COVID-19 pandemic response in Washington State.,NA
+13,adoption_rate,25,11/30/20,4/2/20,WA,WA Notify: the planning and implementation of a Bluetooth exposure notification tool for COVID-19 pandemic response in Washington State.,NA
+14,notifications_sent_total_weekly,4500,12/30/20,4/2/20,WA,WA Notify: the planning and implementation of a Bluetooth exposure notification tool for COVID-19 pandemic response in Washington State.,NA
+15,case_reached_perc,8,12/30/20,4/2/20,WA,WA Notify: the planning and implementation of a Bluetooth exposure notification tool for COVID-19 pandemic response in Washington State.,NA
+16,hr_hours,550,6/30/20,7/30/20,Maricopa,"Using Automation, Prioritization, and Collaboration to Manage a COVID-19 Case Surge in Maricopa County, Arizona, 2020.",NA
+17,cases_assigned_count,58570,6/30/20,7/30/20,Maricopa,"Using Automation, Prioritization, and Collaboration to Manage a COVID-19 Case Surge in Maricopa County, Arizona, 2020.",NA
+18,case_reached_from_test_med,264,6/15/20,6/29/20,Maricopa,"Using Automation, Prioritization, and Collaboration to Manage a COVID-19 Case Surge in Maricopa County, Arizona, 2020.",NA
+19,cases_reached_total,55056,6/30/20,7/30/20,Maricopa,"Using Automation, Prioritization, and Collaboration to Manage a COVID-19 Case Surge in Maricopa County, Arizona, 2020.",NA
+20,cases_reached_perc,94,6/30/20,7/30/20,Maricopa,"Using Automation, Prioritization, and Collaboration to Manage a COVID-19 Case Surge in Maricopa County, Arizona, 2020.",NA
+21,hr_cost,54000000,8/1/20,NA,Chicago,"Unified Response to COVID-19 Case Investigation and Contact Tracing, Chicago, December 2020-April 2021.",NA
+22,hr_cost,14000000,8/1/20,NA,Chicago,"Unified Response to COVID-19 Case Investigation and Contact Tracing, Chicago, December 2020-April 2021.",NA
+23,cases_assigned_count,67882,12/27/20,4/24/21,Chicago,"Unified Response to COVID-19 Case Investigation and Contact Tracing, Chicago, December 2020-April 2021.",NA
+24,notifications_sent_total,64011,12/27/20,4/24/21,Chicago,"Unified Response to COVID-19 Case Investigation and Contact Tracing, Chicago, December 2020-April 2021.",NA
+25,case_reached_count,37422,12/27/20,4/24/21,Chicago,"Unified Response to COVID-19 Case Investigation and Contact Tracing, Chicago, December 2020-April 2021.",NA
+26,case_interviewed_count,24450,12/27/20,4/24/21,Chicago,"Unified Response to COVID-19 Case Investigation and Contact Tracing, Chicago, December 2020-April 2021.",NA
+27,contact_named_count,34083,12/27/20,4/24/21,Chicago,"Unified Response to COVID-19 Case Investigation and Contact Tracing, Chicago, December 2020-April 2021.",NA
+28,contact_reached_count,22240,12/27/20,4/24/21,Chicago,"Unified Response to COVID-19 Case Investigation and Contact Tracing, Chicago, December 2020-April 2021.",NA
+29,case_reached_from_test_med,120,12/27/20,4/24/21,Chicago,"Unified Response to COVID-19 Case Investigation and Contact Tracing, Chicago, December 2020-April 2021.",NA
+30,contact_reached_from_named_med,24,12/27/20,4/24/21,Chicago,"Unified Response to COVID-19 Case Investigation and Contact Tracing, Chicago, December 2020-April 2021.",NA
+31,hr_hours,445000,12/27/20,2/1/22,Chicago,"Unified Response to COVID-19 Case Investigation and Contact Tracing, Chicago, December 2020-April 2021.",NA
+32,lowest_est,445000,12/27/20,2/1/22,Chicago,"Unified Response to COVID-19 Case Investigation and Contact Tracing, Chicago, December 2020-April 2021.",NA
+33,adoption_rate,51,11/15/20,3/15/21,WA,Trading-off privacy and utility: the Washington State experience assessing the performance of a public health digital exposure notification system for  coronavirus disease 2019.,NA
+34,num_users_total,3000000,11/15/20,3/15/21,WA,Trading-off privacy and utility: the Washington State experience assessing the performance of a public health digital exposure notification system for  coronavirus disease 2019.,NA
+35,notifications_sent_total,902824,11/15/20,3/15/21,WA,Trading-off privacy and utility: the Washington State experience assessing the performance of a public health digital exposure notification system for  coronavirus disease 2019.,NA
+36,contact_reached_from_named_total,742336,11/15/20,3/15/21,WA,Trading-off privacy and utility: the Washington State experience assessing the performance of a public health digital exposure notification system for  coronavirus disease 2019.,NA
+37,contact_named_ratio,7.9,11/15/20,3/15/21,WA,Trading-off privacy and utility: the Washington State experience assessing the performance of a public health digital exposure notification system for  coronavirus disease 2019.,NA
+38,infections_prevented,5500,11/15/20,3/15/21,WA,Trading-off privacy and utility: the Washington State experience assessing the performance of a public health digital exposure notification system for  coronavirus disease 2019.,NA
+39,contact_reached_from_named,127.2,11/15/20,3/15/22,WA,Trading-off privacy and utility: the Washington State experience assessing the performance of a public health digital exposure notification system for  coronavirus disease 2019.,NA
+40,cases_assigned_total,76936,11/15/20,3/15/21,WA,Trading-off privacy and utility: the Washington State experience assessing the performance of a public health digital exposure notification system for  coronavirus disease 2019.,NA
+41,cases_reached_total,76936,11/15/20,3/15/21,WA,Trading-off privacy and utility: the Washington State experience assessing the performance of a public health digital exposure notification system for  coronavirus disease 2019.,NA
+42,contact_named_count_mean,1.33,5/18/20,8/17/20,United States*,A Patient-Initiated Digital COVID-19 Contact Notification Tool (TellYourContacts): Evaluation Study.,digital
+43,case_reached_from_test_total,24,9/26/21,11/20/21,VT,"The public health impact of COVID-19 variants of concern on the effectiveness of contact tracing in Vermont, United States.",NA
+44,case_reached_from_test_total,72,8/1/21,9/25/21,VT,"The public health impact of COVID-19 variants of concern on the effectiveness of contact tracing in Vermont, United States.",NA
+45,case_reached_from_test_total,24,11/25/20,1/19/21,VT,"The public health impact of COVID-19 variants of concern on the effectiveness of contact tracing in Vermont, United States.",NA
+46,case_reached_from_test_med,72,8/1/21,9/25/21,VT,"The public health impact of COVID-19 variants of concern on the effectiveness of contact tracing in Vermont, United States.",NA
+47,case_reached_from_test_med,48,9/26/21,11/20/21,VT,"The public health impact of COVID-19 variants of concern on the effectiveness of contact tracing in Vermont, United States.",NA
+48,case_reached_from_test_med,48,11/25/20,1/19/21,VT,"The public health impact of COVID-19 variants of concern on the effectiveness of contact tracing in Vermont, United States.",NA
+49,contact_reached_perc,52,9/26/21,11/20/21,VT,"The public health impact of COVID-19 variants of concern on the effectiveness of contact tracing in Vermont, United States.",NA
+50,contact_reached_perc,53,8/1/21,9/25/21,VT,"The public health impact of COVID-19 variants of concern on the effectiveness of contact tracing in Vermont, United States.",NA
+51,case_interviewed_perc,83,8/1/21,9/25/21,VT,"The public health impact of COVID-19 variants of concern on the effectiveness of contact tracing in Vermont, United States.",NA
+52,contact_named_perc,80,8/1/21,9/25/21,VT,"The public health impact of COVID-19 variants of concern on the effectiveness of contact tracing in Vermont, United States.",NA
+53,contact_reached_perc,91,11/25/20,1/19/21,VT,"The public health impact of COVID-19 variants of concern on the effectiveness of contact tracing in Vermont, United States.",NA
+54,contact_named_perc,84,9/26/21,11/20/21,VT,"The public health impact of COVID-19 variants of concern on the effectiveness of contact tracing in Vermont, United States.",NA
+55,contact_named_perc,90,11/25/20,1/19/21,VT,"The public health impact of COVID-19 variants of concern on the effectiveness of contact tracing in Vermont, United States.",NA
+56,case_interviewed_perc,78,9/26/21,11/20/21,VT,"The public health impact of COVID-19 variants of concern on the effectiveness of contact tracing in Vermont, United States.",NA
+57,case_interviewed_perc,84,11/25/20,1/19/21,VT,"The public health impact of COVID-19 variants of concern on the effectiveness of contact tracing in Vermont, United States.",NA
+58,cases_assigned_count,14106,9/26/21,11/20/21,VT,"The public health impact of COVID-19 variants of concern on the effectiveness of contact tracing in Vermont, United States.",NA
+59,cases_assigned_count,6559,11/25/20,1/19/21,VT,"The public health impact of COVID-19 variants of concern on the effectiveness of contact tracing in Vermont, United States.",NA
+60,cases_assigned_count,1633,4/13/20,6/8/20,San Francisco,"Outcomes of Contact Tracing in San Francisco, California-Test and Trace During Shelter-in-Place.",NA
+61,case_interviewed_count,1394,4/13/20,6/8/20,San Francisco,"Outcomes of Contact Tracing in San Francisco, California-Test and Trace During Shelter-in-Place.",NA
+62,contact_named_perc,51.1,4/13/20,6/8/20,San Francisco,"Outcomes of Contact Tracing in San Francisco, California-Test and Trace During Shelter-in-Place.",NA
+63,contact_infected_perc,9.1,4/13/20,6/8/20,San Francisco,"Outcomes of Contact Tracing in San Francisco, California-Test and Trace During Shelter-in-Place.",NA
+64,contact_named_count,1214,4/13/20,6/8/20,San Francisco,"Outcomes of Contact Tracing in San Francisco, California-Test and Trace During Shelter-in-Place.",NA
+65,contact_reached_count,1017,4/13/20,6/8/20,San Francisco,"Outcomes of Contact Tracing in San Francisco, California-Test and Trace During Shelter-in-Place.",NA
+66,contact_infected_count,120,4/13/20,6/8/20,San Francisco,"Outcomes of Contact Tracing in San Francisco, California-Test and Trace During Shelter-in-Place.",NA
+67,case_reached_from_test_med,24,4/13/20,6/8/20,San Francisco,"Outcomes of Contact Tracing in San Francisco, California-Test and Trace During Shelter-in-Place.",NA
+68,case_reached_from_symptom_med,144,4/13/20,6/8/20,San Francisco,"Outcomes of Contact Tracing in San Francisco, California-Test and Trace During Shelter-in-Place.",NA
+69,hr_cost,2500,6/1/20,12/2/21,New York,Lessons Learned from the Launch and Implementation of the COVID-19 Contact Tracing Program in New York City: a Qualitative Study.,NA
+70,contact_named_count,540000,6/1/20,12/2/21,New York,Lessons Learned from the Launch and Implementation of the COVID-19 Contact Tracing Program in New York City: a Qualitative Study.,NA
+71,contact_named_perc,38,6/1/20,12/2/21,New York,Lessons Learned from the Launch and Implementation of the COVID-19 Contact Tracing Program in New York City: a Qualitative Study.,NA
+72,contact_reached_from_named_med,5.76,6/1/20,12/2/21,New York,Lessons Learned from the Launch and Implementation of the COVID-19 Contact Tracing Program in New York City: a Qualitative Study.,NA
+73,case_reached_from_test_med,48,6/1/20,12/31/21,New York,Lessons Learned from the Launch and Implementation of the COVID-19 Contact Tracing Program in New York City: a Qualitative Study.,NA
+74,case_reached_perc,89,6/1/20,12/2/21,New York,Lessons Learned from the Launch and Implementation of the COVID-19 Contact Tracing Program in New York City: a Qualitative Study.,NA
+75,cases_assigned_count,1450000,6/1/20,12/2/21,New York,Lessons Learned from the Launch and Implementation of the COVID-19 Contact Tracing Program in New York City: a Qualitative Study.,NA
+76,contact_reached_from_named_med,180,4/4/20,5/19/20,New Haven,Lessons Learned From COVID-19 Contact Tracing During a Public Health Emergency: A Prospective Implementation Study.,NA
+77,case_reached_from_test_med,108,4/4/20,5/19/20,New Haven,Lessons Learned From COVID-19 Contact Tracing During a Public Health Emergency: A Prospective Implementation Study.,NA
+78,cases_assigned_count,1686,4/4/20,5/19/20,New Haven,Lessons Learned From COVID-19 Contact Tracing During a Public Health Emergency: A Prospective Implementation Study.,NA
+79,cases_not_assigned_count,18,4/4/20,5/19/20,New Haven,Lessons Learned From COVID-19 Contact Tracing During a Public Health Emergency: A Prospective Implementation Study.,NA
+80,cases_reached_count,959,4/4/20,5/19/20,New Haven,Lessons Learned From COVID-19 Contact Tracing During a Public Health Emergency: A Prospective Implementation Study.,NA
+81,case_interviewed_count,826,4/4/20,5/19/20,New Haven,Lessons Learned From COVID-19 Contact Tracing During a Public Health Emergency: A Prospective Implementation Study.,NA
+82,adoption_rate,29,12/10/20,7/1/21,CA Notify,Defining Key Performance Indicators for the California COVID-19 Exposure Notification System (CA Notify).,NA
+83,case_reached_from_test_avg,112.8,12/10/20,7/1/21,CA Notify,Defining Key Performance Indicators for the California COVID-19 Exposure Notification System (CA Notify).,NA
+84,Parameter estimations,112.8,12/10/20,7/1/21,CA Notify,Defining Key Performance Indicators for the California COVID-19 Exposure Notification System (CA Notify).,NA
+85,contact_named_ratio,2,12/10/20,7/1/21,CA Notify,Defining Key Performance Indicators for the California COVID-19 Exposure Notification System (CA Notify).,NA
+86,contact_named_count,110497,12/10/20,7/1/21,CA Notify,Defining Key Performance Indicators for the California COVID-19 Exposure Notification System (CA Notify).,NA
+87,cases_reached_count,68107,12/10/20,7/1/21,CA Notify,Defining Key Performance Indicators for the California COVID-19 Exposure Notification System (CA Notify).,NA
+88,cases_assigned_count,446643,12/10/20,7/1/21,CA Notify,Defining Key Performance Indicators for the California COVID-19 Exposure Notification System (CA Notify).,NA
+89,notifications_sent_total,1654201,12/10/20,7/1/21,CA Notify,Defining Key Performance Indicators for the California COVID-19 Exposure Notification System (CA Notify).,NA
+90,num_users_total,10910971,12/10/20,7/1/21,CA Notify,Defining Key Performance Indicators for the California COVID-19 Exposure Notification System (CA Notify).,NA
+91,monetary_cost,227887,3/15/21,4/13/21,unknown,Digital Point Solutions for Extending Contact Tracing Capacity.,NA
+92,state a,227887,3/15/21,4/13/21,unknown,Digital Point Solutions for Extending Contact Tracing Capacity.,NA
+93,contact_named_count,18700,3/15/21,4/13/21,unknown,Digital Point Solutions for Extending Contact Tracing Capacity.,NA
+94,contact_named_perc,44,3/15/21,4/13/21,unknown,Digital Point Solutions for Extending Contact Tracing Capacity.,NA
+95,parameter inference,44,3/15/21,4/13/21,unknown,Digital Point Solutions for Extending Contact Tracing Capacity.,NA
+96,cases_assigned_count,21540,3/15/21,4/13/21,unknown,Digital Point Solutions for Extending Contact Tracing Capacity.,NA
+97,num_users_total,21540,3/15/21,4/13/21,unknown,Digital Point Solutions for Extending Contact Tracing Capacity.,NA
+98,contact_named_ratio,0.97,1/1/21,7/31/21,Members of large CA health care plan,Factors Influencing the Results of COVID-19 Case Outreach-Results From a California Case Investigation/Contact Tracing Program.,NA
+99,contact_named_household_count,4188,1/1/21,7/31/21,Members of large CA health care plan,Factors Influencing the Results of COVID-19 Case Outreach-Results From a California Case Investigation/Contact Tracing Program.,NA
+100,contact_named_perc,36.7,1/1/21,7/31/21,Members of large CA health care plan,Factors Influencing the Results of COVID-19 Case Outreach-Results From a California Case Investigation/Contact Tracing Program.,NA
+101,parameter inference,36.7,1/1/21,7/31/21,Members of large CA health care plan,Factors Influencing the Results of COVID-19 Case Outreach-Results From a California Case Investigation/Contact Tracing Program.,NA
+102,case_reached_from_test_med,35.3,1/1/21,7/31/21,Members of large CA health care plan,Factors Influencing the Results of COVID-19 Case Outreach-Results From a California Case Investigation/Contact Tracing Program.,NA
+103,cases_not_assigned_count,3872,1/1/21,7/31/21,Members of large CA health care plan,Factors Influencing the Results of COVID-19 Case Outreach-Results From a California Case Investigation/Contact Tracing Program.,NA
+104,cases_assigned_count,9391,1/1/21,7/31/21,Members of large CA health care plan,Factors Influencing the Results of COVID-19 Case Outreach-Results From a California Case Investigation/Contact Tracing Program.,NA
+105,case_interviewed_perc,65.6,1/1/21,7/31/21,Members of large CA health care plan,Factors Influencing the Results of COVID-19 Case Outreach-Results From a California Case Investigation/Contact Tracing Program.,NA
+106,hr_hours,20000,1/1/21,7/31/21,Members of large CA health care plan,Factors Influencing the Results of COVID-19 Case Outreach-Results From a California Case Investigation/Contact Tracing Program.,NA
+107,hr_cost,600,8/1/20,6/12/21,Members of large CA health care plan,Factors Influencing the Results of COVID-19 Case Outreach-Results From a California Case Investigation/Contact Tracing Program.,NA
+108,contact_named_perc,14,5/1/20,9/30/20,Fulton County,"Implementation of close contact elicitation at the time of COVID-19 testing-Atlanta, GA, October-November 2020.",NA
+109,cases_assigned_count,26817,5/1/20,9/30/20,Fulton County,"Implementation of close contact elicitation at the time of COVID-19 testing-Atlanta, GA, October-November 2020.",NA
+110,case_interviewed_count,12068,5/1/20,9/30/20,Fulton County,"Implementation of close contact elicitation at the time of COVID-19 testing-Atlanta, GA, October-November 2020.",NA
+111,contact_infected_count,522,8/17/20,12/31/20,New York,"Integrating Contact Tracers Into Point-of-Care Testing Workflow to Accelerate the Tracing of People With Exposure to COVID-19, August-December 2020, New York City.",NA
+112,contact_reached_from_named_med,0,8/17/20,12/31/20,New York,"Integrating Contact Tracers Into Point-of-Care Testing Workflow to Accelerate the Tracing of People With Exposure to COVID-19, August-December 2020, New York City.",NA
+113,contact_reached_count,5102,8/17/20,12/31/20,New York,"Integrating Contact Tracers Into Point-of-Care Testing Workflow to Accelerate the Tracing of People With Exposure to COVID-19, August-December 2020, New York City.",NA
+114,contact_named_household_count,7573,8/17/20,12/31/20,New York,"Integrating Contact Tracers Into Point-of-Care Testing Workflow to Accelerate the Tracing of People With Exposure to COVID-19, August-December 2020, New York City.",NA
+115,contact_named_ratio,1.24,8/17/20,12/31/20,New York,"Integrating Contact Tracers Into Point-of-Care Testing Workflow to Accelerate the Tracing of People With Exposure to COVID-19, August-December 2020, New York City.",NA
+116,case_reached_from_test_med,0,8/17/20,12/31/20,New York,"Integrating Contact Tracers Into Point-of-Care Testing Workflow to Accelerate the Tracing of People With Exposure to COVID-19, August-December 2020, New York City.",NA
+117,contact_named_count,11486,8/17/20,12/31/20,New York,"Integrating Contact Tracers Into Point-of-Care Testing Workflow to Accelerate the Tracing of People With Exposure to COVID-19, August-December 2020, New York City.",NA
+118,contact_named_perc,62,8/17/20,12/31/20,New York,"Integrating Contact Tracers Into Point-of-Care Testing Workflow to Accelerate the Tracing of People With Exposure to COVID-19, August-December 2020, New York City.",NA
+119,cases_assigned_count,11683,8/17/20,12/31/20,New York,"Integrating Contact Tracers Into Point-of-Care Testing Workflow to Accelerate the Tracing of People With Exposure to COVID-19, August-December 2020, New York City.",NA
+120,case_interviewed_count,8878,8/17/20,12/31/20,New York,"Integrating Contact Tracers Into Point-of-Care Testing Workflow to Accelerate the Tracing of People With Exposure to COVID-19, August-December 2020, New York City.",NA
+121,contact_named_perc,89,4/4/20,5/19/20,New Haven,Lessons Learned From COVID-19 Contact Tracing During a Public Health Emergency: A Prospective Implementation Study.,NA
+122,contact_named_med,2,4/4/20,5/19/20,New Haven,Lessons Learned From COVID-19 Contact Tracing During a Public Health Emergency: A Prospective Implementation Study.,NA
+123,contact_named_count,2437,4/4/20,5/19/20,New Haven,Lessons Learned From COVID-19 Contact Tracing During a Public Health Emergency: A Prospective Implementation Study.,NA
+124,contact_reached_count,718,4/4/20,5/19/20,New Haven,Lessons Learned From COVID-19 Contact Tracing During a Public Health Emergency: A Prospective Implementation Study.,NA
+125,contact_interviewed_count,687,4/4/20,5/19/20,New Haven,Lessons Learned From COVID-19 Contact Tracing During a Public Health Emergency: A Prospective Implementation Study.,NA
+126,contact_reached_from_named_mean,1.33,5/18/20,8/17/20,United States*,A Patient-Initiated Digital COVID-19 Contact Notification Tool (TellYourContacts): Evaluation Study.,digital
+127,contact_named_count,1957,5/18/20,8/17/20,United States*,A Patient-Initiated Digital COVID-19 Contact Notification Tool (TellYourContacts): Evaluation Study.,digital
+128,contact_reached_count,1957,5/18/20,8/17/20,United States*,A Patient-Initiated Digital COVID-19 Contact Notification Tool (TellYourContacts): Evaluation Study.,digital
+129,notifications_sent_count,1957,5/18/20,8/17/20,United States*,A Patient-Initiated Digital COVID-19 Contact Notification Tool (TellYourContacts): Evaluation Study.,digital
+130,notifications_sent_mean_per_contact,1.33,5/18/20,8/17/20,United States*,A Patient-Initiated Digital COVID-19 Contact Notification Tool (TellYourContacts): Evaluation Study.,digital
+131,cases_reported_total,531094,6/15/20,9/1/21,Maryland,A State Health Department and Health Information Exchange Partnership: An Effective Collaboration for a Data-Driven Response for COVID-19 Contact Tracing  in Maryland.,manual
+132,cases_assigned_total,498739,6/15/20,8/28/21,Maryland,A State Health Department and Health Information Exchange Partnership: An Effective Collaboration for a Data-Driven Response for COVID-19 Contact Tracing  in Maryland.,manual
+133,cases_reached_count,394044,6/15/20,8/28/21,Maryland,A State Health Department and Health Information Exchange Partnership: An Effective Collaboration for a Data-Driven Response for COVID-19 Contact Tracing  in Maryland.,manual
+134,reporting_any_contacts_count,287193,6/15/20,8/28/21,Maryland,A State Health Department and Health Information Exchange Partnership: An Effective Collaboration for a Data-Driven Response for COVID-19 Contact Tracing  in Maryland.,manual
+135,contact_named_count,531221,6/15/20,8/28/21,Maryland,A State Health Department and Health Information Exchange Partnership: An Effective Collaboration for a Data-Driven Response for COVID-19 Contact Tracing  in Maryland.,manual
+136,contact_interviewed_count,316363,6/15/20,8/28/21,Maryland,A State Health Department and Health Information Exchange Partnership: An Effective Collaboration for a Data-Driven Response for COVID-19 Contact Tracing  in Maryland.,manual
+137,contact_reached_count,365641,6/15/20,8/28/21,Maryland,A State Health Department and Health Information Exchange Partnership: An Effective Collaboration for a Data-Driven Response for COVID-19 Contact Tracing  in Maryland.,manual
+138,case_interviewed_total,352356,6/15/20,8/28/21,Maryland,A State Health Department and Health Information Exchange Partnership: An Effective Collaboration for a Data-Driven Response for COVID-19 Contact Tracing  in Maryland.,manual
+139,staff_hired_count,962,4/15/20,4/24/20,Kansas,A Survey of County Health Departments of Kansas Regarding COVID-19.,manual
+140,staff_hired_per_10kpop,4.148408,4/15/20,4/24/20,Kansas,A Survey of County Health Departments of Kansas Regarding COVID-19.,manual
+141,manual_digital,2,12/23/20,12/28/20,United States,A Web-Based Digital Contact Tracing Strategy Addresses Stigma Concerns Among Individuals Evaluated for COVID-19.,NA
+142,cases_reached_perc,0.632,12/23/20,12/28/20,United States,A Web-Based Digital Contact Tracing Strategy Addresses Stigma Concerns Among Individuals Evaluated for COVID-19.,manual
+143,cases_assigned_count,9762,3/11/20,5/25/20,DE,"Declines in SARS-CoV-2 Transmission, Hospitalizations, and Mortality After Implementation of Mitigation Measures- Delaware, March-June 2020.",NA
+144,case_interviewed_count,6527,3/11/20,5/25/20,DE,"Declines in SARS-CoV-2 Transmission, Hospitalizations, and Mortality After Implementation of Mitigation Measures- Delaware, March-June 2020.",NA
+145,contact_named_count,2834,3/11/20,5/25/20,DE,"Declines in SARS-CoV-2 Transmission, Hospitalizations, and Mortality After Implementation of Mitigation Measures- Delaware, March-June 2020.",NA
+146,contact_interviewed_count,882,3/11/20,5/25/20,DE,"Declines in SARS-CoV-2 Transmission, Hospitalizations, and Mortality After Implementation of Mitigation Measures- Delaware, March-June 2020.",NA
+147,contact_named_perc,17,3/11/20,5/25/20,DE,"Declines in SARS-CoV-2 Transmission, Hospitalizations, and Mortality After Implementation of Mitigation Measures- Delaware, March-June 2020.",NA
+148,case_reached_from_test_med,192,3/11/20,5/25/20,DE,"Declines in SARS-CoV-2 Transmission, Hospitalizations, and Mortality After Implementation of Mitigation Measures- Delaware, March-June 2020.",NA
+149,contact_reached_from_named_mean,48,3/11/20,5/25/20,DE,"Declines in SARS-CoV-2 Transmission, Hospitalizations, and Mortality After Implementation of Mitigation Measures- Delaware, March-June 2020.",NA
+150,contact_infected_count,4,3/11/20,5/25/20,DE,"Declines in SARS-CoV-2 Transmission, Hospitalizations, and Mortality After Implementation of Mitigation Measures- Delaware, March-June 2020.",NA
+151,cases_assigned_count,2166,10/1/20,10/31/20,WA,"COVID-19 Contact Tracing Outcomes in Washington State, August and October 2020.",NA
+152,cases_not_assigned_count,7921,8/1/20,8/31/20,WA,"COVID-19 Contact Tracing Outcomes in Washington State, August and October 2020.",NA
+153,cases_not_assigned_count,14102,10/1/20,10/31/20,WA,"COVID-19 Contact Tracing Outcomes in Washington State, August and October 2020.",NA
+154,case_positive_from_test_mean,2.819,4/15/20,4/24/20,Kansas,A Survey of County Health Departments of Kansas Regarding COVID-19.,manual
+155,case_positive_from_test_median,3,4/15/20,4/24/20,Kansas,A Survey of County Health Departments of Kansas Regarding COVID-19.,manual
+156,case_positive_from_test_median,2,12/23/20,12/28/20,United States,A Web-Based Digital Contact Tracing Strategy Addresses Stigma Concerns Among Individuals Evaluated for COVID-19.,NA
+157,case_reached_from_test_med,2,12/23/20,12/28/20,United States,A Web-Based Digital Contact Tracing Strategy Addresses Stigma Concerns Among Individuals Evaluated for COVID-19.,manual
+158,contact_named_perc,33,10/1/20,10/31/20,WA,"COVID-19 Contact Tracing Outcomes in Washington State, August and October 2020.",NA
+159,case_interviewed_perc,76,10/1/20,10/31/20,WA,"COVID-19 Contact Tracing Outcomes in Washington State, August and October 2020.",NA
+160,case_interviewed_perc,65,8/1/20,8/31/20,WA,"COVID-19 Contact Tracing Outcomes in Washington State, August and October 2020.",NA
+161,contact_named_count,2589,8/1/20,8/31/20,WA,"COVID-19 Contact Tracing Outcomes in Washington State, August and October 2020.",NA
+162,contact_named_perc,45,10/1/20,10/31/20,WA,"COVID-19 Contact Tracing Outcomes in Washington State, August and October 2020.",NA
+163,case_interviewed_perc,78,10/1/20,10/31/20,WA,"COVID-19 Contact Tracing Outcomes in Washington State, August and October 2020.",NA
+164,contact_interviewed_perc,86,8/1/20,8/31/20,WA,"COVID-19 Contact Tracing Outcomes in Washington State, August and October 2020.",NA
+165,contact_named_household_perc,74,10/1/20,10/31/20,WA,"COVID-19 Contact Tracing Outcomes in Washington State, August and October 2020.",NA
+166,contact_named_household_perc,80,8/1/20,8/31/20,WA,"COVID-19 Contact Tracing Outcomes in Washington State, August and October 2020.",NA
+167,contact_named_ratio,3,10/1/20,10/31/20,WA,"COVID-19 Contact Tracing Outcomes in Washington State, August and October 2020.",NA
+168,contact_named_count,2218,10/1/20,10/31/20,WA,"COVID-19 Contact Tracing Outcomes in Washington State, August and October 2020.",NA
+169,contact_named_count,2.6,8/1/20,8/31/20,WA,"COVID-19 Contact Tracing Outcomes in Washington State, August and October 2020.",NA
+170,contact_named_ratio,2.6,8/1/20,8/31/20,WA,"COVID-19 Contact Tracing Outcomes in Washington State, August and October 2020.",NA
+171,contact_reached_from_named_mean,0,10/1/20,10/31/20,WA,"COVID-19 Contact Tracing Outcomes in Washington State, August and October 2020.",NA
+172,contact_reached_from_named_mean,0,8/1/20,8/31/20,WA,"COVID-19 Contact Tracing Outcomes in Washington State, August and October 2020.",NA
+173,case_positive_from_test_med,48,8/1/20,8/31/20,WA,"COVID-19 Contact Tracing Outcomes in Washington State, August and October 2020.",NA
+174,case_positive_from_test_med,48,8/1/20,8/31/20,WA,"COVID-19 Contact Tracing Outcomes in Washington State, August and October 2020.",NA
+175,case_reached_from_symptom_med,168,8/1/20,8/31/20,WA,"COVID-19 Contact Tracing Outcomes in Washington State, August and October 2020.",NA
+176,case_reached_from_test_med,72,10/1/20,10/31/20,WA,"COVID-19 Contact Tracing Outcomes in Washington State, August and October 2020.",NA
+177,cases_assigned_count,7116,6/1/20,6/30/20,Mecklenburg,"COVID-19 Contact Tracing in Two Counties - North Carolina, June-July 2020.",NA
+178,case_interviewed_count,5514,6/1/20,6/30/20,Mecklenburg,"COVID-19 Contact Tracing in Two Counties - North Carolina, June-July 2020.",NA
+179,case_reached_from_test_med,96,6/1/20,6/30/20,Mecklenburg,"COVID-19 Contact Tracing in Two Counties - North Carolina, June-July 2020.",NA
+180,contact_named_perc,52,6/1/20,6/30/20,Mecklenburg,"COVID-19 Contact Tracing in Two Counties - North Carolina, June-July 2020.",NA
+181,contact_reached_from_named_med,72,6/15/20,7/12/20,Randolph County,"COVID-19 Contact Tracing in Two Counties - North Carolina, June-July 2020.",NA
+182,contact_named_ratio,3,6/15/20,7/12/20,Randolph County,"COVID-19 Contact Tracing in Two Counties - North Carolina, June-July 2020.",NA
+183,contact_named_count,1146,6/15/20,7/12/20,Randolph County,"COVID-19 Contact Tracing in Two Counties - North Carolina, June-July 2020.",NA
+184,case_reached_from_test_med,72,6/15/20,7/12/20,Randolph County,"COVID-19 Contact Tracing in Two Counties - North Carolina, June-July 2020.",NA
+185,case_interviewed_count,584,6/15/20,7/12/20,Randolph County,"COVID-19 Contact Tracing in Two Counties - North Carolina, June-July 2020.",NA
+186,cases_assigned_count,589,6/15/20,7/12/20,Randolph County,"COVID-19 Contact Tracing in Two Counties - North Carolina, June-July 2020.",NA
+187,contact_interviewed_count,9815,6/1/20,6/30/20,Mecklenburg,"COVID-19 Contact Tracing in Two Counties - North Carolina, June-July 2020.",NA
+188,contact_reached_from_named_med,24,6/1/20,6/30/20,Mecklenburg,"COVID-19 Contact Tracing in Two Counties - North Carolina, June-July 2020.",NA
+189,contact_named_ratio,4.6,6/1/20,6/30/20,Mecklenburg,"COVID-19 Contact Tracing in Two Counties - North Carolina, June-July 2020.",NA
+190,contact_named_count,13401,6/1/20,6/30/20,Mecklenburg,"COVID-19 Contact Tracing in Two Counties - North Carolina, June-July 2020.",NA
+191,contact_interviewed_count,552,6/15/20,7/12/20,Randolph County,"COVID-19 Contact Tracing in Two Counties - North Carolina, June-July 2020.",NA
+192,contact_named_perc,87,5/1/20,10/31/20,loc_C,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+193,contact_named_perc,65,5/1/20,10/31/20,loc_B,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+194,contact_named_perc,100,5/1/20,10/31/20,loc_A,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+195,case_interviewed_count,43931,5/1/20,10/31/20,across US,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+196,case_interviewed_count,2962,5/1/20,10/31/20,Loc N,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+197,case_interviewed_count,10290,5/1/20,10/31/20,Loc_M,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+198,case_interviewed_count,5228,5/1/20,10/31/20,loc_L,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+199,case_interviewed_count,7820,5/1/20,10/31/20,loc_K,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+200,case_interviewed_count,369,5/1/20,10/31/20,loc_J,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+201,case_interviewed_count,5514,5/1/20,10/31/20,loc_I,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+202,case_interviewed_count,3961,5/1/20,10/31/20,loc_H,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+203,case_interviewed_count,5823,5/1/20,10/31/20,loc_G,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+204,case_interviewed_count,405,5/1/20,10/31/20,loc_F,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+205,case_interviewed_count,655,5/1/20,10/31/20,loc_E,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+206,case_interviewed_count,136,5/1/20,10/31/20,loc_D,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+207,case_interviewed_count,144,5/1/20,10/31/20,loc_C,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+208,case_interviewed_count,584,5/1/20,10/31/20,loc_B,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+209,case_interviewed_count,40,5/1/20,10/31/20,loc_A,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+210,cases_assigned_count,74185,5/1/20,10/31/20,across US,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+211,cases_assigned_count,8987,5/1/20,10/31/20,Loc_N,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+212,cases_assigned_count,22032,5/1/20,10/31/20,Loc_M,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+213,cases_assigned_count,10563,5/1/20,10/31/20,loc_K,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+214,cases_assigned_count,493,5/1/20,10/31/20,loc_J,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+215,cases_assigned_count,7116,5/1/20,10/31/20,loc_I,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+216,cases_assigned_count,5087,5/1/20,10/31/20,loc_H,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+217,cases_assigned_count,7041,5/1/20,10/31/20,loc_G,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+218,cases_assigned_count,479,5/1/20,10/31/20,loc_F,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+219,cases_assigned_count,718,5/1/20,10/31/20,loc_E,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+220,cases_assigned_count,137,5/1/20,10/31/20,loc_D,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+221,cases_assigned_count,146,5/1/20,10/31/20,loc_C,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+222,cases_assigned_count,589,5/1/20,10/31/20,loc_B,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+223,cases_assigned_count,40,5/1/20,10/31/20,loc_A,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+224,contact_reached_count,604,5/1/20,10/31/20,loc_E,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+225,contact_reached_count,982,5/1/20,10/31/20,loc_F,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+226,contact_reached_count,6645,5/1/20,10/31/20,loc_G,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+227,contact_reached_count,5499,5/1/20,10/31/20,loc_H,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+228,contact_reached_count,10070,5/1/20,10/31/20,loc_I,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+229,contact_reached_count,155,5/1/20,10/31/20,loc_J,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+230,contact_reached_count,6773,5/1/20,10/31/20,loc_K,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+231,contact_reached_count,2474,5/1/20,10/31/20,loc_L,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+232,contact_reached_count,17909,5/1/20,10/31/20,Loc_M,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+233,contact_reached_count,816,5/1/20,10/31/20,Loc N,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+234,contact_reached_count,53314,5/1/20,10/31/20,across US,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+235,contact_reached_count,341,5/1/20,10/31/20,loc_D,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+236,contact_reached_count,382,5/1/20,10/31/20,loc_C,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+237,contact_reached_count,602,5/1/20,10/31/20,loc_B,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+238,contact_reached_count,62,5/1/20,10/31/20,loc_A,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+239,contact_named_count,2848,5/1/20,10/31/20,loc_L,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+240,contact_named_count,24190,5/1/20,10/31/20,Loc_M,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+241,contact_named_count,1507,5/1/20,10/31/20,Loc N,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+242,contact_named_count,74839,5/1/20,10/31/20,across US,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+243,contact_named_count,11569,5/1/20,10/31/20,loc_K,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+244,contact_named_count,173,5/1/20,10/31/20,loc_J,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+245,contact_named_count,13401,5/1/20,10/31/20,loc_I,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+246,contact_named_count,6068,5/1/20,10/31/20,loc_H,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+247,contact_named_count,10927,5/1/20,10/31/20,loc_G,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+248,contact_named_count,1418,5/1/20,10/31/20,loc_F,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+249,contact_named_count,712,5/1/20,10/31/20,loc_E,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+250,contact_named_count,359,5/1/20,10/31/20,loc_D,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+251,contact_named_count,404,5/1/20,10/31/20,loc_C,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+252,contact_named_count,117,5/1/20,10/31/20,loc_A,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+253,contact_named_count,1446,5/1/20,10/31/20,loc_B,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+254,contact_named_perc,33,5/1/20,10/31/20,across US,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+255,contact_named_perc,7,5/1/20,10/31/20,Loc N,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+256,contact_named_perc,71,5/1/20,10/31/20,Loc_M,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+257,contact_named_perc,27,5/1/20,10/31/20,loc_L,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+258,contact_named_perc,47,5/1/20,10/31/20,loc_K,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+259,contact_named_perc,14,5/1/20,10/31/20,loc_J,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+260,contact_named_perc,52,5/1/20,10/31/20,loc_I,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+261,contact_named_perc,60,5/1/20,10/31/20,loc_H,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+262,contact_named_perc,87,5/1/20,10/31/20,loc_G,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+263,contact_named_perc,88,5/1/20,10/31/20,loc_F,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+264,contact_named_perc,44,5/1/20,10/31/20,loc_E,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+265,contact_named_perc,63,5/1/20,10/31/20,loc_D,"COVID-19 Case Investigation and Contact Tracing in the US, 2020.",NA
+266,contact_interviewed_count,590364,5/1/20,10/31/21,New York City,"COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.",NA
+267,contact_reached_count,904927,5/1/20,10/31/21,New York City,"COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.",NA
+268,contact_named_count,1218650,5/1/20,10/31/21,New York City,"COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.",NA
+269,case_interviewed_count,711379,5/1/20,10/31/21,New York City,"COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.",NA
+270,case_reached_count,840922,5/1/20,10/31/21,New York City,"COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.",NA
+271,cases_assigned_count,941035,5/1/20,10/31/21,New York City,"COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.",NA
+272,contact_named_perc,421544,5/1/20,10/31/21,New York City,"COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.",NA
+273,contact_named_ratio,1.4,5/1/20,10/31/21,New York City,"COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.",NA
+274,case_reached_from_test_med,2.6,5/1/20,10/31/21,New York City,"COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.",NA
+275,case_reached_from_symptom_med,4.7,5/1/20,10/31/21,New York City,"COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.",NA
+276,contact_reached_from_named_mean,0.2,5/1/20,10/31/21,New York City,"COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.",NA
+277,monetary_cost,600000000,5/1/20,10/31/21,New York City,"COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.",NA
+278,hr_hours,19890,6/23/21,8/17/21,Philadelphia,"Adapting COVID-19 Contact Tracing Protocols to Accommodate Resource Constraints, Philadelphia, Pennsylvania, USA, 2021.",manual
+279,hr_hours,12788,9/1/21,10/26/21,Philadelphia,"Adapting COVID-19 Contact Tracing Protocols to Accommodate Resource Constraints, Philadelphia, Pennsylvania, USA, 2021.",manual
+280,cases_assigned_count,7544,6/23/21,8/17/21,Philadelphia,"Adapting COVID-19 Contact Tracing Protocols to Accommodate Resource Constraints, Philadelphia, Pennsylvania, USA, 2021.",manual
+281,cases_assigned_count,15681,9/1/21,10/26/21,Philadelphia,"Adapting COVID-19 Contact Tracing Protocols to Accommodate Resource Constraints, Philadelphia, Pennsylvania, USA, 2021.",manual
+282,case_reached_count,5685,6/23/21,8/17/21,Philadelphia,"Adapting COVID-19 Contact Tracing Protocols to Accommodate Resource Constraints, Philadelphia, Pennsylvania, USA, 2021.",manual
+283,contact_named_count,1922,6/23/21,8/17/21,Philadelphia,"Adapting COVID-19 Contact Tracing Protocols to Accommodate Resource Constraints, Philadelphia, Pennsylvania, USA, 2021.",manual
+284,contact_reached_count,1372,6/23/21,8/17/21,Philadelphia,"Adapting COVID-19 Contact Tracing Protocols to Accommodate Resource Constraints, Philadelphia, Pennsylvania, USA, 2021.",manual
+285,case_reached_from_test_med,72,6/23/21,8/17/21,Philadelphia,"Adapting COVID-19 Contact Tracing Protocols to Accommodate Resource Constraints, Philadelphia, Pennsylvania, USA, 2021.",manual
+286,case_reached_count,9351,9/1/21,10/26/21,Philadelphia,"Adapting COVID-19 Contact Tracing Protocols to Accommodate Resource Constraints, Philadelphia, Pennsylvania, USA, 2021.",manual
+287,case_interviewed_count,4537,9/1/21,10/26/21,Philadelphia,"Adapting COVID-19 Contact Tracing Protocols to Accommodate Resource Constraints, Philadelphia, Pennsylvania, USA, 2021.",manual
+288,case_reached_count,19890,6/23/21,8/17/21,Philadelphia,"Adapting COVID-19 Contact Tracing Protocols to Accommodate Resource Constraints, Philadelphia, Pennsylvania, USA, 2021.",manual
+289,contact_named_count,2375,9/1/21,10/26/21,Philadelphia,"Adapting COVID-19 Contact Tracing Protocols to Accommodate Resource Constraints, Philadelphia, Pennsylvania, USA, 2021.",manual
+290,contact_reached_count,1853,9/1/21,10/26/21,Philadelphia,"Adapting COVID-19 Contact Tracing Protocols to Accommodate Resource Constraints, Philadelphia, Pennsylvania, USA, 2021.",manual
+291,contact_interviewed_count,883,6/23/21,8/17/21,Philadelphia,"Adapting COVID-19 Contact Tracing Protocols to Accommodate Resource Constraints, Philadelphia, Pennsylvania, USA, 2021.",manual
+292,contact_interviewed_count,1234,9/1/21,10/26/21,Philadelphia,"Adapting COVID-19 Contact Tracing Protocols to Accommodate Resource Constraints, Philadelphia, Pennsylvania, USA, 2021.",manual
+293,case_reached_from_test_med,48,9/1/21,10/26/21,Philadelphia,"Adapting COVID-19 Contact Tracing Protocols to Accommodate Resource Constraints, Philadelphia, Pennsylvania, USA, 2021.",manual
+294,contact_reached_from_test_med,72,9/1/21,10/26/21,Philadelphia,"Adapting COVID-19 Contact Tracing Protocols to Accommodate Resource Constraints, Philadelphia, Pennsylvania, USA, 2021.",manual
+295,contact_reached_from_test_med,96,6/23/21,8/17/21,Philadelphia,"Adapting COVID-19 Contact Tracing Protocols to Accommodate Resource Constraints, Philadelphia, Pennsylvania, USA, 2021.",manual
+296,contact_named_household_ratio,1.9,6/15/20,7/12/20,central WA,"COVID-19 Case Investigation and Contact Tracing in Central Washington State, June-July 2020.",NA
+297,contact_named_ratio,2.4,6/15/20,7/12/20,central WA,"COVID-19 Case Investigation and Contact Tracing in Central Washington State, June-July 2020.",NA
+298,contact_named_count,2293,6/15/20,7/12/20,central WA,"COVID-19 Case Investigation and Contact Tracing in Central Washington State, June-July 2020.",NA
+299,contact_named_perc,27,6/15/20,7/12/20,central WA,"COVID-19 Case Investigation and Contact Tracing in Central Washington State, June-July 2020.",NA
+300,case_interviewed_perc,71,6/15/20,7/12/20,central WA,"COVID-19 Case Investigation and Contact Tracing in Central Washington State, June-July 2020.",NA
+301,cases_assigned_count,4987,6/15/20,7/12/20,central WA,"COVID-19 Case Investigation and Contact Tracing in Central Washington State, June-July 2020.",NA
+302,contact_reached_count,2002,6/15/20,7/12/20,central WA,"COVID-19 Case Investigation and Contact Tracing in Central Washington State, June-July 2020.",NA
+303,contact_named_household_count,1799,6/15/20,7/12/20,central WA,"COVID-19 Case Investigation and Contact Tracing in Central Washington State, June-July 2020.",NA
+304,case_reached_count,3994,6/15/20,7/12/20,central WA,"COVID-19 Case Investigation and Contact Tracing in Central Washington State, June-July 2020.",NA
+305,contact_interviewed_count,1941,6/15/20,7/12/20,central WA,"COVID-19 Case Investigation and Contact Tracing in Central Washington State, June-July 2020.",NA
+306,contact_interviewed_perc,85,6/15/20,7/12/20,central WA,"COVID-19 Case Investigation and Contact Tracing in Central Washington State, June-July 2020.",NA
+307,contact_named_count,95775,5/25/20,7/24/20,various,"COVID-19 Case Investigation and Contact Tracing Efforts from Health Departments - United States, June 25-July 24, 2020.",NA
+308,cases_assigned_count,280033,5/25/20,7/24/20,various,"COVID-19 Case Investigation and Contact Tracing Efforts from Health Departments - United States, June 25-July 24, 2020.",NA
+309,case_named_contact_count,2506,6/8/20,8/31/20,San Fransico,"Assessing Testing Strategies and Duration of Quarantine in Contact Tracing for SARS-CoV-2: A Retrospective Study of San Francisco's COVID-19 Contact Tracing  Program, June-August 2020.",manual
+310,contact_named_count,6946,6/8/20,8/31/20,San Fransico,"Assessing Testing Strategies and Duration of Quarantine in Contact Tracing for SARS-CoV-2: A Retrospective Study of San Francisco's COVID-19 Contact Tracing  Program, June-August 2020.",manual
+311,contact_tested_count,3008,6/8/20,8/31/20,San Fransico,"Assessing Testing Strategies and Duration of Quarantine in Contact Tracing for SARS-CoV-2: A Retrospective Study of San Francisco's COVID-19 Contact Tracing  Program, June-August 2020.",manual
+312,contact_infected_count,880,6/8/20,8/31/20,San Fransico,"Assessing Testing Strategies and Duration of Quarantine in Contact Tracing for SARS-CoV-2: A Retrospective Study of San Francisco's COVID-19 Contact Tracing  Program, June-August 2020.",manual
+313,monetary_cost,29234,3/1/20,5/31/20,Salt Lake City,"Coronavirus Disease Contact Tracing Outcomes and Cost, Salt Lake County, Utah, USA, March-May 2020.",NA
+314,hr_hours,1102,3/1/20,5/31/20,Salt Lake City,"Coronavirus Disease Contact Tracing Outcomes and Cost, Salt Lake County, Utah, USA, March-May 2020.",NA
+315,contact_reached_from_named_med,0,3/1/20,5/31/20,Salt Lake City,"Coronavirus Disease Contact Tracing Outcomes and Cost, Salt Lake County, Utah, USA, March-May 2020.",NA
+316,case_reached_count,48,3/1/20,5/31/20,Salt Lake City,"Coronavirus Disease Contact Tracing Outcomes and Cost, Salt Lake County, Utah, USA, March-May 2020.",NA
+317,case_reached_from_test_med,48,3/1/20,5/31/20,Salt Lake City,"Coronavirus Disease Contact Tracing Outcomes and Cost, Salt Lake County, Utah, USA, March-May 2020.",NA
+318,case_reached_count,168,3/1/20,5/31/20,Salt Lake City,"Coronavirus Disease Contact Tracing Outcomes and Cost, Salt Lake County, Utah, USA, March-May 2020.",NA
+319,case_reached_from_symptom_med,168,3/1/20,5/31/20,Salt Lake City,"Coronavirus Disease Contact Tracing Outcomes and Cost, Salt Lake County, Utah, USA, March-May 2020.",NA
+320,contact_named_count,1499,3/1/20,5/31/20,Salt Lake City,"Coronavirus Disease Contact Tracing Outcomes and Cost, Salt Lake County, Utah, USA, March-May 2020.",NA
+321,cases_assigned_count,184,3/1/20,5/31/20,Salt Lake City,"Coronavirus Disease Contact Tracing Outcomes and Cost, Salt Lake County, Utah, USA, March-May 2020.",NA
+322,contact_infected_count,374,3/1/20,5/31/20,Salt Lake City,"Coronavirus Disease Contact Tracing Outcomes and Cost, Salt Lake County, Utah, USA, March-May 2020.",NA
+323,contact_named_household_perc,57.5,2/1/21,11/30/21,NY,Contact tracing: Characteristics of COVID-19 cases that provided contacts.,NA
+324,case_interviewed_count,550850,2/1/21,11/30/21,NY,Contact tracing: Characteristics of COVID-19 cases that provided contacts.,NA
+325,contact_reached_from_pos_mean,6.4,12/20/20,1/31/21,Boston University,Assessment of a COVID-19 Control Plan on an Urban University Campus During a Second Wave of the Pandemic.,manual
+326,contact_reached_from_pos_mean,10.1,9/1/20,9/30/20,Boston University,Assessment of a COVID-19 Control Plan on an Urban University Campus During a Second Wave of the Pandemic.,manual
+327,contact_reached_from_pos_mean,5.4,12/1/20,12/31/20,Boston University,Assessment of a COVID-19 Control Plan on an Urban University Campus During a Second Wave of the Pandemic.,manual
+328,contact_named_count,2.44,12/20/20,1/31/21,Boston University,Assessment of a COVID-19 Control Plan on an Urban University Campus During a Second Wave of the Pandemic.,manual
+329,contact_infected_perc,10.3,12/20/20,1/31/21,Boston University,Assessment of a COVID-19 Control Plan on an Urban University Campus During a Second Wave of the Pandemic.,manual
+330,cases_reached_perc,69.2,12/1/20,12/31/20,Maimi University,An Academic-Health Department Community Partnership to Expand Disease Investigation and Contact Tracing Capacity and Efficiency During the COVID-19  Pandemic.,manual
+331,case_reached_count,121875,1/1/21,1/31/21,North Carolina,"Automated Digital Notification of COVID-19 Diagnoses Through Text and Email Messaging - North Carolina, December 2020-January 2021.",digital
+332,cases_assigned_count,121875,1/1/21,1/31/21,North Carolina,"Automated Digital Notification of COVID-19 Diagnoses Through Text and Email Messaging - North Carolina, December 2020-January 2021.",digital
+333,case_test_to_result_mean,13.68,4/1/20,1/8/21,Oak Ridge National Laboratory,Benchmarking SARS CoV-2 Infection in the Workplace to Support Continuity of Operations.,manual
+334,cases_assigned_count,43116,3/23/21,5/31/21, Connecticut,Centering Health Equity Within COVID-19 Contact Tracing: Connecticut's Community Outreach Specialist Program.,manual
+335,cases_reached_count,24973,3/23/21,5/31/21, Connecticut,Centering Health Equity Within COVID-19 Contact Tracing: Connecticut's Community Outreach Specialist Program.,manual
+336,contact_assigned_count,12198,3/23/21,5/31/21,Connecticut,Centering Health Equity Within COVID-19 Contact Tracing: Connecticut's Community Outreach Specialist Program.,manual
+337,contact_reached_count,7949,3/23/21,5/31/21,Connecticut,Centering Health Equity Within COVID-19 Contact Tracing: Connecticut's Community Outreach Specialist Program.,manual
+338,cases_assigned_count,94704,7/9/20,12/31/20,New York City,"Community-Based Workforce for COVID-19 Contact Tracing and Prevention Activities in New York City, July-December 2020.",manual
+339,contact_assigned_count,61246,7/9/20,12/31/20,New York City,"Community-Based Workforce for COVID-19 Contact Tracing and Prevention Activities in New York City, July-December 2020.",manual
+340,case_reached_count,84230,7/9/20,12/31/20,New York City,"Community-Based Workforce for COVID-19 Contact Tracing and Prevention Activities in New York City, July-December 2020.",manual
+341,contact_reached_count,49303,7/9/20,12/31/20,New York City,"Community-Based Workforce for COVID-19 Contact Tracing and Prevention Activities in New York City, July-December 2020.",manual
+342,case_interviewed_count,55592,7/9/20,12/31/20,New York City,"Community-Based Workforce for COVID-19 Contact Tracing and Prevention Activities in New York City, July-December 2020.",manual
+343,contact_reached_count,35005,7/9/20,12/31/20,New York City,"Community-Based Workforce for COVID-19 Contact Tracing and Prevention Activities in New York City, July-December 2020.",manual
+344,case_reached_count,644029,10/1/20,5/10/21,New York City,Contact tracing reveals community transmission of COVID-19 in New York City.,manual
+345,contact_test_pos_rate,55.8,10/1/20,5/10/21,New York City,Contact tracing reveals community transmission of COVID-19 in New York City.,manual
