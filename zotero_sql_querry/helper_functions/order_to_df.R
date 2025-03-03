@@ -1,3 +1,11 @@
+# order_to_df simply replaces the a vector of locations to a dataframe
+# of relationships.  "Wallingford", "Seattle", "Washington" gets converted to
+#        child     parent
+# 1 Wallinford    Seattle
+# 2 Wallinford Washington
+# 3    Seattle Washington
+#
+
 order_to_df <- function(vector) {
   vec_l <- length(vector)
   if (vec_l > 1) {

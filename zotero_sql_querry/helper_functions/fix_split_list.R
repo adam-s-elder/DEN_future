@@ -1,3 +1,9 @@
+# The fix split list function helps manage situations in which there are
+# multiple locations associated with a single parameter (for example, both
+# Seattle and Washington).  The function creates a new dataframe that
+# provides information on locations that are associated by looking all
+# elements from the fourth and onward.
+
 fix_split_list <- function(split_l) {
   unique_orders <- split_l |> map(function(x) {
     x[-(1:3)] |> trimws()

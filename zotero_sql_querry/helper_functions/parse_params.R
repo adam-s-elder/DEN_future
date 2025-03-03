@@ -1,3 +1,7 @@
+# parse_params is responsible for splitting apart all the data
+# encoded into the form {{param_value, start_date, end_date, location}} into
+# four different data elements.
+
 parse_params <- function(str_vector) {
   split_list <- str_split(str_vector, pattern = ",")
   non4split_length <-
