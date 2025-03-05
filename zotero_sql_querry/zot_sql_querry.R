@@ -148,7 +148,8 @@ simple_param_df <- parameter_notes_df |> select(
   param_name = name,
   all_of(param_order),
   source = value,
-  param_type
+  param_type,
+  source_text = text,
 ) |> filter(!is.na(param_value))
 
 write.csv(simple_param_df, file = "simplified_parameter_df.csv")
