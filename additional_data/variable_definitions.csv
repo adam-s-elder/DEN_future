@@ -1,0 +1,33 @@
+﻿Type,Name,Desc,Format
+Cost,monetary_cost,cost to public health budget ,"Dollars, no commas or $"
+,,"This could also be cost per index case, cost per close contact, cost per interviewed case (to delineate the difference in cost when they were unsuccessful? re: HIV costing paper)",
+,hr_cost,Salary/benefit/etc cost,"Dollars, no commas or $"
+,hr_hours,Human hours,Hours
+Capacity,staff_hired_count_[type],"Number of reported staff hired.  Type can be a count, per population or per (daily?) incidence.",Float
+Efficiency,cases_assigned_[count|perc],Initial set of possible cases assigned to org,"Integer, either number or percent value with no symbols"
+,cases_not_assigned_[count|perc],Initial set of possible cases not assigned to org,
+,case_reached_[count|perc],"Org contacted index case, but did not complete interview",
+,case_interviewed_[count|perc],Org completed index case interview,
+,case_named_contact_count,Number of cases who name at least one contact.  Percent denominator is cases interviewed.,
+,contact_named_[count|perc],Amount of contacts named by case or perc who reported contacts,
+,contact_named_household_[count|perc],Amount of contacts named by case or perc who reported contacts,
+,contact_reached_[count|perc],"Org contacted secondary case, but did not complete interview",
+,contact_interviewed_[count|perc],Org completed secondary case interview,
+,contact_infected_[count|perc],Secondary contact confirmed infected with covid,
+,case_reached_from_test_[type],"Time from test (providing specimen) to getting in touch with primary case, type can be added to specify med, mean, etc","Hours, float"
+,case_positive_from_test_[type],"Time from providing specimen to getting in a positive result type can be added to specify med, mean, etc","Hours, float"
+,case_reached_from_symptom_[type],"Time from symptom to getting in touch with primary case, type can be added to specify med, mean, etc",
+,case_reached_from_exposure_[type],"Time from exposure to getting in touch with primary case, type can be added to specify med, mean, etc",
+,contact_reached_from_named_[type],Time to reach contact after a case named them,
+,num_users_[type],"Number of users for app at time period, type: min, max, avg, etc",Float
+,notifications_sent_[type],"Number of notifications sent from app at time period, type: min, max, avg, etc. Type can start with per_person or any other description that’s needed",
+,adoption_rate,Rate of adoption amongst whole population considered,"Float, percent value with no symbols"
+,deaths_prevented,Number of death prevented attributed to CI/CT or EN,Integer
+,infections_prevented,Number of death prevented attributed to CI/CT or EN,Integer
+Other,scalability,,
+,methods,,
+,limitations,,
+Experimental,contact_tested_count,Number of contacts who eventually tested.,
+,case_test_to_result_mean,Time (in hours) from case testing to receiving the result,Hours
+,contact_reached_from_case_pos_[type],Time from case testing positive to contact receiving a notification,
+,cases_were_contacts_[count|perc],Total # of Cases known as Contacts within the previous 14 Days,
