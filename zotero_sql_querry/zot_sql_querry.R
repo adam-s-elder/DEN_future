@@ -144,6 +144,14 @@ parameter_notes_df <-
   parameter_notes_df |> filter(!(name %in% c("manual", "digital"))) |>
   left_join(en_type |> select(itemID, param_type = name), by = "itemID")
 
+# Adjusting names
+parameter_notes_df <- parameter_notes_df |> mutate(
+  name = str_replace(pattern = "case_", replacement = "cases_", name),
+  name = str_replace(name, "contact_", "contacts_"),
+  name = str_replace(name, "ave", "mean"),
+  name = str_replace(name, "total", "count")
+)
+
 simple_param_df <- parameter_notes_df |> select(
   param_name = name,
   all_of(param_order),
