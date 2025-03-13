@@ -3,11 +3,13 @@ Cost,monetary_cost,cost to public health budget ,"Dollars, no commas or $"
 ,,"This could also be cost per index case, cost per close contact, cost per interviewed case (to delineate the difference in cost when they were unsuccessful? re: HIV costing paper)",
 ,hr_cost,Salary/benefit/etc cost,"Dollars, no commas or $"
 ,hr_hours,Human hours,Hours
-Capacity,staff_hired_count_[type],"Number of reported staff hired.  Type can be a count, per population or per (daily?) incidence.",Float
+Capacity,staff_hired_count,"Number of reported staff hired.  Type can be a count, per population or per (daily?) incidence.",Float
+Capacity,staff_hired_per_10kpop,"Number of reported staff hired.  Type can be a count, per population or per (daily?) incidence.",Float
 Efficiency,cases_assigned_[count|perc],Initial set of possible cases assigned to org,"Integer, either number or percent value with no symbols"
+Efficiency,contact_assigned_[count|perc],Initial set of possible contacts assigned to org,"Integer, either number or percent value with no symbols"
 ,cases_not_assigned_[count|perc],Initial set of possible cases not assigned to org,
 ,case_reached_[count|perc],"Org contacted index case, but did not complete interview",
-,case_interviewed_[count|perc],Org completed index case interview,
+,case_interviewed_[count|perc],Org completed index case interview. Percentage is of total cases assigned.,
 ,case_named_contact_count,Number of cases who name at least one contact.  Percent denominator is cases interviewed.,
 ,contact_named_[count|perc],Amount of contacts named by case or perc who reported contacts,
 ,contact_named_household_[count|perc],Amount of contacts named by case or perc who reported contacts,
@@ -15,6 +17,7 @@ Efficiency,cases_assigned_[count|perc],Initial set of possible cases assigned to
 ,contact_interviewed_[count|perc],Org completed secondary case interview,
 ,contact_infected_[count|perc],Secondary contact confirmed infected with covid,
 ,case_reached_from_test_[type],"Time from test (providing specimen) to getting in touch with primary case, type can be added to specify med, mean, etc","Hours, float"
+,contact_reached_from_test_[type],"Time from test (providing specimen) to getting in touch with contact. Type can be added to specify med, mean, etc","Hours, float"
 ,case_positive_from_test_[type],"Time from providing specimen to getting in a positive result type can be added to specify med, mean, etc","Hours, float"
 ,case_reached_from_symptom_[type],"Time from symptom to getting in touch with primary case, type can be added to specify med, mean, etc",
 ,case_reached_from_exposure_[type],"Time from exposure to getting in touch with primary case, type can be added to specify med, mean, etc",

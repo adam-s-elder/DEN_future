@@ -148,9 +148,15 @@ parameter_notes_df <-
 parameter_notes_df <- parameter_notes_df |> mutate(
   name = str_replace(pattern = "case_", replacement = "cases_", name),
   name = str_replace(name, "contact_", "contacts_"),
-  name = str_replace(name, "ave", "mean"),
+  name = str_replace(name, "ave|avg", "mean"),
   name = str_replace(name, "total", "count")
 )
+
+# Adding descriptions to variables
+var_descr <- read.csv("../additional_data/variable_definitions.csv")
+
+parameter_notes_df <- add_variable_description(parameter_notes_df, var_descr)
+parameter_notes_df |> filter(is.na(Desc)) |> pull(name) |> unique()
 
 simple_param_df <- parameter_notes_df |> select(
   param_name = name,
