@@ -16,14 +16,16 @@ parse_params <- function(str_vector) {
                            what = c), collapse = "\n"),
             "\nCheck these rows: ",
             paste0(failed_parse_idx, collapse = ", "))
+    split_list <- split_list[-failed_parse_idx]
+    na_mat <- matrix(NA, nrow = length(failed_parse_idx), ncol = 4)
+    na_df <- as.data.frame(na_mat)
+    colnames(na_df) <- colnames(split_param_df)
+  } else {
+    na_df <- NULL
   }
-  split_list <- split_list[-failed_parse_idx]
   split_param_df <- list_transpose(split_list) |>
     map(trimws) |> as.data.frame()
   colnames(split_param_df) <- param_order
-  na_mat <- matrix(NA, nrow = length(failed_parse_idx), ncol = 4)
-  na_df <- as.data.frame(na_mat)
-  colnames(na_df) <- colnames(split_param_df)
   split_param_df <- bind_rows(split_param_df, na_df)
   base_idx <- 1:length(str_vector)
   fix_idx <- c(setdiff(base_idx, failed_parse_idx), failed_parse_idx)

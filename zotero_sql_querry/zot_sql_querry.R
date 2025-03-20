@@ -37,7 +37,7 @@ dbListFields(portaldb, "tags")
 collection_table <- collect(tbl(portaldb, "collections"))
 collection_items_table <- collect(tbl(portaldb, "collectionItems"))
 sr_include_collection_id <-
-  collection_table |> filter(collectionName == "sr_included_articles") |>
+  collection_table |> filter(collectionName == "sr_included_final") |>
   pull(collectionID)
 items_to_keep <-
   collection_items_table |> filter(collectionID == sr_include_collection_id) |>
