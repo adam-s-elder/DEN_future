@@ -53,7 +53,6 @@ annotation_table_df <- annotation_table_df |> mutate(
 tag_idx <- collect(tbl(portaldb, "tags"))
 item_tags <- collect(tbl(portaldb, "itemTags"))
 item_tag_names <- item_tags |> left_join(tag_idx, by = "tagID")
-
 annotations_and_tags <-
   left_join(item_tag_names,
             annotation_table_df |> select(-type), by = "itemID") |>
@@ -144,6 +143,18 @@ parameter_notes_df <-
   parameter_notes_df |> filter(!(name %in% c("manual", "digital"))) |>
   left_join(en_type |> select(itemID, param_type = name), by = "itemID")
 
+double_annotation_articles <- c(
+  "WA Notify: the planning and implementation of a Bluetooth exposure notification tool for COVID-19 pandemic response in Washington State.",
+  "Trading-off privacy and utility: the Washington State experience assessing the performance of a public health digital exposure notification system for  coronavirus disease 2019.",
+  "Defining Key Performance Indicators for the California COVID-19 Exposure Notification System (CA Notify)."
+)
+
+# Removing duplaicate records, Kaitlin's don't provide information on
+# param_type (manual vs digital).
+parameter_notes_df <- parameter_notes_df |> filter(
+  !(value %in% double_annotation_articles & is.na(param_type))
+)
+
 # Adjusting names
 parameter_notes_df <- parameter_notes_df |> mutate(
   name = str_replace(pattern = "case_", replacement = "cases_", name),
@@ -168,6 +179,14 @@ simple_param_df <- parameter_notes_df |> select(
 
 write.csv(simple_param_df, file = "simplified_parameter_df.csv")
 write.csv(parameter_notes_df, file = "full_parameter_df.csv")
+
+parameter_notes_df |> filter(
+  Desc %in% c("Time to reach contact after a case named them",
+              "Time from case testing positive to contact receiving a notification",
+              "Time from test (providing specimen) to getting in touch with contact. Type can be added to specify med, mean, etc") |
+              name %in% c("contacts_reached_from_named_max", "contacts_reached_from_named",
+                          "contacts_reached_from_cases_test_mean")
+) |> View()
 
 # Notes Datatable (this has become depricated since I realized that
 # we can directly access annotations and that single notes (created for
