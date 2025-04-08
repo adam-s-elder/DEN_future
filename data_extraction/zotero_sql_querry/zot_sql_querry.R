@@ -143,16 +143,16 @@ parameter_notes_df <-
   parameter_notes_df |> filter(!(name %in% c("manual", "digital"))) |>
   left_join(en_type |> select(itemID, param_type = name), by = "itemID")
 
-double_annotation_articles <- c(
+duplicate_annotation_articles <- c(
   "WA Notify: the planning and implementation of a Bluetooth exposure notification tool for COVID-19 pandemic response in Washington State.",
   "Trading-off privacy and utility: the Washington State experience assessing the performance of a public health digital exposure notification system for  coronavirus disease 2019.",
   "Defining Key Performance Indicators for the California COVID-19 Exposure Notification System (CA Notify)."
 )
 
-# Removing duplaicate records, Kaitlin's don't provide information on
+# Removing duplicate records, Kaitlin's don't provide information on
 # param_type (manual vs digital).
 parameter_notes_df <- parameter_notes_df |> filter(
-  !(value %in% double_annotation_articles & is.na(param_type))
+  !(value %in% duplicate_annotation_articles & is.na(param_type))
 )
 
 # Adjusting names

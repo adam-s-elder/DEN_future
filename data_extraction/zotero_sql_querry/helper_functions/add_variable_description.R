@@ -11,7 +11,7 @@ add_variable_description <- function(param_df, description_df) {
       return(x)
     } else {
       if (x[2] == "type") {
-        return(paste0(x[1], c("mean", "med", "mode", "count")))
+        return(paste0(x[1], c("mean", "med", "mode", "count", "max")))
       } else if (x[2] == "count|perc") {
         return(paste0(x[1], c("count", "perc")))
       } else {
