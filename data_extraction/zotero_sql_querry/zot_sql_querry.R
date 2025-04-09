@@ -8,9 +8,9 @@ library(dplyr)
 library(rvest)
 library(stringr)
 
-helper_scripts <- list.files("helper_functions/")
+helper_scripts <- list.files("../helper_functions/")
 for (x in helper_scripts) {
-  source(paste0("helper_functions/", x))
+  source(paste0("../helper_functions/", x))
 }
 
 portaldb <- dbConnect(RSQLite::SQLite(), zotero_loc)
@@ -163,30 +163,17 @@ parameter_notes_df <- parameter_notes_df |> mutate(
   name = str_replace(name, "total", "count")
 )
 
-# Adding descriptions to variables
-var_descr <- read.csv("../additional_data/variable_definitions.csv")
-
-parameter_notes_df <- add_variable_description(parameter_notes_df, var_descr)
-parameter_notes_df |> filter(is.na(Desc)) |> pull(name) |> unique()
-
+#  Creating simplified data frame
 simple_param_df <- parameter_notes_df |> select(
-  param_name = name,
   all_of(param_order),
   source = value,
   param_type,
   source_text = text,
+  param_name = name,
 ) |> filter(!is.na(param_value))
 
-write.csv(simple_param_df, file = "simplified_parameter_df.csv")
-write.csv(parameter_notes_df, file = "full_parameter_df.csv")
-
-parameter_notes_df |> filter(
-  Desc %in% c("Time to reach contact after a case named them",
-              "Time from case testing positive to contact receiving a notification",
-              "Time from test (providing specimen) to getting in touch with contact. Type can be added to specify med, mean, etc") |
-              name %in% c("contacts_reached_from_named_max", "contacts_reached_from_named",
-                          "contacts_reached_from_cases_test_mean")
-) |> View()
+write.csv(simple_param_df, file = "output/simplified_parameter_df.csv")
+write.csv(parameter_notes_df, file = "output/full_parameter_df.csv")
 
 # Notes Datatable (this has become depricated since I realized that
 # we can directly access annotations and that single notes (created for
