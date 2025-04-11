@@ -9,6 +9,9 @@ parse_params <- function(str_vector) {
   split_list_fix <- fix_split_list(split_list[non4split_length])
   split_list[non4split_length] <- split_list_fix$new_split
   failed_parse_idx <- non4split_length[split_list_fix$problem_idx]
+  split_param_df <- list_transpose(split_list) |>
+    map(trimws) |> as.data.frame()
+  colnames(split_param_df) <- param_order
   if (length(failed_parse_idx) > 0) {
     warning("Some parameters were not coded properly and have an incorrect format: \n",
             paste0(do.call(split_list[failed_parse_idx] |>
@@ -23,9 +26,6 @@ parse_params <- function(str_vector) {
   } else {
     na_df <- NULL
   }
-  split_param_df <- list_transpose(split_list) |>
-    map(trimws) |> as.data.frame()
-  colnames(split_param_df) <- param_order
   split_param_df <- bind_rows(split_param_df, na_df)
   base_idx <- 1:length(str_vector)
   fix_idx <- c(setdiff(base_idx, failed_parse_idx), failed_parse_idx)
