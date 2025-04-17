@@ -114,23 +114,6 @@ parameter_notes_df <- left_join(
   wanted_field_value_df |> rename(articleItemID = itemID),
   by = "articleItemID")
 
-parameter_info_list <- parse_params(parameter_notes_df$param_value)
-parameter_notes_df <- bind_cols(
-  parameter_notes_df |> rename(param_string = param_value),
-  parameter_info_list$param_df
-)
-
-collapsed_vals <- parameter_notes_df |> select(all_of(param_order)) |> apply(
-  1, FUN = paste0, collapse = ", "
-)
-
-non_match <- which(parameter_notes_df$param_string != collapsed_vals)
-non_match <- setdiff(non_match, which(is.na(parameter_notes_df$param_value)))
-if (length(non_match) > 0) {
-  warning("Some parsing failed. Check rows ",
-          paste0(non_match, collapse = ", "))
-}
-
 en_type <- parameter_notes_df |> filter(name %in% c("manual", "digital")) |>
   select(name, itemID)
 
@@ -155,21 +138,58 @@ parameter_notes_df <- parameter_notes_df |> filter(
   !(value %in% duplicate_annotation_articles & is.na(param_type))
 )
 
+duplicate_comments <-
+  parameter_notes_df |> group_by(param_value, name) |> count() |> filter(n > 1)
+if (nrow(duplicate_comments) > 4) {
+  warning("There should be only four duplicate comments. Currently there are ",
+          nrow(duplicate_comments))
+}
+
+parameter_notes_df <- parameter_notes_df |> group_by(param_value, name) |>
+  filter(row_number() == 1) |>
+  ungroup()
+
+parameter_info_list <- parse_params(
+  parameter_notes_df$param_value,
+  parameter_notes_df$name,
+  parameter_notes_df$value,
+  param_order
+  )
+
+parsed_param_notes <- left_join(
+    parameter_notes_df |>
+      rename(comment_string = param_value,
+             source = value, param_name = name),
+    parameter_info_list$param_df, by = c("comment_string", "source",
+                                         "param_name")
+)
+
+collapsed_vals <- parsed_param_notes |> select(all_of(param_order)) |> apply(
+  1, FUN = paste0, collapse = ", "
+)
+
+non_match <- which(parsed_param_notes$comment_string != collapsed_vals)
+non_match <- setdiff(non_match, which(is.na(parsed_param_notes$param_value)))
+if (length(non_match) > 0) {
+  warning("Some parsing failed. Check rows ",
+          paste0(non_match, collapse = ", "))
+}
+
 # Adjusting names
-parameter_notes_df <- parameter_notes_df |> mutate(
-  name = str_replace(pattern = "case_", replacement = "cases_", name),
-  name = str_replace(name, "contact_", "contacts_"),
-  name = str_replace(name, "ave|avg", "mean"),
-  name = str_replace(name, "total", "count")
+parsed_param_notes <- parsed_param_notes |> mutate(
+  param_name = str_replace(pattern = "case_", replacement = "cases_", param_name),
+  param_name = str_replace(param_name, "contact_", "contacts_"),
+  param_name = str_replace(param_name, "ave|avg", "mean"),
+  param_name = str_replace(param_name, "total", "count")
 )
 
 #  Creating simplified data frame
-simple_param_df <- parameter_notes_df |> select(
+simple_param_df <- parsed_param_notes |> select(
   all_of(param_order),
-  source = value,
+  source,
   param_type,
+  param_name,
   source_text = text,
-  param_name = name,
 ) |> filter(!is.na(param_value))
 
 write.csv(simple_param_df, file = "output/simplified_parameter_df.csv")
