@@ -20,11 +20,11 @@ ag_data_final <- ag_data_numeric |>
     parameter = case_when(
       parameter == "Total # of Cases Reported to Health Departments" ~ "cases_assigned_count",
       parameter == "Total # of Cases Completing an Interview" ~ "cases_interviewed_count",
-      parameter == "Total # of Cases that Provided at Least 1 Contact" ~ "case_named_contact_count",
-      parameter == "Total # of Contacts Identified" ~ "conact_named_count",
-      parameter == "Total # of Contacts Notified" ~ "contact_reached_count",
+      parameter == "Total # of Cases that Provided at Least 1 Contact" ~ "cases_named_contacts_count",
+      parameter == "Total # of Contacts Identified" ~ "contacts_named_count",
+      parameter == "Total # of Contacts Notified" ~ "contacts_reached_count",
       parameter == "Total # of Cases known as Contacts within the previous 14 Days" ~ "cases_were_contacts_count",
-      parameter == "Total # of Contacts Tested within 14 Days of Notification" ~ "contact_tested_count",
+      parameter == "Total # of Contacts Tested within 14 Days of Notification" ~ "contacts_tested_count",
     ),
     location = "64 HD accross US and collonies"
   ) |> select(-date) |> rename(param = parameter)
@@ -48,19 +48,19 @@ parse_params <- function(string) {
 # the two sources.
 
 col_key <-
-  c("Mean % of Cases Completing an Interview\n(n, median %)" = "case_interviewed_perc",
-    "Mean % of Cases that Provided at Least 1 Contact during Interview\n(n, median %)" = "case_named_contact_perc",
-    "Mean # of Contacts Identified from Cases Completing an Interview (n, median #)" = "contact_named_interviewed",
-    "Mean # of Contacts Identified from Cases Providing Contacts (n, median #)" = "contact_named_namers",
-    "Mean % of Contacts Identified who were Notified (n, median %)" = "contact_reached_perc",
-    "Mean % of Contacts Notified who are Tested within 14 days (n, median %)" = "contact_test_of_notified-",
+  c("Mean % of Cases Completing an Interview\n(n, median %)" = "hd_cases_interviewed_perc",
+    "Mean % of Cases that Provided at Least 1 Contact during Interview\n(n, median %)" = "hd_percent_naming_contcts",
+    "Mean # of Contacts Identified from Cases Completing an Interview (n, median #)" = "hd_contacts_named_ratio_mean",
+    "Mean # of Contacts Identified from Cases Providing Contacts (n, median #)" = "hd_contacts_named_ratio_mean_cases_naming",
+    "Mean % of Contacts Identified who were Notified (n, median %)" = "hd_contacts_reached_perc",
+    "Mean % of Contacts Notified who are Tested within 14 days (n, median %)" = "hd_contacts_test_from_notified",
     "Mean % of Cases Reported to HD that were previously known as Contacts within the Past 14 Days\n(n, median %)" =
-      "cases_were_contact_perc",
-    "Mean # of reported days between speciment collection and report of case to health department\n(n, median #)" = "case_positive_from_test",
+      "hd_cases_was_contacts_perc",
+    "Mean # of reported days between speciment collection and report of case to health department\n(n, median #)" = "hd_cases_positive_from_test_mean",
     "Mean # of reported days between the report of case to health department and case interview completion (n, median #)" =
-      "case_interviewed_from_positive",
+      "hd_cases_reached_from_test_mean",
     "Mean # of reported days between case interview completion and contact notification\n(n, median #)" =
-      "contact_reached_from_named")
+      "hd_contacts_reached_from_named_mean")
 
 expanded_data <- dept_data |> select(-X) |> map(.f = function(x) {
   month_df <- x |> parse_params()
@@ -100,8 +100,9 @@ dates <- paste0(c(NA, rep(2020, 2), rep(2021, 12)), "-", wf_data[1, ])
 colnames(wf_data) <- dates
 wf_data <- wf_data[-1, ]
 wf_data$param <- c("staff_hired_ci_count", "staff_hired_ct_count",
-                   "staff_hired_ci_per_hd_mean", "staff_hired_ct_per_hd_mean",
-                   "cases_per_staff_month", "conacts_per_staff_month")
+                   "staff_hired_ci_per_health_dept_mean",
+                   "staff_hired_ct_per_health_dept_mean",
+                   "cases_per_staff_month", "contacts_per_staff_month")
 
 workforce_data <- wf_data |> select(-`NA-`) |>
   pivot_longer(-param, names_to = "start_date", values_to = "value") |>

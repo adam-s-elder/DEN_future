@@ -8,9 +8,9 @@ library(dplyr)
 library(rvest)
 library(stringr)
 
-helper_scripts <- list.files("helper_functions/")
+helper_scripts <- list.files("../helper_functions/")
 for (x in helper_scripts) {
-  source(paste0("helper_functions/", x))
+  source(paste0("../helper_functions/", x))
 }
 
 portaldb <- dbConnect(RSQLite::SQLite(), zotero_loc)
@@ -114,23 +114,6 @@ parameter_notes_df <- left_join(
   wanted_field_value_df |> rename(articleItemID = itemID),
   by = "articleItemID")
 
-parameter_info_list <- parse_params(parameter_notes_df$param_value)
-parameter_notes_df <- bind_cols(
-  parameter_notes_df |> rename(param_string = param_value),
-  parameter_info_list$param_df
-)
-
-collapsed_vals <- parameter_notes_df |> select(all_of(param_order)) |> apply(
-  1, FUN = paste0, collapse = ", "
-)
-
-non_match <- which(parameter_notes_df$param_string != collapsed_vals)
-non_match <- setdiff(non_match, which(is.na(parameter_notes_df$param_value)))
-if (length(non_match) > 0) {
-  warning("Some parsing failed. Check rows ",
-          paste0(non_match, collapse = ", "))
-}
-
 en_type <- parameter_notes_df |> filter(name %in% c("manual", "digital")) |>
   select(name, itemID)
 
@@ -155,38 +138,62 @@ parameter_notes_df <- parameter_notes_df |> filter(
   !(value %in% duplicate_annotation_articles & is.na(param_type))
 )
 
-# Adjusting names
-parameter_notes_df <- parameter_notes_df |> mutate(
-  name = str_replace(pattern = "case_", replacement = "cases_", name),
-  name = str_replace(name, "contact_", "contacts_"),
-  name = str_replace(name, "ave|avg", "mean"),
-  name = str_replace(name, "total", "count")
+duplicate_comments <-
+  parameter_notes_df |> group_by(param_value, name) |> count() |> filter(n > 1)
+if (nrow(duplicate_comments) > 4) {
+  warning("There should be only four duplicate comments. Currently there are ",
+          nrow(duplicate_comments))
+}
+
+parameter_notes_df <- parameter_notes_df |> group_by(param_value, name) |>
+  filter(row_number() == 1) |>
+  ungroup()
+
+parameter_info_list <- parse_params(
+  parameter_notes_df$param_value,
+  parameter_notes_df$name,
+  parameter_notes_df$value,
+  param_order
+  )
+
+parsed_param_notes <- left_join(
+    parameter_notes_df |>
+      rename(comment_string = param_value,
+             source = value, param_name = name),
+    parameter_info_list$param_df, by = c("comment_string", "source",
+                                         "param_name")
 )
 
-# Adding descriptions to variables
-var_descr <- read.csv("../additional_data/variable_definitions.csv")
+collapsed_vals <- parsed_param_notes |> select(all_of(param_order)) |> apply(
+  1, FUN = paste0, collapse = ", "
+)
 
-parameter_notes_df <- add_variable_description(parameter_notes_df, var_descr)
-parameter_notes_df |> filter(is.na(Desc)) |> pull(name) |> unique()
+non_match <- which(parsed_param_notes$comment_string != collapsed_vals)
+non_match <- setdiff(non_match, which(is.na(parsed_param_notes$param_value)))
+if (length(non_match) > 0) {
+  warning("Some parsing failed. Check rows ",
+          paste0(non_match, collapse = ", "))
+}
 
-simple_param_df <- parameter_notes_df |> select(
-  param_name = name,
+# Adjusting names
+parsed_param_notes <- parsed_param_notes |> mutate(
+  param_name = str_replace(pattern = "case_", replacement = "cases_", param_name),
+  param_name = str_replace(param_name, "contact_", "contacts_"),
+  param_name = str_replace(param_name, "ave|avg", "mean"),
+  param_name = str_replace(param_name, "total", "count")
+)
+
+#  Creating simplified data frame
+simple_param_df <- parsed_param_notes |> select(
   all_of(param_order),
-  source = value,
+  source,
   param_type,
+  param_name,
   source_text = text,
 ) |> filter(!is.na(param_value))
 
-write.csv(simple_param_df, file = "simplified_parameter_df.csv")
-write.csv(parameter_notes_df, file = "full_parameter_df.csv")
-
-parameter_notes_df |> filter(
-  Desc %in% c("Time to reach contact after a case named them",
-              "Time from case testing positive to contact receiving a notification",
-              "Time from test (providing specimen) to getting in touch with contact. Type can be added to specify med, mean, etc") |
-              name %in% c("contacts_reached_from_named_max", "contacts_reached_from_named",
-                          "contacts_reached_from_cases_test_mean")
-) |> View()
+write.csv(simple_param_df, file = "output/simplified_parameter_df.csv")
+write.csv(parameter_notes_df, file = "output/full_parameter_df.csv")
 
 # Notes Datatable (this has become depricated since I realized that
 # we can directly access annotations and that single notes (created for
