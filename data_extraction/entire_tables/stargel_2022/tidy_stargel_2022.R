@@ -116,8 +116,10 @@ workforce_data <- wf_data |> select(-`NA-`) |>
 
 final_combined <- bind_rows(workforce_data, ag_data_final, hd_perf_data) |>
   mutate(source = "Case Investigation and Contact Tracing Efforts From Health Departments in the United States, November 2020 to December 2021.") |>
+  mutate(pm_start_date = format(start_date, "%m/%d/%Y"),
+         pm_end_date = format(end_date, "%m/%d/%Y")) |>
+  select(-start_date, -end_date) |>
   rename(param_name = param, param_value = value,
-         pm_start_date = start_date, pm_end_date = end_date,
          pm_location = location)
 
 write_csv(final_combined, file = "output/final_combined.csv")
