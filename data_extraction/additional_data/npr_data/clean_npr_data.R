@@ -1,12 +1,13 @@
 # Extracting the number of case investigators for each state
 # From the NPR database.
+library(tidyverse)
 
-may_2021 <- readxl::read_xlsx("../additional_data/npr_jhu_data.xlsx",
+may_2021 <- readxl::read_xlsx("npr_jhu_data.xlsx",
                               sheet = "May 2021")
-sept_2021 <- readxl::read_xlsx("../additional_data/npr_jhu_data.xlsx",
+sept_2021 <- readxl::read_xlsx("npr_jhu_data.xlsx",
                               sheet = "September 2021",
                               range = readxl::cell_rows(1:57))
-dec_2021 <- readxl::read_xlsx("../additional_data/npr_jhu_data.xlsx",
+dec_2021 <- readxl::read_xlsx("npr_jhu_data.xlsx",
                               sheet = "December 2021",
                               range = readxl::cell_rows(1:57))
 
