@@ -3,7 +3,7 @@ zotero_data <- read.csv("zotero_sql_querry/output/simplified_parameter_df.csv")
 stargel_data <-
   read.csv("entire_tables/stargel_2022/output/final_combined.csv") |>
   mutate(param_type = "manual")
-npr_data <- read.csv("additional_data/npr_data_clean.csv") |>
+npr_data <- read.csv("additional_data/npr_data/npr_data_clean.csv") |>
   mutate(param_type = "manual")
 
 combined_data <-
