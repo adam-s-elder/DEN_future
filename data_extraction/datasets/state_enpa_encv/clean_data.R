@@ -134,6 +134,14 @@ comb_dat |> group_by(pm_location, pm_start_date, pm_end_date) |>
              xmax = pm_end_date, color = as.factor(num_params))) +
   geom_linerange(position = position_dodge2(width = 1)) + scale_x_date()
 
+# Above we found that the second dataset has no unique data,
+# in the sense of having some more date ranges, but only including
+# a subset of the states.  Additionally, some of the data in the
+# second dataset has smaller cumulative counts despite being a
+# strictly larger date range.  Thus we exclude the second dataset
+# from the data analysis for now.  If these inaccuracies can be
+# resolved at some later point we will use the second dataset.
+
 setdiff(
   usage_one_final$pm_location |> unique(),
   usage_two_long$pm_location |> unique()
@@ -143,10 +151,71 @@ setdiff(
   usage_one_final$pm_location |> unique()
 )
 
-# The following are the groupings for each unique method that is needed
-# to break down longer periods into smaller ones (when we get to it).....
-# WA, MN, MA, HI, DC
-# NV
-# CA
-# MD, MO
-# NM
+split_data <- usage_one_final  |>
+  mutate(pm_start_date = lubridate::ymd(pm_start_date),
+         pm_end_date = lubridate::ymd(pm_end_date)) |>
+  mutate(loc = pm_location, pn = param_name) |>
+  group_by(pm_location, param_name) |>
+  nest() |>
+  mutate(
+    new_param_df = map(data, .f = function(x) {
+      if (nrow(x) == 1) {
+        return_df <- x
+      } else {
+        end_dates <- x |> group_by(pm_end_date) |> count()
+        shared_end_dates <- end_dates |> filter(n > 1) |>
+          pull(pm_end_date)
+        new_row_info <-
+          x |> filter(pm_end_date == shared_end_dates) |>
+          arrange(pm_start_date)
+        source <- new_row_info$source[1]
+        ## Creating the observation for the earlier sub-period
+        start_date <- new_row_info$pm_start_date[1]
+        end_date <- new_row_info$pm_start_date[2]
+        param_value <- new_row_info$param_value[1] -
+          new_row_info$param_value[2]
+        # if (param_value < 0) browser()
+        new_row_one <- data.frame(
+          pm_start_date = start_date,
+          pm_end_date = end_date,
+          param_value = param_value)
+        new_row_two <- data.frame(
+          pm_start_date = end_date,
+          pm_end_date = shared_end_dates,
+          param_value = new_row_info$param_value[2])
+        # Calculating the third piece:
+        new_rows <- bind_rows(new_row_one, new_row_two) |>
+          mutate(source = source,
+                 param_type = "digital",
+                 df_num = "calculated")
+        return_df <- x |> bind_rows(new_rows)
+      }
+      return_df <- return_df |> mutate(
+        param_name = x$pn[1],
+        pm_location = x$loc[1]
+      ) |> select(-pn, -loc)
+    })
+    )
+
+split_data <- split_data$new_param_df |> do.call(what = bind_rows)
+
+split_data |>
+  mutate(pm_start_date = lubridate::ymd(pm_start_date),
+         pm_end_date = lubridate::ymd(pm_end_date)) |>
+  group_by(pm_end_date,
+           param_name, pm_location) |>
+  mutate(row_num = row_number()) |> ungroup() |>
+  ggplot(aes(y = row_num,
+             xmin = pm_start_date, xmax = pm_end_date,
+             color = as.factor(df_num))) +
+  geom_errorbar(position = position_dodge(width = 0.3)) +
+  scale_x_date() +
+  facet_wrap(~ interaction(pm_location, param_name))
+
+final_data <- split_data |> group_by(pm_location, param_name) |>
+  mutate(num_measures = n()) |>
+  filter((num_measures == 1) | (df_num == "calculated")) |>
+  select(-num_measures, -df_num) |>
+  write.csv("output/ENPA_ENCV_usage.csv",
+            row.names = FALSE)
+

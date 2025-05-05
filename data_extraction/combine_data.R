@@ -28,7 +28,6 @@ combined_data <- bind_rows(
   zotero_data |> select(-X), do.call(output_data, what = bind_rows)
 )
 
-
 # Adding descriptions to variables
 var_descr <- read.csv("datasets/variable_definitions.csv") |>
   mutate(Name = str_replace(pattern = "case_",

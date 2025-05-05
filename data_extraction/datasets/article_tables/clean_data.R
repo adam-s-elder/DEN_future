@@ -58,7 +58,7 @@ col_key <-
       "hd_cases_was_contacts_perc",
     "Mean # of reported days between speciment collection and report of case to health department\n(n, median #)" = "hd_cases_positive_from_test_mean",
     "Mean # of reported days between the report of case to health department and case interview completion (n, median #)" =
-      "hd_cases_reached_from_test_mean",
+      "hd_cases_reached_from_positive_mean",
     "Mean # of reported days between case interview completion and contact notification\n(n, median #)" =
       "hd_contacts_reached_from_named_mean")
 
