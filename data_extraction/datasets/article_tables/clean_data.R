@@ -4,7 +4,7 @@
 library(tidyverse)
 
 ## Aggregate count data
-ag_data <- read.csv("input/total_counts.csv")
+ag_data <- read.csv("input/stargel_2022/total_counts.csv")
 
 ag_data_numeric <- ag_data |> mutate(across(-1, .fns = function(x) {
   as.numeric(stringr::str_remove_all(x, ","))
@@ -30,7 +30,7 @@ ag_data_final <- ag_data_numeric |>
   ) |> select(-date) |> rename(param = parameter)
 
 ## Per-Department Summaries
-dept_data <- read.csv("input/by_dept_ave.csv")
+dept_data <- read.csv("input/stargel_2022/by_dept_ave.csv")
 
 parse_params <- function(string) {
   split_string <- string |> str_split(pattern = ",|\n") |>
@@ -58,7 +58,7 @@ col_key <-
       "hd_cases_was_contacts_perc",
     "Mean # of reported days between speciment collection and report of case to health department\n(n, median #)" = "hd_cases_positive_from_test_mean",
     "Mean # of reported days between the report of case to health department and case interview completion (n, median #)" =
-      "hd_cases_reached_from_test_mean",
+      "hd_cases_reached_from_positive_mean",
     "Mean # of reported days between case interview completion and contact notification\n(n, median #)" =
       "hd_contacts_reached_from_named_mean")
 
@@ -94,7 +94,7 @@ hd_perf_data <- list_transpose(list_with_dates) |> map(.f = function(x) {
 )
 
 ## Workforce data
-wf_data <- read.csv("input/case_investigators_workforce_estimates.csv")
+wf_data <- read.csv("input/stargel_2022/case_investigators_workforce_estimates.csv")
 
 dates <- paste0(c(NA, rep(2020, 2), rep(2021, 12)), "-", wf_data[1, ])
 colnames(wf_data) <- dates
@@ -117,7 +117,8 @@ workforce_data <- wf_data |> select(-`NA-`) |>
 final_combined <- bind_rows(workforce_data, ag_data_final, hd_perf_data) |>
   mutate(source = "Case Investigation and Contact Tracing Efforts From Health Departments in the United States, November 2020 to December 2021.") |>
   mutate(pm_start_date = format(start_date, "%m/%d/%Y"),
-         pm_end_date = format(end_date, "%m/%d/%Y")) |>
+         pm_end_date = format(end_date, "%m/%d/%Y"),
+         param_type = "manual") |>
   select(-start_date, -end_date) |>
   rename(param_name = param, param_value = value,
          pm_location = location)
