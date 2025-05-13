@@ -126,7 +126,9 @@ usage_two_long <- pivot_longer(usage_two |> select(-date_range),
 comb_dat <- bind_rows(usage_one_final, usage_two_long)
 comb_dat <- comb_dat |>
   mutate(pm_start_date = lubridate::ymd(pm_start_date),
-         pm_end_date = lubridate::ymd(pm_end_date))
+         pm_end_date = lubridate::ymd(pm_end_date),
+         pm_start_date = format(pm_start_date, "%m/%d/%Y"),
+         pm_end_date = format(pm_end_date, "%m/%d/%Y"))
 
 comb_dat |> group_by(pm_location, pm_start_date, pm_end_date) |>
   summarise(num_params = n()) |>
@@ -214,8 +216,9 @@ split_data |>
 
 final_data <- split_data |> group_by(pm_location, param_name) |>
   mutate(num_measures = n()) |>
+  mutate(pm_start_date = format(pm_start_date, "%m/%d/%Y"),
+         pm_end_date = format(pm_end_date, "%m/%d/%Y")) |>
   filter((num_measures == 1) | (df_num == "calculated")) |>
-  select(-num_measures, -df_num) |>
-  write.csv("output/ENPA_ENCV_usage.csv",
-            row.names = FALSE)
+  select(-num_measures, -df_num)
+final_data |> write.csv("output/ENPA_ENCV_usage.csv", row.names = FALSE)
 

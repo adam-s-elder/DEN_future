@@ -1,6 +1,7 @@
 library(tidyverse)
 
-generation_times <- read.csv("../data_extraction/additional_data/wa_cases_averted/generation_times.csv")
+generation_times <-
+  read.csv("../data_extraction/datasets/wa_cases_averted/generation_times.csv")
 
 generation_times |> group_by(variant) |>
   arrange(days) |> mutate(
@@ -20,4 +21,5 @@ generation_times |> group_by(variant) |>
                names_to = "type", values_to = "value") |>
   ggplot(aes(x = days, y = value)) + geom_line(aes(color = type)) +
   facet_wrap(~ variant)
+
 age standarized meanin

@@ -45,6 +45,9 @@ fin_df <- fin_df |> mutate(param_name = "staff_hired_ct_count",
     pm_end_date = rollforward(
       pm_start_date, roll_to_first = TRUE, preserve_hms = TRUE),
     param_type = "manual", source = "NPR JHU colaborative survey")
+fin_df <- fin_df |> mutate(
+  pm_start_date = format(pm_start_date, "%m/%d/%Y"),
+  pm_end_date = format(pm_end_date, "%m/%d/%Y"))
 write.csv(fin_df, "output/npr_data_clean.csv")
 
 
