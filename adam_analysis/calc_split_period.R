@@ -8,13 +8,20 @@ dataset <- read_csv("../data_extraction/output/combined_data.csv")
 dataset <- dataset |> mutate(
   pm_start_date = lubridate::mdy(pm_start_date),
   pm_end_date = lubridate::mdy(pm_end_date),
+  param_type = ifelse(is.na(param_type), "manual", param_type),
 )
+
+dataset <- dataset |> mutate(
+  param_type = ifelse(is.na(param_type), "manual", param_type),
+  source = paste0(source, "%%%", pm_location, "%%%", param_type))
 
 splitting_info <- matrix(
   c("hd_contacts_test_from_notified_median",  "med", "E", "yes",
     "hd_cases_positive_from_test_mean_median", "med", "B", "yes",
     "hd_cases_reached_from_positive_mean_median", "med", "C", "yes",
     "hd_contacts_reached_from_named_mean_median", "med", "D", "yes",
+    "cases_test_from_sympt_mean", "mean", "A", "no",
+    "cases_test_from_sympt_med", "med", "A", "no",
     "cases_positive_from_test_mean", "mean", "B", "no",
     "cases_positive_from_test_med",  "med",  "B", "no",
     "hd_cases_positive_from_test_mean_mean", "mean", "B", "yes",
@@ -31,6 +38,7 @@ splitting_info <- matrix(
     "contacts_reached_from_symptom_med", "med", "ABCD", "sympt",
     "contacts_reached_from_test_mean", "mean", "BCD", "no",
     "contacts_reached_from_test_med", "med", "BCD", "no",
+    "contacts_reached_from_positive_mean", "mean", "CD", "no",
     "contacts_reached_from_named_mean", "mean", "D", "no",
     "contacts_reached_from_named_med", "med", "D", "no",
     "hd_contacts_reached_from_named_mean_mean", "mean", "D", "yes",
@@ -49,7 +57,8 @@ case_and_contact_counts <- dataset |> filter(source %in% timing_articles) |>
   filter(param_name %in% c(
     "cases_reached_count", "cases_interviewed_count",
     "contacts_reached_count", "contacts_interviewed_count"))
-case_and_contact_counts$pm_start_date[case_and_contact_counts$param_value == 11003] <- lubridate::mdy("9/26/2021")
+case_and_contact_counts$pm_start_date[
+  case_and_contact_counts$param_value == 11003] <- lubridate::mdy("9/26/2021")
 
 cc_long <- case_and_contact_counts |> pivot_wider(
   id_cols = c("source", "pm_start_date"),
@@ -78,7 +87,14 @@ count_df <- cc_long |> mutate(
     contacts_interviewed_count),
 ) |> select(source, cases_interviewed, contacts_interviewed, pm_start_date)
 
-single_period <- spliting_all |> filter(periods %in% c("A", "B", "C", "D"))
+write.csv(count_df, "intermediate_data/timing_cc_counts.csv",
+          row.names = FALSE)
+
+single_period <- spliting_all |>
+  filter(periods %in% c("A", "B", "C", "D"))
+
+count_df |> filter(grepl("Francisco", source)) |> pull(source) ==
+  single_period |> filter(grepl("Francisco", source)) |> pull(source)
 
 single_period <-
   single_period |> left_join(count_df, by = c("source", "pm_start_date")) |>
@@ -86,7 +102,7 @@ single_period <-
   tidyr::fill(cases_interviewed, .direction = "updown") |>
   tidyr::fill(contacts_interviewed, .direction = "updown")
 
-single_period_averages <- single_period |> ungroup() |> mutate(
+single_period_line_level <- single_period |> ungroup() |> mutate(
   prop_case_int = cases_interviewed / sum(cases_interviewed, na.rm = TRUE),
   prop_cont_int =
     contacts_interviewed / sum(contacts_interviewed, na.rm = TRUE)
@@ -94,7 +110,9 @@ single_period_averages <- single_period |> ungroup() |> mutate(
   prop_to_use = ifelse(periods == "D", prop_cont_int, prop_case_int),
   count_to_use = ifelse(periods == "D", contacts_interviewed,
                         cases_interviewed)
-) |>
+)
+
+single_period_averages <- single_period_line_level |>
   group_by(periods, metric, hd_summary) |> summarise(
   ave_time = sum(prop_to_use * param_value, na.rm = TRUE) /
     sum(prop_to_use, na.rm = TRUE),
@@ -126,58 +144,28 @@ bind_rows(sympt_split, sympt_split_cmpr) |>
 period_aves <- bind_rows(sympt_split, sympt_split_cmpr) |> group_by(periods) |>
   summarise(ave_time = mean(param_value, na.rm = TRUE))
 
-sympt_to_test_ave <- period_aves |> filter(periods == "ABC") |> pull(ave_time) -
+sympt_to_test_ave <- period_aves |>
+  filter(periods == "ABC") |> pull(ave_time) -
   period_aves |> filter(periods == "BC") |> pull(ave_time)
+sympt_to_test_ave / 24
 
-# Incubation Period
-# Creating a table with following values, but by month:
-# | Period | Incubation Period |
-# | ---- | ------ |
-# |2020 (whole year) | 6.5 days (word doc has source) |
-# |2021 Jan - June 30 | 5 days (Appendix of WA Verify has source) |
-# |2021 July - Nov 2021 | 4.4 days (Appendix of WA Verify has source) |
-# |Nov 2021 - onward | 3.4 days See word doc and appendix |
+single_period_averages
 
-inc_period_tab <- tibble(
-  pm_start_date = lubridate::ymd(c(
-    "2020-01-01", "2020-02-01", "2020-03-01", "2020-04-01",
-    "2020-05-01", "2020-06-01", "2020-07-01", "2020-08-01",
-    "2020-09-01", "2020-10-01", "2020-11-01", "2020-12-01",
-    "2021-01-01", "2021-02-01", "2021-03-01", "2021-04-01",
-    "2021-05-01", "2021-06-01",
-    "2021-07-01", "2021-08-01", "2021-09-01", "2021-10-01",
-    "2021-11-01",
-    "2021-12-01", "2022-01-01", "2022-02-01", "2022-03-01"
-  )),
-  ave_time = 24 * rep(c(
-    6.5, 5, 4.4, 3.4
-  ), c(12, 6, 5, 4)),
-  periods = "a"
-)
-
-post_sympt <-
-  single_period_averages |> filter(metric == "mean", hd_summary == "yes") |>
-  ungroup() |> select(periods, ave_time) |>
-  bind_rows(
-    data.frame(periods = "A", "ave_time" = sympt_to_test_ave),
-  )
+impt_df <-
+  bind_rows(bind_cols(periods = "A", ave_time = sympt_to_test_ave),
+          single_period_averages |>
+            filter(metric == "mean", hd_summary == "yes") |> ungroup() |>
+            select(periods, ave_time)) |>
+  mutate(prop_time = ave_time / sum(ave_time))
 
 
-post_sympt_props <-
-  post_sympt |> mutate(reps = 27) |> uncount(weights = reps, .id = "rep") |>
-  mutate(pm_start_date = inc_period_tab$pm_start_date[rep]) |>
-  bind_rows(inc_period_tab) |> select(-rep) |> arrange(desc(pm_start_date)) |>
-  group_by(pm_start_date) |> mutate(
-    prop_time = ave_time / sum(ave_time, na.rm = TRUE),
-  ) |> ungroup()
+# post_sympt_props |>
+#   ggplot(aes(x = pm_start_date, y = prop_time, fill = periods)) +
+#   geom_col()
+#
+# post_sympt_props |>
+#   ggplot(aes(x = pm_start_date, y = ave_time, fill = periods)) +
+#   geom_col()
 
-post_sympt_props |>
-  ggplot(aes(x = pm_start_date, y = prop_time, fill = periods)) +
-  geom_col()
-
-post_sympt_props |>
-  ggplot(aes(x = pm_start_date, y = ave_time, fill = periods)) +
-  geom_col()
-
-post_sympt_props |> write.csv("intermediate_data/props_for_impts.csv", row.names = FALSE)
+impt_df |> write.csv("intermediate_data/props_for_impts.csv", row.names = FALSE)
 splitting_info |> write.csv("intermediate_data/splitting_info.csv", row.names = FALSE)

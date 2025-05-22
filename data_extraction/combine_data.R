@@ -23,7 +23,15 @@ output_data <- pos_folds |> map(.f = function(x) {
 
 # Run Zotero query
 source("zotero_sql_querry/zot_sql_querry.R", chdir = TRUE)
-zotero_data <- read.csv("zotero_sql_querry/output/simplified_parameter_df.csv")
+zotero_data <-
+  read.csv("zotero_sql_querry/output/simplified_parameter_df.csv") |>
+  mutate(
+    pm_start_date = lubridate::mdy(pm_start_date),
+    pm_end_date = lubridate::mdy(pm_end_date),
+    pm_start_date = format(pm_start_date, "%m/%d/%Y"),
+    pm_end_date = format(pm_end_date, "%m/%d/%Y")
+  )
+
 combined_data <- bind_rows(
   zotero_data |> select(-X), do.call(output_data, what = bind_rows)
 )

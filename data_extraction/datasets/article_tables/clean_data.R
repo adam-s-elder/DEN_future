@@ -17,6 +17,8 @@ ag_data_final <- ag_data_numeric |>
     start_date = lubridate::ym(date),
     end_date = add_with_rollback(start_date, preserve_hms = TRUE,
                                  months(1), roll_to_first = TRUE),
+    # start_date = format(start_date, "%m/%d/%Y"),
+    # end_date = format(end_date, "%m/%d/%Y"),
     parameter = case_when(
       parameter == "Total # of Cases Reported to Health Departments" ~ "cases_assigned_count",
       parameter == "Total # of Cases Completing an Interview" ~ "cases_interviewed_count",
@@ -79,7 +81,8 @@ expanded_data <- dept_data |> select(-X) |> map(.f = function(x) {
   return(return_df)
 })
 
-start_dates <- names(expanded_data) |> lubridate::my()
+start_dates <- names(expanded_data) |>
+  gsub(pattern = "X", replacement = "") |> lubridate::ym()
 end_dates <- add_with_rollback(start_dates, preserve_hms = TRUE,
                              months(1), roll_to_first = TRUE)
 
