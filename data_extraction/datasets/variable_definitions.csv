@@ -1,65 +1,71 @@
-﻿Type,Name,Desc,Format
-Cost,monetary_cost,"cost to public health budget This could also be cost per index case, cost per close contact, cost per interviewed case (to delineate the difference in cost when they were unsuccessful? re: HIV costing paper)","Dollars, no commas or $"
-,hr_cost,Salary/benefit/etc cost,"Dollars, no commas or $"
-,hr_hours,Human hours,Hours
-Capacity,staff_hired_count,"Number of reported staff hired.  Type can be a count, per population or per (daily?) incidence.",Float
-Efficiency,cases_assigned_[count|perc],Initial set of possible cases assigned to org,"Integer, either number or percent value with no symbols"
-Efficiency,contact_assigned_[count|perc],Initial set of possible contacts assigned to org,"Integer, either number or percent value with no symbols"
-,cases_not_assigned_[count|perc],Initial set of possible cases not assigned to org,
-,case_reached_[count|perc],"Org contacted index case, but did not complete interview",
-,case_interviewed_[count|perc],Org completed index case interview. Percentage is of total cases assigned.,
-,case_named_contact_household_count,Number of cases who name at least one household contact.  ,
-,case_named_contact_count,Number of cases who name at least one contact.,
-,contacts_named_ratio_[type]_case_naming,The ratio of number of contacts named through case investigations over the number of cases interviewed that reported one or more contacts.  Means and medians are taken with respect to cases. ,
-,contacts_named_ratio_[type]_household,The ratio of number of household contacts named through case investigations over the number of cases interviewed.  Means and medians are taken with respect to cases. ,
-,contacts_named_ratio_[type],The ratio of number of contacts named through case investigations over the number of cases interviewed.  Means and medians are taken with respect to cases. ,
-,contacts_named_perc_household,100 times the Number of contacts named that are household contacts divided by overall number of contacts named,
-,contact_named_[count|perc],Amount of contacts named by case or perc who reported contacts,
-,contact_named_count_household,Number of contacts named who live in the same household as the case naming them.,
-,contact_named_household_[count|perc],Amount of household contacts named by case or perc who reported contacts ,
-,contact_reached_[count|perc],"Org contacted secondary case, but did not complete interview",
-,contact_interviewed_[count|perc],Org completed secondary case interview,
-,contact_test_pos_rate,The overall positivity rate among tested exposures (contacts),
-,percent_naming_contacts,Percent of interviewed contacts that named any number of contacts,
-,case_named_contact_perc,Percent of interviewed contacts that named any number of contacts,
-,case_named_contact_household_perc,Percent of interviewed contacts that named any number of contacts,
-,contact_infected_[count|perc],Secondary contact confirmed infected with covid,
-,case_reached_from_test_[type],"Time from test (providing specimen) to getting in touch with primary case, type can be added to specify med, mean, etc","Hours, float"
-,contact_reached_from_test_[type],"Time from test (providing specimen) to getting in touch with contact. Type can be added to specify med, mean, etc","Hours, float"
-,case_positive_from_test_[type],"Time from providing specimen to getting in a positive result type can be added to specify med, mean, etc","Hours, float"
-,case_reached_from_symptom_[type],"Time from symptom to getting in touch with primary case, type can be added to specify med, mean, etc",
-,case_reached_from_exposure_[type],"Time from exposure to getting in touch with primary case, type can be added to specify med, mean, etc",
-,contact_reached_from_named_[type],Time to reach contact after a case named them,
-,num_users_[type],"Number of users for app at time period, type: min, max, avg, etc",Float
-,notifications_sent_[type],"Number of notifications sent from app at time period, type: min, max, avg, etc. Type can start with per_person or any other description that’s needed",
-,adoption_rate,Rate of adoption amongst whole population considered,"Float, percent value with no symbols"
-,deaths_prevented,Number of death prevented attributed to CI/CT or EN,Integer
-,infections_prevented,Number of death prevented attributed to CI/CT or EN,Integer
-Other,scalability,,
-,methods,,
-,limitations,,
-Experimental,contact_tested_count,Number of contacts who eventually tested.,
-,case_test_to_result_mean,Time (in hours) from case testing to receiving the result,Hours
-,contact_reached_from_case_pos_[type],Time from case testing positive to contact receiving a notification,
-,cases_were_contacts_[count|perc],Total # of Cases known as Contacts within the previous 14 Days,
-,users_with_code,Number of codes claimed by exposure notification app users.  This indicates users acknowledged in the app their positive status and began the process to share this information with others.,
-,user_cases_notifying,Number of cases in which users uploaded keys to notify other app users of a potential exposure.,
-,notifications_recieved_total,Number of times contacts were notified.  Nearly identica to number of contacts notified or contacts reached.,
-,quarantine_adherent_perc,Percentage of inidividuals who didn't leave home for any nonmedical reason during isolation period,
-,contacts_reached_from_exposure_mean,Time in hours from being exposed to case and contact receiving a notification of exposure.,
-,hd_case_interviewed_perc,Mean % of Cases Completing an Interview across all health departments reporting the metrics.,
-,hd_percent_naming_contcts,Mean % of Cases that Provided at Least 1 Contact during Interview,
-,hd_contacts_named_ratio_mean,Mean # of Contacts Identified from Cases Completing an Interview,
-,hd_contacts_named_ratio_mean_case_naming,Mean # of Contacts Identified from Cases Providing Contacts,
-,hd_contact_reached_perc,Mean % of Contacts Identified who were Notified,
-,hd_contact_test_from_notified,Mean % of Contacts Notified who are Tested within 14 days,
-,hd_case_was_contact_perc,Mean % of Cases Reported to HD that were previously known as Contacts within the Past 14 Days,
-,hd_case_positive_from_test_mean,Mean # of reported hours between speciment collection and report of case to health department,
-,hd_case_reached_from_test_mean,Mean # of reported hours between the report of case to health department and case interview completion,
-,hd_contact_reached_from_named_mean,Mean # of reported hours between case interview completion and contact notification.,
-,staff_hired_ci_count,Number of staff hired to conduct case investigations,
-,staff_hired_ct_count,Number of staff hired to conduct contact tracing,
-,staff_hired_ci_per_health_dept_mean,The mean number of case investigators hired across reporting health departments,
-,staff_hired_ct_per_health_dept_mean,The mean number of contact tracers hired across reporting health departments,
-,cases_per_staff_month,The number of cases divided by the number of case investigators across all health departments,
-,contacts_per_staff_month,The number of contacts divided by the number of contact tracers across all health departments,
+﻿Type,Name,Desc,Format,month_imputation_method
+Cost,monetary_cost,"cost to public health budget This could also be cost per index case, cost per close contact, cost per interviewed case (to delineate the difference in cost when they were unsuccessful? re: HIV costing paper)","Dollars, no commas or $",spread_even
+,hr_cost,Salary/benefit/etc cost,"Dollars, no commas or $",spread_even
+,hr_hours,Human hours,Hours,spread_even
+Capacity,staff_hired_count,"Number of reported staff hired.  Type can be a count, per population or per (daily?) incidence.",Float,translate
+Efficiency,cases_assigned_[count|perc],Initial set of possible cases assigned to org,"Integer, either number or percent value with no symbols",spread_cases
+Efficiency,contact_assigned_[count|perc],Initial set of possible contacts assigned to org,"Integer, either number or percent value with no symbols",spread_cases
+,cases_not_assigned_[count|perc],Initial set of possible cases not assigned to org,,spread_cases
+,case_reached_[count|perc],"Org contacted index case, but did not complete interview",,spread_cases
+,case_interviewed_[count|perc],Org completed index case interview. Percentage is of total cases assigned.,,spread_cases
+,case_named_contact_household_count,Number of cases who name at least one household contact.  ,,spread_cases
+,case_named_contact_count,Number of cases who name at least one contact.,,spread_cases
+,contacts_named_ratio_[type]_case_naming,The ratio of number of contacts named through case investigations over the number of cases interviewed that reported one or more contacts.  Means and medians are taken with respect to cases. ,,translate
+,contacts_named_ratio_[type]_household,The ratio of number of household contacts named through case investigations over the number of cases interviewed.  Means and medians are taken with respect to cases. ,,translate
+,contacts_named_ratio_[type],The ratio of number of contacts named through case investigations over the number of cases interviewed.  Means and medians are taken with respect to cases. ,,translate
+,contacts_named_perc_household,100 times the number of contacts named that are household contacts divided by overall number of contacts named,,translate
+,contact_named_[count|perc],Amount of contacts named by case or perc who reported contacts,,spread_cases
+,contact_named_count_household,Number of contacts named who live in the same household as the case naming them.,,spread_cases
+,contact_named_household_[count|perc],Amount of household contacts named by case or perc who reported contacts ,,spread_cases
+,contact_reached_[count|perc],"Org contacted secondary case, but did not complete interview",,spread_cases
+,contact_interviewed_[count|perc],Org completed secondary case interview,,spread_cases
+,contact_test_pos_rate,The overall positivity rate among tested exposures (contacts),,translate
+,percent_naming_contacts,Percent of interviewed contacts that named any number of contacts,,translate
+,case_named_contact_perc,Percent of interviewed contacts that named any number of contacts,,translate
+,case_named_contact_household_perc,Percent of interviewed contacts that named any number of contacts,,translate
+,contact_infected_[count|perc],Secondary contact confirmed infected with covid,,spread_cases
+,case_reached_from_positive_[type],"Time from the health department getting the positive test result to getting in touch with primary case. type can be added to specify med, mean, etc","Hours, float",translate
+,case_reached_from_test_[type],"Time from test (providing specimen) to getting in touch with primary case, type can be added to specify med, mean, etc","Hours, float",translate
+,contact_reached_from_test_[type],"Time from test (providing specimen) to getting in touch with contact. Type can be added to specify med, mean, etc","Hours, float",translate
+,case_test_from_symptom_[type],"Time from becoming symptomatic to  testing (providing specimen). Type can be added to specify med, mean, etc",,translate
+,case_positive_from_test_[type],"Time from providing specimen to getting in a positive result type can be added to specify med, mean, etc","Hours, float",translate
+,case_reached_from_symptom_[type],"Time from symptom to getting in touch with primary case, type can be added to specify med, mean, etc",,translate
+,case_reached_from_exposure_[type],"Time from exposure to getting in touch with primary case, type can be added to specify med, mean, etc",,translate
+,contact_reached_from_named_[type],Time to reach contact after a case named them,,translate
+,contact_reached_from_symptom_[type],Time from case experiencing symptoms for the first time to reaching the contact,,translate
+,contact_reached_from_positive_[type],Time from health department receiving a positive test for the case to reaching the contact,,translate
+,contact_reached_from_exposure_[type],Time to reach contact after they were exposed,,translate
+,num_users_[type],"Number of users for app at time period, type: min, max, avg, etc",Float,translate
+,notifications_sent_[type],"Number of notifications sent from app at time period, type: min, max, avg, etc. Type can start with per_person or any other description that’s needed",,spread_cases
+,adoption_rate,Rate of adoption amongst whole population considered,"Float, percent value with no symbols",translate
+,deaths_prevented,Number of death prevented attributed to CI/CT or EN,Integer,spread_cases
+,infections_prevented,Number of death prevented attributed to CI/CT or EN,Integer,spread_cases
+Other,scalability,,,
+,methods,,,
+,limitations,,,
+Experimental,contact_tested_count,Number of contacts who eventually tested.,,spread_cases
+,case_test_to_result_mean,Time (in hours) from case testing to receiving the result,Hours,translate
+,contact_reached_from_case_pos_[type],Time from case testing positive to contact receiving a notification,,translate
+,cases_were_contacts_[count|perc],Total # of Cases known as Contacts within the previous 14 Days,,spread_cases
+,users_with_code,Number of codes claimed by exposure notification app users.  This indicates users acknowledged in the app their positive status and began the process to share this information with others.,,spread_cases
+,self_report_codes_issued,The number of self reported codes  issued to users by the health department,,spread_cases
+,user_cases_notifying,Number of cases in which users uploaded keys to notify other app users of a potential exposure.,,spread_cases
+,notifications_recieved_total,Number of times contacts were notified.  Nearly identica to number of contacts notified or contacts reached.,,spread_cases
+,quarantine_adherent_perc,Percentage of inidividuals who didn't leave home for any nonmedical reason during isolation period,,translate
+,hd_case_interviewed_perc,Mean % of Cases Completing an Interview across all health departments reporting the metrics.,,translate
+,hd_percent_naming_contcts,Mean % of Cases that Provided at Least 1 Contact during Interview,,translate
+,hd_contacts_named_ratio_mean,Mean # of Contacts Identified from Cases Completing an Interview,,translate
+,hd_contacts_named_ratio_mean_case_naming,Mean # of Contacts Identified from Cases Providing Contacts,,translate
+,hd_contact_reached_perc,Mean % of Contacts Identified who were Notified,,translate
+,hd_contact_test_from_notified,Mean % of Contacts Notified who are Tested within 14 days,,translate
+,hd_case_was_contact_perc,Mean % of Cases Reported to HD that were previously known as Contacts within the Past 14 Days,,translate
+,hd_case_positive_from_test_mean,Mean # of reported hours between specimen collection and report of case to health department,,translate
+,hd_case_reached_from_positive_mean,Mean # of reported hours between the report of case to health department and case interview completion,,translate
+,hd_case_reached_from_test_mean,Mean # of reported hours between the specimen collection and case interview completion,,translate
+,hd_contact_reached_from_named_mean,Mean # of reported hours between case interview completion and contact notification.,,translate
+,staff_hired_ci_count,Number of staff hired to conduct case investigations,,spread_cases
+,staff_hired_ct_count,Number of staff hired to conduct contact tracing,,spread_cases
+,staff_hired_ci_per_health_dept_mean,The mean number of case investigators hired across reporting health departments,,spread_cases
+,staff_hired_ct_per_health_dept_mean,The mean number of contact tracers hired across reporting health departments,,spread_cases
+,cases_per_staff_month,The number of cases divided by the number of case investigators across all health departments,,translate
+,contacts_per_staff_month,The number of contacts divided by the number of contact tracers across all health departments,,translate

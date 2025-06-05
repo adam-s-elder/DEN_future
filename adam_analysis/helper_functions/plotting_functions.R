@@ -1,4 +1,5 @@
 # Invert the order of an axis for a date object.
+library(scales)
 
 c_trans <- function(a, b, breaks = b$breaks, format = b$format, domain = b$domain) {
   a <- as.trans(a)
@@ -26,11 +27,11 @@ theme_altair <- function() {
 }
 # This also needs to be added for the altair theme:
 # scale_y_continuous(expand = c(0, 0))
-
-periods_to_label <- c("A" = "Symptoms to Test",
-                      "B" = "Test to Result",
-                      "C" = "Result to Case Notified",
-                      "D" = "Contact Named to Reached")
+#
+# periods_to_label <- c("A" = "Symptoms to Test",
+#                       "B" = "Test to Result",
+#                       "C" = "Result to Case Notified",
+#                       "D" = "Contact Named to Reached")
 
 periods_to_label <- c("Symptoms to Test" = "A",
                       "Test to Result" = "B",

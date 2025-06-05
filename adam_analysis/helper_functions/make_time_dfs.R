@@ -1,7 +1,7 @@
 # Calculate the data required to create the stacked bar charts
 # that we present in the report.
 
-calc_time_df <- function(long_time_data, split_info, ave_period_lens) {
+deduplicate_and_remove_overlap <- function(long_time_data, split_info) {
   hd_data <- any(grepl("hd_", long_time_data$param_name))
   if (hd_data) {
     split_data <- split_info |> filter(hd_summary == "yes")
@@ -11,7 +11,7 @@ calc_time_df <- function(long_time_data, split_info, ave_period_lens) {
   long_data <- long_time_data |>
     left_join(split_data, by = "param_name") |>
     select(param_name, periods, param_value,
-           pm_start_date, metric, source) |>
+           pm_start_date, metric, source, hd_summary) |>
     mutate(param_value = as.numeric(param_value)) |>
     filter(grepl("A|B|C|D", periods),
            !is.na(param_value))
@@ -43,26 +43,14 @@ calc_time_df <- function(long_time_data, split_info, ave_period_lens) {
       # cat("DATA IN: \n \n ", paste(long_data_m, "\n"))
       long_data_m <- remove_overlap(long_data_m, split_data)
     }
-    # all_results[[metric_value]] <-
     no_ov_data <- long_data_m |> mutate(
       impt_type = "overlap_remove",
       df_type = "removed_overlap")
-    if (nrow(no_ov_data) == 0) browser()
-    inner_impute <- impute_inner(no_ov_data, ave_period_lens)
-    if (nrow(inner_impute) == 0) browser()
-    outer_impute_list <- compute_outer(inner_impute, ave_period_lens)
-    imputed_data <- bind_rows(
-      no_ov_data, inner_impute,
-      outer_impute_list$perc, outer_impute_list$absolute
-    )
-    all_results[[metric_value]] <- imputed_data
+    all_results[[metric_value]] <- no_ov_data
   }
-  return_df <- do.call(what = bind_rows, all_results) |>
-    bind_rows(
-      orig_data |> mutate(
-        impt_type = "original", df_type = "original"
-      )
-    )
+  return_df <- do.call(what = bind_rows, all_results)
+  if (!("hd_summary" %in% colnames(return_df))) browser()
+  if (any(is.na(return_df$periods))) {browser()}
   return(return_df)
 }
 
@@ -118,79 +106,95 @@ remove_overlap <- function(long_metric_data, split_data) {
 }
 
 impute_inner <- function(non_ol_data, prop_impt_df) {
-  inner_impute <- non_ol_data
-  p_list <- non_ol_data$periods |> str_split("")
-  multi_period_rows <- which(p_list |> map(length) |> do.call(what = c) > 1)
-  if (length(multi_period_rows) == 0) {
-    impt_df <- inner_impute
-  } else {
-    impt_df <- inner_impute[-multi_period_rows, ]
-  }
-    impt_df <- impt_df |> mutate(impt_type = "reported", df_type = "inner")
-  for (row_num in multi_period_rows) {
-    period_to_split <- p_list[[row_num]]
-    props_for_split <- prop_impt_df |>
-      filter(periods %in% period_to_split) |> mutate(
-        sub_prop = prop_time / sum(prop_time)
-      )
-    expand_row <- inner_impute[row_num, ]
-    expand_row$cnt <- expand_row$periods |> str_length()
-    expand_row <- expand_row |> uncount(weights = cnt) |>
-      bind_cols(props_for_split |>
-                  select(new_period = periods, prop = sub_prop)) |>
-      mutate(new_param_value = prop * param_value)
-    check <- (abs(expand_row$param_value |> unique() -
-                sum(expand_row$new_param_value)) > 0.01)
-    if (check) browser()
-    expand_row <- expand_row |>
-      mutate(periods = new_period,
-             param_value = new_param_value,
-             impt_type = "inner", df_type = "inner") |>
-      select(-new_period, -new_param_value, -prop)
-    impt_df <- impt_df |> bind_rows(expand_row)
+  metrics_recorded <- non_ol_data |> pull(metric) |> unique()
+  all_results <- list()
+  for (metric_value in metrics_recorded) {
+    inner_impute <- non_ol_data |> filter(metric %in% metric_value)
+    p_list <- inner_impute$periods |> str_split("")
+    multi_period_rows <- which(p_list |> map(length) |> do.call(what = c) > 1)
+    if (length(multi_period_rows) == 0) {
+      impt_df <- inner_impute
+    } else {
+      impt_df <- inner_impute[-multi_period_rows, ]
     }
-  return(impt_df)
+    impt_df <- impt_df |> mutate(impt_type = "reported", df_type = "inner")
+    for (row_num in multi_period_rows) {
+      period_to_split <- p_list[[row_num]]
+      props_for_split <- prop_impt_df |>
+        filter(periods %in% period_to_split) |> mutate(
+          sub_prop = prop_time / sum(prop_time)
+        )
+      expand_row <- inner_impute[row_num, ]
+      expand_row$cnt <- expand_row$periods |> str_length()
+      expand_row <- expand_row |> uncount(weights = cnt) |>
+        bind_cols(props_for_split |>
+                    select(new_period = periods, prop = sub_prop)) |>
+        mutate(new_param_value = prop * param_value)
+      check <- (abs(expand_row$param_value |> unique() -
+                      sum(expand_row$new_param_value)) > 0.01)
+      if (check) browser()
+      expand_row <- expand_row |>
+        mutate(periods = new_period,
+               param_value = new_param_value,
+               impt_type = "inner", df_type = "inner") |>
+        select(-new_period, -new_param_value, -prop)
+      impt_df <- impt_df |> bind_rows(expand_row)
+    }
+    all_results[[metric_value]] <- impt_df
+  }
+  return_df <- do.call(what = bind_rows, all_results)
+  return(return_df)
 }
 
-compute_outer <- function(inner_impute, prop_impt_df) {
-  needed_periods <- setdiff(prop_impt_df$periods, inner_impute$periods)
-  impt_df <- prop_impt_df
-  inner_periods <- inner_impute$periods
-  obs_time <- inner_impute$param_value |> sum()
-  ratio_obs <- impt_df |>
-    mutate(has_obs = as.numeric(periods %in% inner_periods)) |>
-    summarise(inner_time = sum(has_obs * prop_time),
-              total_time = sum(prop_time)) |>
-    mutate(prop_obs = inner_time / total_time) |> pull(prop_obs)
-  outer_impt <- impt_df |> select(-ave_time) |> left_join(
-    inner_impute |> select(periods, param_value, metric, impt_type,
-                           source, pm_start_date, param_name),
-    by = "periods"
-  ) |> mutate(
-    new_param_value = prop_time * obs_time / ratio_obs
-  )
-  check <- outer_impt |> filter(periods %in% inner_periods) |>
-    summarise(old_time = sum(param_value),
-              new_time = sum(new_param_value)) |>
-    mutate(check = abs(old_time - new_time) > 0.01) |>
-    pull(check)
-  if (check) browser()
-  outer_impt_perc <- outer_impt |> mutate(
-    param_value = ifelse(periods %in% inner_periods,
-                         param_value,
-                         new_param_value),
-    impt_type = ifelse(is.na(impt_type), "outer_perc", impt_type),
-    df_type = "outer_perc") |>
-    select(-prop_time, -new_param_value) |>
-    fill(everything(), .direction = "updown")
-  outer_impt_abs <- inner_impute |>
-    bind_rows(
-      impt_df |> filter(periods %in% needed_periods) |>
-        select(param_value = ave_time, periods) |>
-        mutate(impt_type = "outer_abs")
+impute_outer <- function(inner_impute, prop_impt_df) {
+  metrics_recorded <- inner_impute |> pull(metric) |> unique()
+  all_results <- list()
+  for (metric_value in metrics_recorded) {
+    inner_imput_metric <- inner_impute |> filter(metric %in% metric_value)
+    needed_periods <- setdiff(prop_impt_df$periods, inner_imput_metric$periods)
+    impt_df <- prop_impt_df
+    inner_periods <- inner_imput_metric$periods
+    obs_time <- inner_imput_metric$param_value |> sum()
+    ratio_obs <- impt_df |>
+      mutate(has_obs = as.numeric(periods %in% inner_periods)) |>
+      summarise(inner_time = sum(has_obs * prop_time),
+                total_time = sum(prop_time)) |>
+      mutate(prop_obs = inner_time / total_time) |> pull(prop_obs)
+    outer_impt <- impt_df |> select(-ave_time) |> left_join(
+      inner_imput_metric |> select(periods, param_value, metric, impt_type,
+                                   source, pm_start_date, param_name),
+      by = "periods"
+    ) |> mutate(
+      new_param_value = prop_time * obs_time / ratio_obs
+    )
+    check <- outer_impt |> filter(periods %in% inner_periods) |>
+      summarise(old_time = sum(param_value),
+                new_time = sum(new_param_value)) |>
+      mutate(check = abs(old_time - new_time) > 0.01) |>
+      pull(check)
+    if (check) browser()
+    # outer_impt_perc <- outer_impt |> mutate(
+    #   param_value = ifelse(periods %in% inner_periods,
+    #                        param_value,
+    #                        new_param_value),
+    #   impt_type = ifelse(is.na(impt_type), "outer_perc", impt_type),
+    #   df_type = "outer_perc") |>
+    #   select(-prop_time, -new_param_value) |>
+    #   fill(everything(), .direction = "updown")
+    outer_impt_abs <- inner_imput_metric |>
+      bind_rows(
+        impt_df |> filter(periods %in% needed_periods) |>
+          select(param_value = ave_time, periods) |>
+          mutate(impt_type = "outer_abs")
       ) |> fill(everything(), .direction = "updown") |>
-    mutate(df_type = "outer_abs")
-  return(list("perc" = outer_impt_perc, "absolute" = outer_impt_abs))
+      mutate(df_type = "outer_abs")
+    ### TODO: Start here.  We need to have something here to
+    ### allow for an Rbind of all the results post imputation
+    ### Just create two lists and store results in each list seperately
+    ### then transpose and save.
+    all_results[[metric_value]] <- outer_impt_abs
+  }
+  return(do.call(what = bind_rows, all_results))
 }
 
 guess_dates <- function(dates) {
@@ -205,3 +209,4 @@ guess_dates <- function(dates) {
   }
   return(date_parsed)
 }
+

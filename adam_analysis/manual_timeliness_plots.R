@@ -1,19 +1,12 @@
 # Single period time plots
 source("helper_functions/plotting_functions.R")
 all_period_dfs <- read_csv("intermediate_data/all_period_times.csv")
+impt_period_lens <- read_csv("intermediate_data/props_for_impts.csv")
 impt_df <- read_csv("intermediate_data/props_for_impts.csv")
 sp_times <- read_csv("intermediate_data/single_period_times.csv")
 monthly_aves <- read_csv("intermediate_data/monthly_averages.csv")
 
-
-## Calculating Symtpom to Test times
-sympt_times <-
-  all_period_dfs |>
-  filter(
-    periods %in% c("A", "B", "ABC", "AB", "BC"),
-    !(impt_type %in% c("outer_perc", "outer_abs"))
-    )
-
+library(tidyverse)
 sp_times <- sp_times |> mutate(
   periods = as.factor(periods),
   periods = forcats::fct_recode(periods, !!!periods_to_label),
@@ -27,6 +20,8 @@ monthly_aves <- monthly_aves |> mutate(
   periods = factor(x = periods,
                        levels = names(periods_to_label),
                        labels = names(periods_to_label)))
+
+## Exploratory Plot
 
 sp_times |>
   ggplot(aes(x = param_value / 24, y = as.POSIXct(date), size = count,
@@ -50,9 +45,7 @@ single_period_plot <- function(sp_val) {
   sub_df <- monthly_aves |> filter(periods == sp_val) |>
     mutate(
       has_sample_size = !is.na(exclusive_ave),
-      average = ifelse(has_sample_size,
-                       inclusive_ave,
-                       exclusive_ave),
+      average = ifelse(has_sample_size, inclusive_ave, exclusive_ave),
       sample_size = ifelse(has_sample_size, "SS available", "SS unavailable"),
       count = ifelse(has_sample_size, overall_count, 1))
   overall_ave <- sub_df |> group_by(metric) |>
@@ -149,19 +142,19 @@ date_metric_missing <- monthly_wide |> pivot_longer(
 monthly_wide_filled <- monthly_wide |> mutate(
   `Contact Named to Reached` = ifelse(
     is.na(`Contact Named to Reached`),
-    impt_period_lens |> filter(periods == "D") |> pull(ave_time),
+    impt_df |> filter(periods == "D") |> pull(ave_time),
     `Contact Named to Reached`),
   `Result to Case Notified` = ifelse(
     is.na(`Result to Case Notified`),
-    impt_period_lens |> filter(periods == "C") |> pull(ave_time),
+    impt_df |> filter(periods == "C") |> pull(ave_time),
     `Result to Case Notified`),
   `Test to Result` = ifelse(
     is.na(`Test to Result`),
-    impt_period_lens |> filter(periods == "B") |> pull(ave_time),
+    impt_df |> filter(periods == "B") |> pull(ave_time),
     `Test to Result`),
   `Symptoms to Test` = ifelse(
     is.na(`Symptoms to Test`),
-    impt_period_lens |> filter(periods == "A") |> pull(ave_time),
+    impt_df |> filter(periods == "A") |> pull(ave_time),
     `Symptoms to Test`),
 )
 
@@ -199,29 +192,4 @@ long_monthly_with_impt |>
   facet_wrap(~metric) + ggthemes::scale_fill_tableau() +
   ggtitle("Estimated time between case symptom onset and contact notification")
 
-waver
-
-labeled_data |>
-  filter(df_type == "outer_abs", metric == "med",
-         !grepl("Using Automation", source)) |>
-  filter(impt_type_alpha != 0.7) |>
-  ggplot(aes(x = comb_loc_date,
-             y = param_value / 24,
-             fill = periods,
-             linewidth = impt_type_alpha)) +
-  scale_linewidth_continuous(range = c(0, 0.4)) +
-  geom_col(position = "stack", color = "black") + coord_flip() +
-  guides(linewidth = "none") +
-  facet_wrap(~periods, nrow = 1, scales = "free_x")
-
-labeled_data |>
-  filter(df_type == "outer_abs", metric == "mean",
-         !grepl("Using Automation", source)) |>
-  filter(impt_type_alpha != 0.7) |>
-  ggplot(aes(x = comb_loc_date,
-             y = param_value / 24,
-             fill = periods,
-             linewidth = impt_type_alpha)) +
-  scale_linewidth_continuous(range = c(0, 0.4)) +
-  geom_col(position = "stack", color = "black") + coord_flip() +
-  facet_wrap(~periods, nrow = 1) + guides(linewidth = "none")
+write_csv(long_monthly_with_impt, "intermediate_data/monthly_manual_data.csv")

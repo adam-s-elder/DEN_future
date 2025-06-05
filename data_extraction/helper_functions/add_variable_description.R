@@ -32,8 +32,22 @@ add_variable_description <- function(param_df, description_df) {
     map(.f = function(x) {
       return(data.frame("Name" = x[[1]], "param_name" = x[[2]]))
     }) |> do.call(what = bind_rows)
+  new_name_df <- new_name_df |> left_join(
+    description_df |> select(Name, month_imputation_method), by = "Name") |>
+    mutate(
+      # Some variables are [count|perc] in the description dataset.  For
+      # these variables, we will choose to translate the percents and keep
+      # the count based parameters based on the description specified.
+      month_imputation_method = ifelse(
+        grepl("count|perc\\]", Name) & grepl("_perc", param_name),
+        "translate", month_imputation_method)
+    )
+  clean_desc_df <- left_join(
+    new_name_df |> filter(!grepl("hd_", Name)),
+      description_df |> filter(!grepl("hd_", Name)) |>
+                                 select(-month_imputation_method),
+    by = "Name")
   hd_df <- description_df |> filter(grepl("hd_", Name))
-
   expanded_descr <- hd_df$Desc |> map(.f = function(x) {
     descr <- x |> str_split("(\\%|\\#) of")
     metric_type <- x |> str_extract("\\%|\\#")
@@ -44,15 +58,17 @@ add_variable_description <- function(param_df, description_df) {
     paste0(x, c("_mean", "_median", "_hdcount"))
   })
   expanded_hd_df <-
-    suppressMessages(list(expanded_name, expanded_descr) |> list_transpose() |>
+    suppressMessages(list(expanded_name, expanded_descr) |>
+                       list_transpose() |>
     map(bind_cols)) |> bind_rows()
   colnames(expanded_hd_df) <- c("Name", "Desc")
-  clean_desc_df <- left_join(new_name_df |> filter(!grepl("hd_", Name)),
-                             description_df |> filter(!grepl("hd_", Name)),
-                             by = "Name")
+  expanded_hd_df$month_imputation_method <-
+    unique(hd_df$month_imputation_method)
   clean_descr_with_hd <-
-    bind_rows(clean_desc_df |> select(param_name, Desc),
-              expanded_hd_df |> select(param_name = Name, Desc))
+    bind_rows(clean_desc_df |>
+                select(param_name, Desc, month_imputation_method),
+              expanded_hd_df |>
+                select(param_name = Name, Desc, month_imputation_method))
   desc_df <- clean_descr_with_hd |> mutate(
     param_name = str_replace(pattern = "case_",
                              replacement = "cases_", param_name),
@@ -61,7 +77,8 @@ add_variable_description <- function(param_df, description_df) {
     param_name = str_replace(param_name, "total", "count")
   )
   updated_param_df <-
-    param_df |> left_join(desc_df |> select(param_name, Desc),
+    param_df |> left_join(
+      desc_df |> select(param_name, Desc, month_imputation_method),
                           by = "param_name")
   return(updated_param_df)
 }

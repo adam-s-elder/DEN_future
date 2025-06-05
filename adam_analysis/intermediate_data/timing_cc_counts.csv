@@ -1,37 +1,89 @@
 "source","cases_interviewed","contacts_interviewed","pm_start_date"
-"Unified Response to COVID-19 Case Investigation and Contact Tracing, Chicago, December 2020-April 2021.%%%Chicago%%%manual",24450,13117,2020-12-27
-"Outcomes of Contact Tracing in San Francisco, California-Test and Trace During Shelter-in-Place.%%%San Francisco%%%manual",1394,667.256697738294,2020-04-13
-"Lessons Learned From COVID-19 Contact Tracing During a Public Health Emergency: A Prospective Implementation Study.%%%New Haven%%%manual",826,687,2020-04-04
-"Integrating Contact Tracers Into Point-of-Care Testing Workflow to Accelerate the Tracing of People With Exposure to COVID-19, August-December 2020, New York City.%%%New York City communities with higher than average COVID-19 incidence rates%%%manual",8878,5102,2020-08-17
-"Declines in SARS-CoV-2 Transmission, Hospitalizations, and Mortality After Implementation of Mitigation Measures- Delaware, March-June 2020.%%%DE%%%manual",6527,882,2020-03-11
-"COVID-19 Contact Tracing in Two Counties - North Carolina, June-July 2020.%%%Mecklenburg%%%manual",5514,9815,2020-06-01
-"COVID-19 Contact Tracing in Two Counties - North Carolina, June-July 2020.%%%Randolph County%%%manual",584,552,2020-06-15
-"COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.%%%New York City%%%manual",711379,590364,2020-06-01
-"Adapting COVID-19 Contact Tracing Protocols to Accommodate Resource Constraints, Philadelphia, Pennsylvania, USA, 2021.%%%Philadelphia%%%manual",3172,883,2021-06-23
-"Adapting COVID-19 Contact Tracing Protocols to Accommodate Resource Constraints, Philadelphia, Pennsylvania, USA, 2021.%%%Philadelphia%%%manual",4537,1234,2021-09-01
-"A Multifaceted Evaluation of a COVID-19 Contact Tracing Program in King County, Washington.%%%King County%%%manual",42900,NA,2020-07-01
-"Defining Key Performance Indicators for the California COVID-19 Exposure Notification System (CA Notify).%%%California%%%digital",68107,72497.4074041183,2020-12-10
-"Coronavirus Disease Contact Tracing Outcomes and Cost, Salt Lake County, Utah, USA, March-May 2020.%%%Salt Lake City%%%manual",184,857.52655255059,2020-03-01
-"COVID-19 Contact Tracing Outcomes in Washington State, August and October 2020.%%%WA%%%manual",1639,1730,2020-10-01
-"COVID-19 Contact Tracing Outcomes in Washington State, August and October 2020.%%%WA%%%manual",3000,2212,2020-08-01
-"Factors Influencing the Results of COVID-19 Case Outreach-Results From a California Case Investigation/Contact Tracing Program.%%%Members of large CA health care plan%%%manual",6161,NA,2021-01-01
-"Using Automation, Prioritization, and Collaboration to Manage a COVID-19 Case Surge in Maricopa County, Arizona, 2020.%%%Maricopa%%%manual",42924.3801809534,NA,2020-06-30
-"The public health impact of COVID-19 variants of concern on the effectiveness of contact tracing in Vermont, United States.%%%VT%%%manual",11003,NA,2021-09-26
-"The public health impact of COVID-19 variants of concern on the effectiveness of contact tracing in Vermont, United States.%%%VT%%%manual",6558,NA,2021-08-01
-"The public health impact of COVID-19 variants of concern on the effectiveness of contact tracing in Vermont, United States.%%%VT%%%manual",5510,NA,2020-11-25
-"Lessons Learned from the Launch and Implementation of the COVID-19 Contact Tracing Program in New York City: a Qualitative Study.%%%New York%%%manual",1421053,NA,2020-06-01
-"Assessment of a COVID-19 Control Plan on an Urban University Campus During a Second Wave of the Pandemic.%%%Boston University%%%manual",719,837,2020-12-20
-"Case Investigation and Contact Tracing Efforts From Health Departments in the United States, November 2020 to December 2021.%%%64 HD accross US and collonies%%%manual",1859220,940591.810132163,2020-11-01
-"Case Investigation and Contact Tracing Efforts From Health Departments in the United States, November 2020 to December 2021.%%%64 HD accross US and collonies%%%manual",2573653,929503.014214292,2020-12-01
-"Case Investigation and Contact Tracing Efforts From Health Departments in the United States, November 2020 to December 2021.%%%64 HD accross US and collonies%%%manual",2681000,943778.502148795,2021-01-01
-"Case Investigation and Contact Tracing Efforts From Health Departments in the United States, November 2020 to December 2021.%%%64 HD accross US and collonies%%%manual",1553633,720688.409587273,2021-02-01
-"Case Investigation and Contact Tracing Efforts From Health Departments in the United States, November 2020 to December 2021.%%%64 HD accross US and collonies%%%manual",948154,514092.089026186,2021-03-01
-"Case Investigation and Contact Tracing Efforts From Health Departments in the United States, November 2020 to December 2021.%%%64 HD accross US and collonies%%%manual",1138136,617302.987614695,2021-04-01
-"Case Investigation and Contact Tracing Efforts From Health Departments in the United States, November 2020 to December 2021.%%%64 HD accross US and collonies%%%manual",615707,392290.513416621,2021-05-01
-"Case Investigation and Contact Tracing Efforts From Health Departments in the United States, November 2020 to December 2021.%%%64 HD accross US and collonies%%%manual",217527,135269.400815538,2021-06-01
-"Case Investigation and Contact Tracing Efforts From Health Departments in the United States, November 2020 to December 2021.%%%64 HD accross US and collonies%%%manual",526305,186990.652280048,2021-07-01
-"Case Investigation and Contact Tracing Efforts From Health Departments in the United States, November 2020 to December 2021.%%%64 HD accross US and collonies%%%manual",1265108,482469.89525933,2021-08-01
-"Case Investigation and Contact Tracing Efforts From Health Departments in the United States, November 2020 to December 2021.%%%64 HD accross US and collonies%%%manual",1318087,550094.426071411,2021-09-01
-"Case Investigation and Contact Tracing Efforts From Health Departments in the United States, November 2020 to December 2021.%%%64 HD accross US and collonies%%%manual",964733,397345.130525152,2021-10-01
-"Case Investigation and Contact Tracing Efforts From Health Departments in the United States, November 2020 to December 2021.%%%64 HD accross US and collonies%%%manual",922639,326867.207993834,2021-11-01
-"Case Investigation and Contact Tracing Efforts From Health Departments in the United States, November 2020 to December 2021.%%%64 HD accross US and collonies%%%manual",1569451,494907.638837526,2021-12-01
+"Unified Response to COVID-19 Case Investigation and Contact Tracing, Chicago, December 2020-April 2021.%%%Chicago%%%manual",24450,13117,"12/27/2020"
+"Outcomes of Contact Tracing in San Francisco, California-Test and Trace During Shelter-in-Place.%%%San Francisco%%%manual",1394,726.769285124649,"04/13/2020"
+"Lessons Learned From COVID-19 Contact Tracing During a Public Health Emergency: A Prospective Implementation Study.%%%New Haven%%%manual",826,687,"04/04/2020"
+"Implementation of close contact elicitation at the time of COVID-19 testing-Atlanta, GA, October-November 2020.%%%Fulton County%%%manual",12068,NA,"05/01/2020"
+"Integrating Contact Tracers Into Point-of-Care Testing Workflow to Accelerate the Tracing of People With Exposure to COVID-19, August-December 2020, New York City.%%%New York City communities with higher than average COVID-19 incidence rates%%%manual",8878,5102,"08/17/2020"
+"A Patient-Initiated Digital COVID-19 Contact Notification Tool (TellYourContacts): Evaluation Study.%%%United States*%%%digital",NA,1398.51277383376,"05/18/2020"
+"A State Health Department and Health Information Exchange Partnership: An Effective Collaboration for a Data-Driven Response for COVID-19 Contact Tracing  in Maryland.%%%Maryland%%%manual",352356,316363,"06/15/2020"
+"Declines in SARS-CoV-2 Transmission, Hospitalizations, and Mortality After Implementation of Mitigation Measures- Delaware, March-June 2020.%%%DE%%%manual",6527,882,"03/11/2020"
+"COVID-19 Contact Tracing in Two Counties - North Carolina, June-July 2020.%%%Mecklenburg%%%manual",5514,9815,"06/01/2020"
+"COVID-19 Contact Tracing in Two Counties - North Carolina, June-July 2020.%%%Randolph County%%%manual",584,552,"06/15/2020"
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%across US%%%manual",43931,38099.2897415295,"06/01/2020"
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_N%%%manual",2962,583.130517858126,"06/01/2020"
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_M%%%manual",10290,12798.142701374,"06/01/2020"
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_L%%%manual",5228,1767.97169262378,"06/01/2020"
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_K%%%manual",7820,4840.12622236898,"06/01/2020"
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_J%%%manual",369,110.766213563737,"06/01/2020"
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_I%%%manual",5514,7196.23077797956,"06/01/2020"
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_H%%%manual",3961,3929.69940894832,"06/01/2020"
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_G%%%manual",5823,4748.65476858731,"06/01/2020"
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_F%%%manual",405,701.757559481225,"06/01/2020"
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_E%%%manual",655,431.63092253224,"06/01/2020"
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_D%%%manual",136,243.685669840222,"06/01/2020"
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_C%%%manual",144,272.985119879662,"06/01/2020"
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_B%%%manual",584,430.201681066901,"06/01/2020"
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_A%%%manual",40,44.3064854254948,"06/01/2020"
+"COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.%%%New York City%%%manual",711379,590364,"06/01/2020"
+"Adapting COVID-19 Contact Tracing Protocols to Accommodate Resource Constraints, Philadelphia, Pennsylvania, USA, 2021.%%%Philadelphia%%%manual",3172,883,"06/23/2021"
+"Adapting COVID-19 Contact Tracing Protocols to Accommodate Resource Constraints, Philadelphia, Pennsylvania, USA, 2021.%%%Philadelphia%%%manual",4537,1234,"09/01/2021"
+"COVID-19 Case Investigation and Contact Tracing in Central Washington State, June-July 2020.%%%central WA%%%manual",3534,1941,"06/15/2020"
+"Contact tracing: Characteristics of COVID-19 cases that provided contacts.%%%New York except NYC%%%manual",550850,NA,"02/01/2021"
+"Automated Digital Notification of COVID-19 Diagnoses Through Text and Email Messaging - North Carolina, December 2020-January 2021.%%%North Carolina%%%digital",102387.922169759,NA,"01/01/2021"
+"Centering Health Equity Within COVID-19 Contact Tracing: Connecticut's Community Outreach Specialist Program.%%% Connecticut%%%manual",20979.9678387314,NA,"03/23/2021"
+"Centering Health Equity Within COVID-19 Contact Tracing: Connecticut's Community Outreach Specialist Program.%%%Connecticut%%%manual",NA,5680.52020398804,"03/23/2021"
+"Community-Based Workforce for COVID-19 Contact Tracing and Prevention Activities in New York City, July-December 2020.%%%New York City%%%manual",55592,35005,"07/09/2020"
+"Contact tracing reveals community transmission of COVID-19 in New York City.%%%New York City%%%manual",541052.645145169,NA,"10/01/2020"
+"Centralized COVID-19 Contact Tracing in a Home-Rule State.%%%Michigan%%%manual",NA,269439,"06/01/2020"
+"A Multifaceted Evaluation of a COVID-19 Contact Tracing Program in King County, Washington.%%%King County%%%manual",42900,NA,"07/01/2020"
+"Defining Key Performance Indicators for the California COVID-19 Exposure Notification System (CA Notify).%%%California%%%digital",68107,78963.4470977565,"12/10/2020"
+"Trading-off privacy and utility: the Washington State experience assessing the performance of a public health digital exposure notification system for  coronavirus disease 2019.%%%Washington%%%digital",NA,530488.696206776,"11/15/2020"
+"WA Notify: the planning and implementation of a Bluetooth exposure notification tool for COVID-19 pandemic response in Washington State.%%%Washington%%%digital",8473,NA,"11/29/2020"
+"Coronavirus Disease Contact Tracing Outcomes and Cost, Salt Lake County, Utah, USA, March-May 2020.%%%Salt Lake City%%%manual",184,934.009297598738,"03/01/2020"
+"COVID-19 Contact Tracing Outcomes in Washington State, August and October 2020.%%%WA%%%manual",1639,1730,"10/01/2020"
+"COVID-19 Contact Tracing Outcomes in Washington State, August and October 2020.%%%WA%%%manual",3000,2212,"08/01/2020"
+"Factors Influencing the Results of COVID-19 Case Outreach-Results From a California Case Investigation/Contact Tracing Program.%%%Members of large CA health care plan%%%manual",6161,NA,"01/01/2021"
+"Using Automation, Prioritization, and Collaboration to Manage a COVID-19 Case Surge in Maricopa County, Arizona, 2020.%%%Maricopa%%%manual",43283.9427776846,NA,"06/30/2020"
+"The public health impact of COVID-19 variants of concern on the effectiveness of contact tracing in Vermont, United States.%%%VT%%%manual",11003,NA,"18896"
+"The public health impact of COVID-19 variants of concern on the effectiveness of contact tracing in Vermont, United States.%%%VT%%%manual",6558,NA,"08/01/2021"
+"The public health impact of COVID-19 variants of concern on the effectiveness of contact tracing in Vermont, United States.%%%VT%%%manual",5510,NA,"11/25/2020"
+"Lessons Learned from the Launch and Implementation of the COVID-19 Contact Tracing Program in New York City: a Qualitative Study.%%%New York%%%manual",1421053,NA,"06/01/2020"
+"Assessment of a COVID-19 Control Plan on an Urban University Campus During a Second Wave of the Pandemic.%%%Boston University%%%manual",719,837,"12/20/2020"
+"Case Investigation and Contact Tracing Efforts From Health Departments in the United States, November 2020 to December 2021.%%%64 HD accross US and collonies%%%manual",1859220,1024483.1408376,"11/01/2020"
+"Case Investigation and Contact Tracing Efforts From Health Departments in the United States, November 2020 to December 2021.%%%64 HD accross US and collonies%%%manual",2573653,1012405.33583475,"12/01/2020"
+"Case Investigation and Contact Tracing Efforts From Health Departments in the United States, November 2020 to December 2021.%%%64 HD accross US and collonies%%%manual",2681000,1027954.05373617,"01/01/2021"
+"Case Investigation and Contact Tracing Efforts From Health Departments in the United States, November 2020 to December 2021.%%%64 HD accross US and collonies%%%manual",1553633,784966.568351769,"02/01/2021"
+"Case Investigation and Contact Tracing Efforts From Health Departments in the United States, November 2020 to December 2021.%%%64 HD accross US and collonies%%%manual",948154,559943.933565938,"03/01/2021"
+"Case Investigation and Contact Tracing Efforts From Health Departments in the United States, November 2020 to December 2021.%%%64 HD accross US and collonies%%%manual",1138136,672360.206401409,"04/01/2021"
+"Case Investigation and Contact Tracing Efforts From Health Departments in the United States, November 2020 to December 2021.%%%64 HD accross US and collonies%%%manual",615707,427278.882270284,"05/01/2021"
+"Case Investigation and Contact Tracing Efforts From Health Departments in the United States, November 2020 to December 2021.%%%64 HD accross US and collonies%%%manual",217527,147334.071075156,"06/01/2021"
+"Case Investigation and Contact Tracing Efforts From Health Departments in the United States, November 2020 to December 2021.%%%64 HD accross US and collonies%%%manual",526305,203668.338052208,"07/01/2021"
+"Case Investigation and Contact Tracing Efforts From Health Departments in the United States, November 2020 to December 2021.%%%64 HD accross US and collonies%%%manual",1265108,525501.358113477,"08/01/2021"
+"Case Investigation and Contact Tracing Efforts From Health Departments in the United States, November 2020 to December 2021.%%%64 HD accross US and collonies%%%manual",1318087,599157.317029699,"09/01/2021"
+"Case Investigation and Contact Tracing Efforts From Health Departments in the United States, November 2020 to December 2021.%%%64 HD accross US and collonies%%%manual",964733,432784.320394768,"10/01/2021"
+"Case Investigation and Contact Tracing Efforts From Health Departments in the United States, November 2020 to December 2021.%%%64 HD accross US and collonies%%%manual",922639,356020.475912168,"11/01/2021"
+"Case Investigation and Contact Tracing Efforts From Health Departments in the United States, November 2020 to December 2021.%%%64 HD accross US and collonies%%%manual",1569451,539048.423342689,"12/01/2021"
+"ENPA and ENCV metrics reported by States%%%CA%%%digital",NA,2036310.34849962,"12/10/2020"
+"ENPA and ENCV metrics reported by States%%%CA%%%digital",NA,23150.8532555537,"02/01/2023"
+"ENPA and ENCV metrics reported by States%%%WA%%%digital",NA,1561950.10849889,"11/30/2020"
+"ENPA and ENCV metrics reported by States%%%WA%%%digital",NA,27743.7207044191,"02/01/2023"
+"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,702248.503924568,"10/20/2020"
+"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,13035.3967846202,"02/01/2023"
+"ENPA and ENCV metrics reported by States%%%MA%%%digital",NA,633532.003512557,"06/17/2021"
+"ENPA and ENCV metrics reported by States%%%MA%%%digital",NA,10984.4352818594,"02/01/2023"
+"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,416638.894181571,"08/22/2020"
+"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,6704.5717139031,"02/01/2023"
+"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,18390.7645552437,"08/19/2020"
+"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,421.62623227487,"02/01/2023"
+"ENPA and ENCV metrics reported by States%%%MN%%%digital",NA,489525.921189441,"11/22/2020"
+"ENPA and ENCV metrics reported by States%%%MN%%%digital",NA,2436.14207766955,"02/01/2023"
+"ENPA and ENCV metrics reported by States%%%HI%%%digital",NA,175103.518125952,"12/17/2020"
+"ENPA and ENCV metrics reported by States%%%HI%%%digital",NA,846.825568213087,"02/01/2023"
+"ENPA and ENCV metrics reported by States%%%AK%%%digital",NA,44475.8505391374,"02/02/2022"
+"ENPA and ENCV metrics reported by States%%%AK%%%digital",NA,1214.85524553776,"02/01/2023"
+"ENPA and ENCV metrics reported by States%%%NM%%%digital",NA,194235.344380973,"03/23/2021"
+"ENPA and ENCV metrics reported by States%%%NM%%%digital",NA,9824.60583273714,"02/01/2023"
+"ENPA and ENCV metrics reported by States%%%MO%%%digital",NA,25510.5309148277,"12/01/2020"
+"ENPA and ENCV metrics reported by States%%%MO%%%digital",NA,442.350233522279,"02/01/2023"
+"ENPA and ENCV metrics reported by States%%%MD%%%digital",NA,713422.313700585,"12/08/2020"
+"ENPA and ENCV metrics reported by States%%%MD%%%digital",NA,10149.7582661017,"02/01/2023"
