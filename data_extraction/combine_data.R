@@ -67,7 +67,6 @@ split_month_data <- month_level_data |> do.call(what = bind_rows) |>
       month_imputation_method == "spread_even" ~ param_value / n(),
     ))
 
-
 split_month_data <- split_month_data |> ungroup() |> group_by(
   start_month_year, end_month_year, pm_location,
   source, param_name, param_type, Desc, month_imputation_method
@@ -76,13 +75,18 @@ split_month_data <- split_month_data |> ungroup() |> group_by(
   param_value = ifelse(
     unique(month_imputation_method) %in% "translate",
     mean(param_value), sum(param_value)
-  ) ) |> ungroup()
+  ) ) |> ungroup() |>
 select(pm_start_date = start_month_year,
        pm_end_date = end_month_year,
        pm_location, source, param_name, Desc, param_type,
        month_imputation_method, param_value)
 
-write_csv(file = "output/split_month_data.csv", x = split_month_data)
+split_month_data |> mutate(
+  pm_start_date = format.Date(pm_start_date, "%m/%d/%Y"),
+  pm_end_date = format.Date(pm_end_date, "%m/%d/%Y")
+) |> write_csv(file = "output/split_month_data.csv")
+
+# write_csv(file = "output/split_month_data.csv", x = split_month_data)
 
 combined_data |> group_by(source, param_type, param_name,
                           pm_location, pm_start_date, pm_end_date) |>

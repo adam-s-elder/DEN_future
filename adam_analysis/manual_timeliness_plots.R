@@ -1,29 +1,29 @@
 # Single period time plots
+library(tidyverse)
+plot_data_folder <- "split_by_month"
 source("helper_functions/plotting_functions.R")
-all_period_dfs <- read_csv("intermediate_data/all_period_times.csv")
 impt_period_lens <- read_csv("intermediate_data/props_for_impts.csv")
 impt_df <- read_csv("intermediate_data/props_for_impts.csv")
-sp_times <- read_csv("intermediate_data/single_period_times.csv")
-monthly_aves <- read_csv("intermediate_data/monthly_averages.csv")
+sp_times <- read_csv(paste0("intermediate_data/",
+                            plot_data_folder,
+                            "/single_period_times.csv"))
 
-library(tidyverse)
 sp_times <- sp_times |> mutate(
-  periods = as.factor(periods),
+   periods = as.factor(periods),
   periods = forcats::fct_recode(periods, !!!periods_to_label),
   periods = factor(x = periods,
                        levels = names(periods_to_label),
-                       labels = names(periods_to_label)))
+                       labels = names(periods_to_label)),
+  en_type = ifelse(
+    grepl("\\%\\%\\%digital", source),
+    "Digital", "Manual")
+  )
 
-monthly_aves <- monthly_aves |> mutate(
-  periods = as.factor(periods),
-  periods = forcats::fct_recode(periods, !!!periods_to_label),
-  periods = factor(x = periods,
-                       levels = names(periods_to_label),
-                       labels = names(periods_to_label)))
+monthly_aves <- calc_monthly_averages(sp_times |> filter(en_type == "Manual"))
 
 ## Exploratory Plot
 
-sp_times |>
+sp_times |> filter(param_value < 24 * 4.2) |>
   ggplot(aes(x = param_value / 24, y = as.POSIXct(date), size = count,
              shape = metric, color = metric_color, fill = metric_color)) +
   scale_y_continuous(trans = rev_date) +
@@ -41,59 +41,14 @@ sp_times |>
 
 # Main text single period-plots
 
-single_period_plot <- function(sp_val) {
-  sub_df <- monthly_aves |> filter(periods == sp_val) |>
-    mutate(
-      has_sample_size = !is.na(exclusive_ave),
-      average = ifelse(has_sample_size, inclusive_ave, exclusive_ave),
-      sample_size = ifelse(has_sample_size, "SS available", "SS unavailable"),
-      count = ifelse(has_sample_size, overall_count, 1))
-  overall_ave <- sub_df |> group_by(metric) |>
-    summarise(exclusive_ave =
-                sum(exclusive_ave * overall_count, na.rm = TRUE) /
-                sum(overall_count * !is.na(exclusive_ave)))
-  sub_df |>
-    ggplot(aes(y = inclusive_ave / 24,
-               x = month_year, shape = has_sample_size,
-               color = metric)) +
-    scale_size_continuous(guide = NULL, range = c(2, 8)) +
-    scale_alpha_continuous(range = c(0.6, 1), guide = NULL) +
-    geom_point(aes(size = count)) +
-    scale_shape_manual("", values = c(1, 20),
-                       labels = c("Sample Size Unavailable",
-                                  "Sample Size Available")) +
-    geom_hline(data = overall_ave,
-               aes(yintercept = exclusive_ave / 24,
-                   color = metric)) +
-    scale_x_date(date_breaks = "2 months",
-                 date_minor_breaks = "month",
-                 labels = scales::label_date("%b-%Y"),
-                 expand = c(0.025, 0.1)) +
-    scale_y_continuous(expand = c(0, 0.1), limits = c(0, NA)) +
-    theme_altair() +
-    theme(axis.title = element_blank(),
-          legend.position = c(1, 0.05),
-          legend.box = "horizontal",
-          legend.direction = "horizontal",
-          legend.justification = "right",
-          panel.grid.minor.x = element_line(color = "lightgray",
-                                            linewidth = 0.25)) +
-    scale_color_manual("", values =
-                         ggthemes::tableau_color_pal("Tableau 10")(2),
-                       breaks = c("med", "mean"),
-                       labels = c("Median", "Mean")) +
-    guides(color = guide_legend(nrow = 1),
-           shape = guide_legend(nrow = 1)) +
-    ggtitle(paste0("Time from ", sp_val))
-}
-
-single_period_plot("Symptoms to Test")
-single_period_plot("Test to Result")
-single_period_plot("Result to Case Notified") + ylim(0, 4)
-single_period_plot("Contact Named to Reached") + theme(
-  legend.position = c(1, 1)
+single_period_plot(monthly_aves, "Symptoms to Test")
+single_period_plot(monthly_aves, "Test to Result") + ggtitle(
+  "Time from Test Submission to Result Reported to Health Department"
 )
-
+single_period_plot(monthly_aves, "Result to Case Notified") + ylim(0, 3)
+single_period_plot(monthly_aves, "Contact Named to Reached") + theme(
+  legend.position.inside = c(0.9, 0.9)) +
+  ggtitle("Time from Contact Named to Contact Reached (in days)")
 
 
 # Appendix Plot
@@ -109,11 +64,11 @@ sp_times |>
   geom_line(data = monthly_aves |>
               mutate(date = month_year,
                      param_value = inclusive_ave),
-            alpha = 0.5, orientation = "x", size = 0.5, linetype = 2) +
+            alpha = 0.5, orientation = "x", linewidth = 0.5, linetype = 2) +
   geom_line(data = monthly_aves |>
               mutate(date = month_year,
                      param_value = exclusive_ave),
-            alpha = 0.5, orientation = "x", size = 0.5) +
+            alpha = 0.5, orientation = "x", linewidth = 0.5) +
   # geom_vline(data = monthly_aves |>
   #              mutate(date = as.POSIXct(month_year)),
   #            aes(xintercept = date), alpha = 0.4) +
@@ -128,48 +83,60 @@ sp_times |>
   ggtitle("Timiliness of Contact Tracing Process (in days)") +
   ggthemes::scale_color_tableau()
 
+stargel_compare <-  sp_times |>
+  mutate(stargel =
+           as.numeric(grepl("64 HD accross US and collonies", source)),
+         stargel = ifelse(stargel == 1, "Stargel", "Non-Stargel"))
+monthly_starg_aves <- stargel_compare |> group_by(
+  stargel, periods, metric, month_year) |> summarise(
+    param_value = mean(param_value, na.rm = TRUE)) |> ungroup()
+
+stargel_compare |>
+  ggplot(aes(y = param_value / 24, x = date,
+             color = metric)) +
+  scale_size_continuous(guide = NULL) +
+  geom_point(aes(shape = stargel), alpha = 0.5) +
+  geom_line(data = monthly_starg_aves,
+            aes(x = month_year, y = param_value / 24,
+                color = metric, linetype = stargel)) +
+  scale_alpha_continuous(range = c(0.6, 1), guide = NULL) +
+  scale_x_date(date_breaks = "month",
+               labels = scales::label_date("%b-%Y"),
+               expand = c(0, 0)) +
+  # geom_line(data = monthly_aves |>
+  #             mutate(date = month_year,
+  #                    param_value = inclusive_ave),
+  #           alpha = 0.5, orientation = "x", size = 0.5, linetype = 2) +
+  # geom_line(data = monthly_aves |>
+  #             mutate(date = month_year,
+  #                    param_value = exclusive_ave),
+  #           alpha = 0.5, orientation = "x", size = 0.5) +
+  # geom_vline(data = monthly_aves |>
+  #              mutate(date = as.POSIXct(month_year)),
+  #            aes(xintercept = date), alpha = 0.4) +
+  scale_shape_manual("", values = c(1, 20),
+                     breaks = c("Stargel", "Non-Stargel"),
+                     labels = c("Stargel", "Non-Stargel")) +
+  scale_y_continuous(expand = c(0, 0.1), limits = c(0, 4)) +
+  theme_altair() +
+  theme(axis.title = element_blank(),
+        legend.position = "bottom",
+        panel.grid.minor = element_blank()) +
+  facet_wrap(~ periods, ncol = 1) +
+  ggtitle("Timiliness of Contact Tracing Process (in days)") +
+  ggthemes::scale_color_tableau()
+
+# The following should mostly be done using the single period times
+# and should not have the split month times since the benefits here are
+# mostly from looking at article level estimates (per time period reported
+# in the article).
+faceted_period_article_split_plot(sp_times, "med", "Median")
+
 ## Stacked Plot
-monthly_wide <- monthly_aves |> select(
- month_year, metric, inclusive_ave, periods
-) |> pivot_wider(
-  id_cols = c("month_year", "metric"),
-  values_from = inclusive_ave, names_from = periods)
+filled_monthly <- fill_missing_values(monthly_aves, imputation_df = impt_df)
 
-date_metric_missing <- monthly_wide |> pivot_longer(
-  cols = setdiff(colnames(monthly_wide), c("month_year", "metric")),
-  names_to = "periods", values_to = "average")
 
-monthly_wide_filled <- monthly_wide |> mutate(
-  `Contact Named to Reached` = ifelse(
-    is.na(`Contact Named to Reached`),
-    impt_df |> filter(periods == "D") |> pull(ave_time),
-    `Contact Named to Reached`),
-  `Result to Case Notified` = ifelse(
-    is.na(`Result to Case Notified`),
-    impt_df |> filter(periods == "C") |> pull(ave_time),
-    `Result to Case Notified`),
-  `Test to Result` = ifelse(
-    is.na(`Test to Result`),
-    impt_df |> filter(periods == "B") |> pull(ave_time),
-    `Test to Result`),
-  `Symptoms to Test` = ifelse(
-    is.na(`Symptoms to Test`),
-    impt_df |> filter(periods == "A") |> pull(ave_time),
-    `Symptoms to Test`),
-)
-
-long_monthly_with_impt <- monthly_wide_filled |>
-pivot_longer(
-  cols = setdiff(colnames(monthly_wide), c("month_year", "metric")),
-  names_to = "periods", values_to = "average") |>
-left_join(
-date_metric_missing |> mutate(imputed = is.na(average)) |>
-  select(-average), by = c("month_year", "metric", "periods")) |>
-  mutate(periods = factor(periods,
-                          levels = names(periods_to_label),
-                          labels = names(periods_to_label)))
-
-long_monthly_with_impt |>
+filled_monthly |>
   mutate(imputed_alpha = 1 - as.numeric(imputed),
          metric = ifelse(metric == "mean", "Mean", "Median")) |>
   ggplot(aes(y = average / 24, x = month_year,
@@ -192,4 +159,22 @@ long_monthly_with_impt |>
   facet_wrap(~metric) + ggthemes::scale_fill_tableau() +
   ggtitle("Estimated time between case symptom onset and contact notification")
 
-write_csv(long_monthly_with_impt, "intermediate_data/monthly_manual_data.csv")
+combined <- filled_monthly |> group_by(month_year, metric) |> summarise(
+  symptom_to_notified = sum(average)
+)
+
+combined |>
+  mutate(metric = ifelse(metric == "mean", "Mean", "Median")) |>
+  ggplot(aes(y = symptom_to_notified / 24, x = month_year,
+             color = metric)) +
+  geom_point(size = 3) +
+  geom_line(alpha = 0.5) +
+  theme_altair() +
+  scale_x_date(date_breaks = "2 month",
+               labels = scales::label_date("%b\n%Y")) +
+  scale_y_continuous(limits = c(0, NA)) +
+  theme(legend.position = "bottom",
+        axis.title = element_blank()) +
+  ggthemes::scale_fill_tableau() +
+  ggtitle("Estimated time between case symptom onset and contact notification")
+

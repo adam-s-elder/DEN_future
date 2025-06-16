@@ -1,38 +1,65 @@
 # Comparisons between digital and manual notification timeliness
 library(tidyverse)
-source("../adam_analysis/helper_functions/make_time_dfs.R")
-source("../adam_analysis/helper_functions/plotting_functions.R")
+source("helper_functions/make_time_dfs.R")
+source("helper_functions/plotting_functions.R")
 
-long_monthly_with_impt <- read_csv("intermediate_data/monthly_manual_data.csv")
-all_param_df <- read.csv("../data_extraction/manipulated_data/simplified_wide_df_with_date_loc_imputed.csv")
-all_param_df$pm_end_date <- guess_dates(all_param_df$pm_end_date)
-all_param_df$pm_start_date <- guess_dates(all_param_df$pm_start_date)
+# Single period time plots
+library(tidyverse)
+plot_data_folder <- "split_by_month"
+impt_period_lens <- read_csv("intermediate_data/props_for_impts.csv")
+impt_df <- read_csv("intermediate_data/props_for_impts.csv")
+sp_times <- read_csv(paste0("intermediate_data/",
+                            plot_data_folder,
+                            "/single_period_times.csv"))
+
+
+sp_times <- sp_times |> mutate(
+   periods = as.factor(periods),
+  periods = forcats::fct_recode(periods, !!!periods_to_label),
+  periods = factor(x = periods,
+                       levels = names(periods_to_label),
+                       labels = names(periods_to_label)),
+  en_type = ifelse(
+    grepl("\\%\\%\\%digital", source),
+    "Digital", "Manual")
+  )
+
+manual_monthly_filled <-
+  calc_monthly_averages(sp_times |> filter(en_type == "Manual")) |>
+  fill_missing_values(imputation_df = impt_df) |>
+  group_by(month_year, metric) |> summarise(symptom_to_notified = sum(average))
 
 wa_verify_times <- read_csv("~/Desktop/etoen_wa_notify.csv")
+
+digital_monthly_filled <-
+  calc_monthly_averages(
+    sp_times |>
+      filter(en_type == "Digital", grepl("California", source)))  |>
+  fill_missing_values(imputation_df = impt_df) |>
+  group_by(month_year, metric) |> summarise(symptom_to_notified = sum(average))
 
 waver <- wa_verify_times |> mutate(
     value = 24 * (mean_etoen),
     param_name = "test_to_notified")
 
-manual_times <-
-  long_monthly_with_impt |> group_by(month_year, metric) |>
-  summarise(param_value = sum(average))
 
 comb_data <- waver |>
-  select(month_year = monthyear, param_name, param_value = value) |>
-  mutate(type = "digital") |>
-  bind_rows(manual_times |> mutate(type = "manual"))
+  select(month_year = monthyear, param_name, symptom_to_notified = value) |>
+  mutate(type = "WA Notify") |>
+  bind_rows(manual_monthly_filled |> mutate(type = "Manual (All Sources)"),
+            digital_monthly_filled |> mutate(type = "CA Notiy"))
 
 comb_data |> filter(!(metric %in% "med")) |>
-  ggplot(aes(x = month_year, y = param_value / 24,
+  ggplot(aes(x = month_year, y = symptom_to_notified / 24,
              fill = type)) +
   geom_col(position = position_dodge2(preserve = "single"), width = 25) +
   scale_y_continuous(expand = c(0, 0)) +
   theme_altair() +
   scale_fill_manual("", values =
-                       ggthemes::tableau_color_pal("Tableau 10")(2),
-                     breaks = c("digital", "manual"),
-                     labels = c("Digital", "Manual")) +
+                       ggthemes::tableau_color_pal("Tableau 10")(3)
+                     # breaks = c("digital", "manual", "other"),
+                     # labels = c("Digital", "Manual", "Digital Other")
+                    ) +
   ylab("Days") +
   scale_x_date(date_breaks = "2 month",
                labels = scales::label_date("%b\n%Y")) +

@@ -76,7 +76,7 @@ remove_overlap <- function(long_metric_data, split_data) {
     longest_subset <- which_subset
   }
   period_diffs <- setdiff(p_list[[longest]], p_list[[longest_subset]])
-  if (length(period_diffs) > 1) browser()
+  # if (length(period_diffs) > 1)
   new_period <- period_diffs
   per_long <- p_list[[longest]] |> paste0(collapse = "")
   per_sub <- p_list[[longest_subset]] |> paste0(collapse = "")
@@ -188,10 +188,6 @@ impute_outer <- function(inner_impute, prop_impt_df) {
           mutate(impt_type = "outer_abs")
       ) |> fill(everything(), .direction = "updown") |>
       mutate(df_type = "outer_abs")
-    ### TODO: Start here.  We need to have something here to
-    ### allow for an Rbind of all the results post imputation
-    ### Just create two lists and store results in each list seperately
-    ### then transpose and save.
     all_results[[metric_value]] <- outer_impt_abs
   }
   return(do.call(what = bind_rows, all_results))
@@ -210,3 +206,87 @@ guess_dates <- function(dates) {
   return(date_parsed)
 }
 
+add_plot_variables <- function(imputed_df, orig_data, count_data) {
+  loc_df <- orig_data |> filter(grepl("_from_", param_name)) |>
+    select(source, pm_location) |>
+    group_by(source, pm_location) |>
+    filter(row_number() == 1)
+  comb_data <- imputed_df |>
+    left_join(loc_df, by = "source") |> mutate(
+      date = lubridate::mdy(pm_start_date)
+    ) |> arrange(desc(date), pm_location)
+  final_df <- comb_data |>
+    mutate(pm_start_date = lubridate::mdy(pm_start_date)) |>
+    left_join(count_data |>
+                mutate(pm_start_date = lubridate::mdy(pm_start_date)),
+              by = c("source", "pm_start_date"))
+  labeled_data <- final_df |> filter(metric != "max") |> mutate(
+    digital = ifelse(grepl("digital", source), "digital", "manual"),
+    pm_location = gsub(pattern = "communities with higher than average COVID-19 incidence rates", "", pm_location),
+    comb_loc_date = factor(
+      x = paste0("(", digital, ") ", pm_location, ",", date),
+      levels = paste0("(", digital, ") ", pm_location, ",", date),
+      labels = paste0("(", digital, ") ", pm_location, ", ", date)),
+    periods = forcats::fct_rev(as.factor(periods)),
+    impt_type_alpha = case_when(
+      impt_type == "reported" ~ 0,
+      impt_type == "inner" ~ 0.1,
+      impt_type == "outer_abs" ~ 0.7,
+      impt_type == "outer_rel" ~ 0.7)
+  ) |> mutate(count = ifelse(
+    periods == "D", contacts_interviewed, cases_interviewed))
+  period_median_count <- labeled_data |>
+    filter(df_type == "outer_abs", impt_type != 0.7) |>
+    group_by(periods, metric) |>
+    summarise(impt_median = median(count, na.rm = TRUE))
+  impt_count_data <- labeled_data |>
+    left_join(period_median_count, by = c("periods", "metric")) |>
+    group_by(periods, metric) |>
+    mutate(
+      impt_count = is.na(count),
+      count = ifelse(impt_count, impt_median, count),
+      metric_color = case_when(
+        impt_count ~ "imputed",
+        metric == "mean" ~ "mean",
+        metric == "med" ~ "med"
+      ))
+  return(impt_count_data)
+}
+
+
+make_time_plot_data <- function(long_data, split_info, param_counts) {
+  nested_data <- long_data |> filter(grepl("_from_", param_name)) |>
+    group_by(nest_source, nest_start_date, param_type) |>
+    tidyr::nest()
+  initial_imputation <- nested_data |>
+    # filter(grepl("Campus", nest_source)) |>
+    mutate(no_ov_data = map(
+      data, deduplicate_and_remove_overlap, split_info = split_info))
+
+  impute_df <- calc_split_df(
+    initial_imputation$no_ov_data |> do.call(what = bind_rows),
+    param_count_df)
+
+  imputed_df <- initial_imputation |>
+    mutate(
+      inner_impute_data = map(no_ov_data, impute_inner,
+                              prop_impt_df = impute_df$impt_df),
+      outer_impute_data = map(inner_impute_data, impute_outer,
+                              prop_impt_df = impute_df$impt_df))
+  period_split_df <- imputed_df$no_ov_data |> do.call(what = bind_rows)
+  inner_impute_df <- imputed_df$inner_impute_data |> do.call(what = bind_rows)
+  outer_impute_df <- imputed_df$outer_impute_data |> do.call(what = bind_rows)
+  imputed_df <- bind_rows(period_split_df, inner_impute_df, outer_impute_df)
+  impt_plot_data <- add_plot_variables(imputed_df, long_data, param_counts)
+  sp_times <- impt_plot_data |>
+    filter(!grepl("Using Automation", source)) |>
+    filter(df_type == "outer_abs", impt_type_alpha != 0.7, metric != "max") |>
+    mutate(
+      month_year = lubridate::floor_date(pm_start_date, "month"),
+      incl = 1 - as.numeric(impt_count),
+    )
+  return(list(
+    imputed_df = impt_plot_data,
+    single_period_times = sp_times
+  ))
+}
