@@ -1,5 +1,6 @@
 *.Rhistory
 **npr_jhu_data.xlsx
 **/*npr*.csv
+**/out_old/**
 **/*.DS_Store
 *.DS_Store

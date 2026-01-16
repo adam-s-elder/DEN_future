@@ -51,7 +51,7 @@ parse_params <- function(string) {
 
 col_key <-
   c("Mean % of Cases Completing an Interview\n(n, median %)" = "hd_cases_interviewed_perc",
-    "Mean % of Cases that Provided at Least 1 Contact during Interview\n(n, median %)" = "hd_percent_naming_contcts",
+    "Mean % of Cases that Provided at Least 1 Contact during Interview\n(n, median %)" = "hd_percent_naming_contacts",
     "Mean # of Contacts Identified from Cases Completing an Interview (n, median #)" = "hd_contacts_named_ratio_mean",
     "Mean # of Contacts Identified from Cases Providing Contacts (n, median #)" = "hd_contacts_named_ratio_mean_cases_naming",
     "Mean % of Contacts Identified who were Notified (n, median %)" = "hd_contacts_reached_perc",

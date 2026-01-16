@@ -91,7 +91,7 @@ usage_two <- readxl::read_xlsx("input/EN metrics roll up (1).xlsx",
       `Key Metrics` == "Cumulative ENs generated" ~
         "contacts_reached_count",
       `Key Metrics` == "Average ENs per code used" ~
-        "contcts_named_ratio_mean_case_naming",
+        "contacts_named_ratio_mean_case_naming",
       `Key Metrics` == "% of ENs issued within 3 days of exposure" ~
         "percent_notified_three_days",
       `Key Metrics` == "% of ENs issued within 6 days of exposure" ~

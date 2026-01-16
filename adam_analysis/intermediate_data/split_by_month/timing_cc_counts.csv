@@ -1,587 +1,578 @@
 "source","cases_interviewed","contacts_interviewed","pm_start_date"
-"Declines in SARS-CoV-2 Transmission, Hospitalizations, and Mortality After Implementation of Mitigation Measures- Delaware, March-June 2020.%%%DE%%%manual",294.449576378351,39.7892640364188,"03/01/2020"
-"Coronavirus Disease Contact Tracing Outcomes and Cost, Salt Lake County, Utah, USA, March-May 2020.%%%Salt Lake City%%%manual",16.8358945729145,85.4613155679038,"03/01/2020"
-"Declines in SARS-CoV-2 Transmission, Hospitalizations, and Mortality After Implementation of Mitigation Measures- Delaware, March-June 2020.%%%DE%%%manual",3339.43373798685,451.26100151745,"04/01/2020"
-"Lessons Learned From COVID-19 Contact Tracing During a Public Health Emergency: A Prospective Implementation Study.%%%New Haven%%%manual",562.867964693666,468.148052959502,"04/01/2020"
-"Coronavirus Disease Contact Tracing Outcomes and Cost, Salt Lake County, Utah, USA, March-May 2020.%%%Salt Lake City%%%manual",70.8524079569829,359.656564071091,"04/01/2020"
-"Outcomes of Contact Tracing in San Francisco, California-Test and Trace During Shelter-in-Place.%%%San Francisco%%%manual",342.828376970569,178.735390567679,"04/01/2020"
-"Declines in SARS-CoV-2 Transmission, Hospitalizations, and Mortality After Implementation of Mitigation Measures- Delaware, March-June 2020.%%%DE%%%manual",2893.1166856348,390.949734446131,"05/01/2020"
-"Implementation of close contact elicitation at the time of COVID-19 testing-Atlanta, GA, October-November 2020.%%%Fulton County%%%manual",851.683520747895,NA,"05/01/2020"
-"Lessons Learned From COVID-19 Contact Tracing During a Public Health Emergency: A Prospective Implementation Study.%%%New Haven%%%manual",263.132035306335,218.851947040499,"05/01/2020"
-"Coronavirus Disease Contact Tracing Outcomes and Cost, Salt Lake County, Utah, USA, March-May 2020.%%%Salt Lake City%%%manual",96.3116974701026,488.891417959743,"05/01/2020"
-"Outcomes of Contact Tracing in San Francisco, California-Test and Trace During Shelter-in-Place.%%%San Francisco%%%manual",781.259840000416,407.313956537805,"05/01/2020"
-"A Patient-Initiated Digital COVID-19 Contact Notification Tool (TellYourContacts): Evaluation Study.%%%United States*%%%digital",NA,105.315776803313,"05/01/2020"
-"Implementation of close contact elicitation at the time of COVID-19 testing-Atlanta, GA, October-November 2020.%%%Fulton County%%%manual",1451.67468164023,NA,"06/01/2020"
-"A State Health Department and Health Information Exchange Partnership: An Effective Collaboration for a Data-Driven Response for COVID-19 Contact Tracing  in Maryland.%%%Maryland%%%manual",4952.43656410343,4446.54749381152,"06/01/2020"
-"COVID-19 Contact Tracing in Two Counties - North Carolina, June-July 2020.%%%Mecklenburg%%%manual",5514,9815,"06/01/2020"
-"Centralized COVID-19 Contact Tracing in a Home-Rule State.%%%Michigan%%%manual",NA,2412.85237787109,"06/01/2020"
-"Lessons Learned from the Launch and Implementation of the COVID-19 Contact Tracing Program in New York City: a Qualitative Study.%%%New York%%%manual",8814.06258750125,NA,"06/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.%%%New York City%%%manual",6090.02494734038,5054.03095679189,"06/01/2020"
-"COVID-19 Contact Tracing in Two Counties - North Carolina, June-July 2020.%%%Randolph County%%%manual",301.24026692265,284.733950926888,"06/01/2020"
-"Outcomes of Contact Tracing in San Francisco, California-Test and Trace During Shelter-in-Place.%%%San Francisco%%%manual",269.911783029015,140.719938019165,"06/01/2020"
-"A Patient-Initiated Digital COVID-19 Contact Notification Tool (TellYourContacts): Evaluation Study.%%%United States*%%%digital",NA,293.577133294059,"06/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%across US%%%manual",4920.24074640203,4267.09334627599,"06/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in Central Washington State, June-July 2020.%%%central WA%%%manual",1672.97977490988,918.860708290911,"06/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_A%%%manual",4.47997154301248,4.96229484692785,"06/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_B%%%manual",65.4075845279822,48.1822822233962,"06/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_C%%%manual",16.1278975548449,30.5741392181684,"06/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_D%%%manual",15.2319032462424,27.2926216581032,"06/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_E%%%manual",73.3595340168294,48.3423562507165,"06/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_F%%%manual",45.3597118730014,78.5963474142444,"06/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_G%%%manual",652.171857374042,531.845955771542,"06/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_H%%%manual",443.629182046811,440.123538117036,"06/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_I%%%manual",617.564077204271,805.972727557475,"06/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_J%%%manual",41.3277374842901,12.4057371173196,"06/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_K%%%manual",875.83443665894,542.090693520038,"06/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_L%%%manual",585.532280671731,198.011571795153,"06/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_M%%%manual",1152.47267943996,1433.38287763921,"06/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_N%%%manual",331.741892760074,65.3102031466633,"06/01/2020"
-"Implementation of close contact elicitation at the time of COVID-19 testing-Atlanta, GA, October-November 2020.%%%Fulton County%%%manual",4258.84333906601,NA,"07/01/2020"
-"A Multifaceted Evaluation of a COVID-19 Contact Tracing Program in King County, Washington.%%%King County%%%manual",2423.41637847852,NA,"07/01/2020"
-"Using Automation, Prioritization, and Collaboration to Manage a COVID-19 Case Surge in Maricopa County, Arizona, 2020.%%%Maricopa%%%manual",43283.9427776846,NA,"07/01/2020"
-"A State Health Department and Health Information Exchange Partnership: An Effective Collaboration for a Data-Driven Response for COVID-19 Contact Tracing  in Maryland.%%%Maryland%%%manual",16719.2934989501,15011.425516263,"07/01/2020"
-"Centralized COVID-19 Contact Tracing in a Home-Rule State.%%%Michigan%%%manual",NA,5646.94321734744,"07/01/2020"
-"Lessons Learned from the Launch and Implementation of the COVID-19 Contact Tracing Program in New York City: a Qualitative Study.%%%New York%%%manual",9330.28851625843,NA,"07/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.%%%New York City%%%manual",6446.70823083026,5350.03768453366,"07/01/2020"
-"Community-Based Workforce for COVID-19 Contact Tracing and Prevention Activities in New York City, July-December 2020.%%%New York City%%%manual",1312.49640705416,826.448710766493,"07/01/2020"
-"COVID-19 Contact Tracing in Two Counties - North Carolina, June-July 2020.%%%Randolph County%%%manual",282.75973307735,267.266049073111,"07/01/2020"
-"A Patient-Initiated Digital COVID-19 Contact Notification Tool (TellYourContacts): Evaluation Study.%%%United States*%%%digital",NA,662.182530396043,"07/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%across US%%%manual",11097.9265689156,9624.70965558112,"07/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in Central Washington State, June-July 2020.%%%central WA%%%manual",1861.02022509012,1022.13929170909,"07/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_A%%%manual",10.1048704276393,11.1927823582179,"07/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_B%%%manual",147.531108243534,108.678306123342,"07/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_C%%%manual",36.3775335395016,68.9619816264394,"07/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_D%%%manual",34.3565594539738,61.5603029701985,"07/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_E%%%manual",165.467253252594,109.039363618768,"07/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_F%%%manual",102.311813079848,177.279230254355,"07/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_G%%%manual",1471.0165125036,1199.61352855416,"07/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_H%%%manual",1000.63479409699,992.727583674843,"07/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_I%%%manual",1392.95638845008,1817.92448947184,"07/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_J%%%manual",93.217429694973,27.9819558955448,"07/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_K%%%manual",1975.50216860349,1222.72120826145,"07/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_L%%%manual",1320.70656489246,446.628121842437,"07/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_M%%%manual",2599.47791751022,3233.08934279556,"07/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_N%%%manual",748.265655166693,147.311458133965,"07/01/2020"
-"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,60.0675397351074,"08/01/2020"
-"Implementation of close contact elicitation at the time of COVID-19 testing-Atlanta, GA, October-November 2020.%%%Fulton County%%%manual",3542.43721832694,NA,"08/01/2020"
-"A Multifaceted Evaluation of a COVID-19 Contact Tracing Program in King County, Washington.%%%King County%%%manual",1882.59597742456,NA,"08/01/2020"
-"A State Health Department and Health Information Exchange Partnership: An Effective Collaboration for a Data-Driven Response for COVID-19 Contact Tracing  in Maryland.%%%Maryland%%%manual",16457.6395147348,14776.4993637118,"08/01/2020"
-"Centralized COVID-19 Contact Tracing in a Home-Rule State.%%%Michigan%%%manual",NA,6514.73426158007,"08/01/2020"
-"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,2483.71675464277,"08/01/2020"
-"Lessons Learned from the Launch and Implementation of the COVID-19 Contact Tracing Program in New York City: a Qualitative Study.%%%New York%%%manual",8755.34000597109,NA,"08/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.%%%New York City%%%manual",6049.45092339392,5020.35911228547,"08/01/2020"
-"Community-Based Workforce for COVID-19 Contact Tracing and Prevention Activities in New York City, July-December 2020.%%%New York City%%%manual",1641.69554227815,1033.73781222922,"08/01/2020"
-"Integrating Contact Tracers Into Point-of-Care Testing Workflow to Accelerate the Tracing of People With Exposure to COVID-19, August-December 2020, New York City.%%%New York City communities with higher than average COVID-19 incidence rates%%%manual",134.984535571436,77.5727754545469,"08/01/2020"
-"A Patient-Initiated Digital COVID-19 Contact Notification Tool (TellYourContacts): Evaluation Study.%%%United States*%%%digital",NA,337.43733334035,"08/01/2020"
-"COVID-19 Contact Tracing Outcomes in Washington State, August and October 2020.%%%WA%%%manual",3000,2212,"08/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%across US%%%manual",9247.92580818791,8020.29102170039,"08/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_A%%%manual",8.42041001405651,9.32696933911213,"08/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_B%%%manual",122.937986205225,90.561863582992,"08/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_C%%%manual",30.3134760506034,57.466165928078,"08/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_D%%%manual",28.6293940477921,51.2983313651167,"08/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_E%%%manual",137.884213980175,90.862733561673,"08/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_F%%%manual",85.2566513923221,147.727159532389,"08/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_G%%%manual",1225.80118779628,999.640504167744,"08/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_H%%%manual",833.831101641946,827.24200638351,"08/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_I%%%manual",1160.75352043769,1514.88034265902,"08/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_J%%%manual",77.6782823796713,23.3174233477803,"08/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_K%%%manual",1646.19015774805,1018.89618280333,"08/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_L%%%manual",1100.54758883719,372.176163628442,"08/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_M%%%manual",2166.15047611604,2694.14022409934,"08/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_N%%%manual",623.531361540884,122.754951301863,"08/01/2020"
-"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,138.513793600507,"09/01/2020"
-"Implementation of close contact elicitation at the time of COVID-19 testing-Atlanta, GA, October-November 2020.%%%Fulton County%%%manual",1963.36124021892,NA,"09/01/2020"
-"A Multifaceted Evaluation of a COVID-19 Contact Tracing Program in King County, Washington.%%%King County%%%manual",1422.05738642697,NA,"09/01/2020"
-"A State Health Department and Health Information Exchange Partnership: An Effective Collaboration for a Data-Driven Response for COVID-19 Contact Tracing  in Maryland.%%%Maryland%%%manual",13456.6570421676,12082.0658420213,"09/01/2020"
-"Centralized COVID-19 Contact Tracing in a Home-Rule State.%%%Michigan%%%manual",NA,7172.83342568874,"09/01/2020"
-"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,5601.95544856167,"09/01/2020"
-"Lessons Learned from the Launch and Implementation of the COVID-19 Contact Tracing Program in New York City: a Qualitative Study.%%%New York%%%manual",11369.9426794655,NA,"09/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.%%%New York City%%%manual",7855.99533476939,6519.58636650196,"09/01/2020"
-"Community-Based Workforce for COVID-19 Contact Tracing and Prevention Activities in New York City, July-December 2020.%%%New York City%%%manual",2131.95423594133,1342.44240230836,"09/01/2020"
-"Integrating Contact Tracers Into Point-of-Care Testing Workflow to Accelerate the Tracing of People With Exposure to COVID-19, August-December 2020, New York City.%%%New York City communities with higher than average COVID-19 incidence rates%%%manual",354.112557961133,203.501044234929,"09/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%across US%%%manual",7238.1738113433,6277.32765559445,"09/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_A%%%manual",6.59049310176714,7.30003966400675,"09/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_B%%%manual",96.2211992858002,70.881030286001,"09/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_C%%%manual",23.7257751663617,44.9776637362996,"09/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_D%%%manual",22.4076765460083,40.1502181520371,"09/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_E%%%manual",107.919324541437,71.1165154364528,"09/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_F%%%manual",66.7287426553923,115.623208871849,"09/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_G%%%manual",959.411033289751,782.399412376207,"09/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_H%%%manual",652.623579402491,647.466421167308,"09/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_I%%%manual",908.4994740786,1185.66773252497,"09/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_J%%%manual",60.7972988638018,18.2500991600169,"09/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_K%%%manual",1288.44140139548,797.470462005124,"09/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_L%%%manual",861.377448400965,291.295131108914,"09/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_M%%%manual",1695.4043504296,2108.65177972092,"09/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_N%%%manual",488.026014185856,96.0779413843469,"09/01/2020"
-"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,222.696473693186,"10/01/2020"
-"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,3725.69079861535,"10/01/2020"
-"A Multifaceted Evaluation of a COVID-19 Contact Tracing Program in King County, Washington.%%%King County%%%manual",2207.08235057584,NA,"10/01/2020"
-"A State Health Department and Health Information Exchange Partnership: An Effective Collaboration for a Data-Driven Response for COVID-19 Contact Tracing  in Maryland.%%%Maryland%%%manual",16649.3948388748,14948.6669715031,"10/01/2020"
-"Centralized COVID-19 Contact Tracing in a Home-Rule State.%%%Michigan%%%manual",NA,16997.5219947305,"10/01/2020"
-"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,10332.3052541891,"10/01/2020"
-"Lessons Learned from the Launch and Implementation of the COVID-19 Contact Tracing Program in New York City: a Qualitative Study.%%%New York%%%manual",23921.0547602023,NA,"10/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.%%%New York City%%%manual",16528.1127527853,13716.4616290126,"10/01/2020"
-"Community-Based Workforce for COVID-19 Contact Tracing and Prevention Activities in New York City, July-December 2020.%%%New York City%%%manual",4485.38708258423,2824.34477669199,"10/01/2020"
-"Contact tracing reveals community transmission of COVID-19 in New York City.%%%New York City%%%manual",17368.3605430168,NA,"10/01/2020"
-"Integrating Contact Tracers Into Point-of-Care Testing Workflow to Accelerate the Tracing of People With Exposure to COVID-19, August-December 2020, New York City.%%%New York City communities with higher than average COVID-19 incidence rates%%%manual",745.012189512793,428.142846462522,"10/01/2020"
-"COVID-19 Contact Tracing Outcomes in Washington State, August and October 2020.%%%WA%%%manual",1639,1730,"10/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%across US%%%manual",11426.7330651512,9909.86806237759,"10/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_A%%%manual",10.4042549135245,11.5243992172302,"10/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_B%%%manual",151.902121737458,111.898198851171,"10/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_C%%%manual",37.4553176886883,71.0051693706763,"10/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_D%%%manual",35.3744667059834,63.384195694766,"10/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_E%%%manual",170.369674208964,112.26995366463,"10/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_F%%%manual",105.343080999436,182.531613408388,"10/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_G%%%manual",1514.59940903633,1235.15536771766,"10/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_H%%%manual",1030.28134281177,1022.13985960563,"10/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_I%%%manual",1434.22653982936,1871.78548576626,"10/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_J%%%manual",95.9792515772638,28.8109980430755,"10/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_K%%%manual",2034.03183559405,1258.94767577903,"10/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_L%%%manual",1359.83611719766,459.86070424883,"10/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_M%%%manual",2676.49457650419,3328.87847711896,"10/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_N%%%manual",770.435076346491,151.675963891288,"10/01/2020"
-"Case Investigation and Contact Tracing Efforts From Health Departments in the United States, November 2020 to December 2021.%%%64 HD accross US and collonies%%%manual",1859220,1024483.1408376,"11/01/2020"
-"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,726.474259909714,"11/01/2020"
-"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,18529.3698075556,"11/01/2020"
-"A Multifaceted Evaluation of a COVID-19 Contact Tracing Program in King County, Washington.%%%King County%%%manual",6257.97662855084,NA,"11/01/2020"
-"ENPA and ENCV metrics reported by States%%%MN%%%digital",NA,17725.5313018591,"11/01/2020"
-"A State Health Department and Health Information Exchange Partnership: An Effective Collaboration for a Data-Driven Response for COVID-19 Contact Tracing  in Maryland.%%%Maryland%%%manual",43931.1913595737,39443.6407840049,"11/01/2020"
-"Centralized COVID-19 Contact Tracing in a Home-Rule State.%%%Michigan%%%manual",NA,54975.5212084018,"11/01/2020"
-"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,26651.4458702268,"11/01/2020"
-"Lessons Learned from the Launch and Implementation of the COVID-19 Contact Tracing Program in New York City: a Qualitative Study.%%%New York%%%manual",75264.9759768251,NA,"11/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.%%%New York City%%%manual",52003.8945502637,43157.3425730474,"11/01/2020"
-"Community-Based Workforce for COVID-19 Contact Tracing and Prevention Activities in New York City, July-December 2020.%%%New York City%%%manual",14112.7786546904,8886.4911643301,"11/01/2020"
-"Contact tracing reveals community transmission of COVID-19 in New York City.%%%New York City%%%manual",54647.6420931844,NA,"11/01/2020"
-"Integrating Contact Tracers Into Point-of-Care Testing Workflow to Accelerate the Tracing of People With Exposure to COVID-19, August-December 2020, New York City.%%%New York City communities with higher than average COVID-19 incidence rates%%%manual",2344.09916737501,1347.1045226343,"11/01/2020"
-"The public health impact of COVID-19 variants of concern on the effectiveness of contact tracing in Vermont, United States.%%%VT%%%manual",400.855215988528,NA,"11/01/2020"
-"Trading-off privacy and utility: the Washington State experience assessing the performance of a public health digital exposure notification system for  coronavirus disease 2019.%%%Washington%%%digital",NA,96338.1740831695,"11/01/2020"
-"Case Investigation and Contact Tracing Efforts From Health Departments in the United States, November 2020 to December 2021.%%%64 HD accross US and collonies%%%manual",2573653,1012405.33583475,"12/01/2020"
-"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,1575.54512991281,"12/01/2020"
-"Assessment of a COVID-19 Control Plan on an Urban University Campus During a Second Wave of the Pandemic.%%%Boston University%%%manual",194.852968538358,226.831619842289,"12/01/2020"
-"ENPA and ENCV metrics reported by States%%%CA%%%digital",NA,170205.827802692,"12/01/2020"
-"Defining Key Performance Indicators for the California COVID-19 Exposure Notification System (CA Notify).%%%California%%%digital",24840.3107622769,28799.9260688165,"12/01/2020"
-"Unified Response to COVID-19 Case Investigation and Contact Tracing, Chicago, December 2020-April 2021.%%%Chicago%%%manual",1758.89801598858,943.618211685982,"12/01/2020"
-"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,33104.15180564,"12/01/2020"
-"ENPA and ENCV metrics reported by States%%%HI%%%digital",NA,887.431351070847,"12/01/2020"
-"A Multifaceted Evaluation of a COVID-19 Contact Tracing Program in King County, Washington.%%%King County%%%manual",7761.97338844297,NA,"12/01/2020"
-"ENPA and ENCV metrics reported by States%%%MD%%%digital",NA,37466.1345919806,"12/01/2020"
-"ENPA and ENCV metrics reported by States%%%MN%%%digital",NA,32258.6021237027,"12/01/2020"
-"ENPA and ENCV metrics reported by States%%%MO%%%digital",NA,2023.85466616285,"12/01/2020"
-"A State Health Department and Health Information Exchange Partnership: An Effective Collaboration for a Data-Driven Response for COVID-19 Contact Tracing  in Maryland.%%%Maryland%%%manual",63134.9162331344,56685.7141761829,"12/01/2020"
-"Centralized COVID-19 Contact Tracing in a Home-Rule State.%%%Michigan%%%manual",NA,41205.8091491424,"12/01/2020"
-"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,36558.8733174621,"12/01/2020"
-"Lessons Learned from the Launch and Implementation of the COVID-19 Contact Tracing Program in New York City: a Qualitative Study.%%%New York%%%manual",170167.153852956,NA,"12/01/2020"
-"COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.%%%New York City%%%manual",117575.998796737,97574.7624735015,"12/01/2020"
-"Community-Based Workforce for COVID-19 Contact Tracing and Prevention Activities in New York City, July-December 2020.%%%New York City%%%manual",31907.6880774517,20091.5351336738,"12/01/2020"
-"Contact tracing reveals community transmission of COVID-19 in New York City.%%%New York City%%%manual",123553.267626572,NA,"12/01/2020"
-"Integrating Contact Tracers Into Point-of-Care Testing Workflow to Accelerate the Tracing of People With Exposure to COVID-19, August-December 2020, New York City.%%%New York City communities with higher than average COVID-19 incidence rates%%%manual",5299.79154957962,3045.6788112137,"12/01/2020"
-"The public health impact of COVID-19 variants of concern on the effectiveness of contact tracing in Vermont, United States.%%%VT%%%manual",2679.81649937265,NA,"12/01/2020"
-"ENPA and ENCV metrics reported by States%%%WA%%%digital",NA,67950.4816014799,"12/01/2020"
-"Trading-off privacy and utility: the Washington State experience assessing the performance of a public health digital exposure notification system for  coronavirus disease 2019.%%%Washington%%%digital",NA,183507.096907289,"12/01/2020"
-"WA Notify: the planning and implementation of a Bluetooth exposure notification tool for COVID-19 pandemic response in Washington State.%%%Washington%%%digital",3612.02160685039,NA,"12/01/2020"
-"Case Investigation and Contact Tracing Efforts From Health Departments in the United States, November 2020 to December 2021.%%%64 HD accross US and collonies%%%manual",2681000,1027954.05373617,"01/01/2021"
-"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,1947.77095514761,"01/01/2021"
-"Assessment of a COVID-19 Control Plan on an Urban University Campus During a Second Wave of the Pandemic.%%%Boston University%%%manual",524.147031461642,610.168380157711,"01/01/2021"
-"ENPA and ENCV metrics reported by States%%%CA%%%digital",NA,198088.446885868,"01/01/2021"
-"Defining Key Performance Indicators for the California COVID-19 Exposure Notification System (CA Notify).%%%California%%%digital",28909.5775543352,33517.8454172147,"01/01/2021"
-"Unified Response to COVID-19 Case Investigation and Contact Tracing, Chicago, December 2020-April 2021.%%%Chicago%%%manual",10397.7372721091,5578.20530872207,"01/01/2021"
-"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,33463.4887569288,"01/01/2021"
-"ENPA and ENCV metrics reported by States%%%HI%%%digital",NA,2230.67080094852,"01/01/2021"
-"A Multifaceted Evaluation of a COVID-19 Contact Tracing Program in King County, Washington.%%%King County%%%manual",6651.30322362693,NA,"01/01/2021"
-"ENPA and ENCV metrics reported by States%%%MD%%%digital",NA,48253.6603719668,"01/01/2021"
-"ENPA and ENCV metrics reported by States%%%MN%%%digital",NA,15029.3649258048,"01/01/2021"
-"ENPA and ENCV metrics reported by States%%%MO%%%digital",NA,1526.7522767831,"01/01/2021"
-"A State Health Department and Health Information Exchange Partnership: An Effective Collaboration for a Data-Driven Response for COVID-19 Contact Tracing  in Maryland.%%%Maryland%%%manual",62276.3276918758,55914.8300513825,"01/01/2021"
-"Factors Influencing the Results of COVID-19 Case Outreach-Results From a California Case Investigation/Contact Tracing Program.%%%Members of large CA health care plan%%%manual",3740.95180754517,NA,"01/01/2021"
-"Centralized COVID-19 Contact Tracing in a Home-Rule State.%%%Michigan%%%manual",NA,22700.131263262,"01/01/2021"
-"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,26966.5653918374,"01/01/2021"
-"Lessons Learned from the Launch and Implementation of the COVID-19 Contact Tracing Program in New York City: a Qualitative Study.%%%New York%%%manual",210637.205006866,NA,"01/01/2021"
-"COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.%%%New York City%%%manual",145538.543729984,120780.507761135,"01/01/2021"
-"Contact tracing reveals community transmission of COVID-19 in New York City.%%%New York City%%%manual",152937.358197899,NA,"01/01/2021"
-"Automated Digital Notification of COVID-19 Diagnoses Through Text and Email Messaging - North Carolina, December 2020-January 2021.%%%North Carolina%%%digital",102387.922169759,NA,"01/01/2021"
-"The public health impact of COVID-19 variants of concern on the effectiveness of contact tracing in Vermont, United States.%%%VT%%%manual",2429.32828463882,NA,"01/01/2021"
-"ENPA and ENCV metrics reported by States%%%WA%%%digital",NA,58227.3649631241,"01/01/2021"
-"Trading-off privacy and utility: the Washington State experience assessing the performance of a public health digital exposure notification system for  coronavirus disease 2019.%%%Washington%%%digital",NA,157248.844351258,"01/01/2021"
-"WA Notify: the planning and implementation of a Bluetooth exposure notification tool for COVID-19 pandemic response in Washington State.%%%Washington%%%digital",3095.17306426548,NA,"01/01/2021"
-"Case Investigation and Contact Tracing Efforts From Health Departments in the United States, November 2020 to December 2021.%%%64 HD accross US and collonies%%%manual",1553633,784966.568351769,"02/01/2021"
-"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,512.03766836567,"02/01/2021"
-"ENPA and ENCV metrics reported by States%%%CA%%%digital",NA,48573.1578277873,"02/01/2021"
-"Defining Key Performance Indicators for the California COVID-19 Exposure Notification System (CA Notify).%%%California%%%digital",7088.9014243746,8218.89222260288,"02/01/2021"
-"Unified Response to COVID-19 Case Investigation and Contact Tracing, Chicago, December 2020-April 2021.%%%Chicago%%%manual",3921.03674409701,2103.56805612763,"02/01/2021"
-"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,16750.2442738623,"02/01/2021"
-"ENPA and ENCV metrics reported by States%%%HI%%%digital",NA,813.351640939717,"02/01/2021"
-"A Multifaceted Evaluation of a COVID-19 Contact Tracing Program in King County, Washington.%%%King County%%%manual",2840.41825976529,NA,"02/01/2021"
-"ENPA and ENCV metrics reported by States%%%MD%%%digital",NA,18206.4095060237,"02/01/2021"
-"ENPA and ENCV metrics reported by States%%%MN%%%digital",NA,7581.21057525467,"02/01/2021"
-"ENPA and ENCV metrics reported by States%%%MO%%%digital",NA,508.196384044272,"02/01/2021"
-"A State Health Department and Health Information Exchange Partnership: An Effective Collaboration for a Data-Driven Response for COVID-19 Contact Tracing  in Maryland.%%%Maryland%%%manual",23497.2500686874,21097.0170040531,"02/01/2021"
-"Factors Influencing the Results of COVID-19 Case Outreach-Results From a California Case Investigation/Contact Tracing Program.%%%Members of large CA health care plan%%%manual",917.316710947473,NA,"02/01/2021"
-"Centralized COVID-19 Contact Tracing in a Home-Rule State.%%%Michigan%%%manual",NA,10297.0289709028,"02/01/2021"
-"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,8018.88806132891,"02/01/2021"
-"Lessons Learned from the Launch and Implementation of the COVID-19 Contact Tracing Program in New York City: a Qualitative Study.%%%New York%%%manual",89881.2234198549,NA,"02/01/2021"
-"COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.%%%New York City%%%manual",62102.9051575604,51538.3775743141,"02/01/2021"
-"Contact tracing reveals community transmission of COVID-19 in New York City.%%%New York City%%%manual",65260.0610655635,NA,"02/01/2021"
-"Contact tracing: Characteristics of COVID-19 cases that provided contacts.%%%New York except NYC%%%manual",79776.7947932924,NA,"02/01/2021"
-"ENPA and ENCV metrics reported by States%%%WA%%%digital",NA,24865.8142770837,"02/01/2021"
-"Trading-off privacy and utility: the Washington State experience assessing the performance of a public health digital exposure notification system for  coronavirus disease 2019.%%%Washington%%%digital",NA,67152.627658846,"02/01/2021"
-"WA Notify: the planning and implementation of a Bluetooth exposure notification tool for COVID-19 pandemic response in Washington State.%%%Washington%%%digital",1321.7839862786,NA,"02/01/2021"
-"Case Investigation and Contact Tracing Efforts From Health Departments in the United States, November 2020 to December 2021.%%%64 HD accross US and collonies%%%manual",948154,559943.933565938,"03/01/2021"
-"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,211.356998805048,"03/01/2021"
-"ENPA and ENCV metrics reported by States%%%CA%%%digital",NA,19902.4590236922,"03/01/2021"
-"Defining Key Performance Indicators for the California COVID-19 Exposure Notification System (CA Notify).%%%California%%%digital",2904.62009124095,3367.62469223113,"03/01/2021"
-"Unified Response to COVID-19 Case Investigation and Contact Tracing, Chicago, December 2020-April 2021.%%%Chicago%%%manual",3715.15042272992,1993.11362351527,"03/01/2021"
-"Centering Health Equity Within COVID-19 Contact Tracing: Connecticut's Community Outreach Specialist Program.%%%Connecticut%%%manual",NA,1284.80479834448,"03/01/2021"
-"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,17866.509148721,"03/01/2021"
-"ENPA and ENCV metrics reported by States%%%HI%%%digital",NA,1255.65108672263,"03/01/2021"
-"A Multifaceted Evaluation of a COVID-19 Contact Tracing Program in King County, Washington.%%%King County%%%manual",2541.19139271981,NA,"03/01/2021"
-"ENPA and ENCV metrics reported by States%%%MD%%%digital",NA,18784.5641284825,"03/01/2021"
-"ENPA and ENCV metrics reported by States%%%MN%%%digital",NA,11636.852259841,"03/01/2021"
-"ENPA and ENCV metrics reported by States%%%MO%%%digital",NA,339.508415448244,"03/01/2021"
-"A State Health Department and Health Information Exchange Partnership: An Effective Collaboration for a Data-Driven Response for COVID-19 Contact Tracing  in Maryland.%%%Maryland%%%manual",24243.4182649915,21766.9644693648,"03/01/2021"
-"Factors Influencing the Results of COVID-19 Case Outreach-Results From a California Case Investigation/Contact Tracing Program.%%%Members of large CA health care plan%%%manual",375.863111805672,NA,"03/01/2021"
-"Centralized COVID-19 Contact Tracing in a Home-Rule State.%%%Michigan%%%manual",NA,28637.8433895597,"03/01/2021"
-"ENPA and ENCV metrics reported by States%%%NM%%%digital",NA,722.409099645698,"03/01/2021"
-"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,5184.55456183959,"03/01/2021"
-"Lessons Learned from the Launch and Implementation of the COVID-19 Contact Tracing Program in New York City: a Qualitative Study.%%%New York%%%manual",88257.4919199117,NA,"03/01/2021"
-"COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.%%%New York City%%%manual",60980.9973829935,50607.3211874593,"03/01/2021"
-"Contact tracing reveals community transmission of COVID-19 in New York City.%%%New York City%%%manual",64081.1183141349,NA,"03/01/2021"
-"Contact tracing: Characteristics of COVID-19 cases that provided contacts.%%%New York except NYC%%%manual",78335.6028541787,NA,"03/01/2021"
-"ENPA and ENCV metrics reported by States%%%WA%%%digital",NA,22246.2987613366,"03/01/2021"
-"Trading-off privacy and utility: the Washington State experience assessing the performance of a public health digital exposure notification system for  coronavirus disease 2019.%%%Washington%%%digital",NA,26241.9532062141,"03/01/2021"
-"WA Notify: the planning and implementation of a Bluetooth exposure notification tool for COVID-19 pandemic response in Washington State.%%%Washington%%%digital",444.021342605535,NA,"03/01/2021"
-"Centering Health Equity Within COVID-19 Contact Tracing: Connecticut's Community Outreach Specialist Program.%%% Connecticut%%%manual",NA,NA,"03/01/2021"
-"Case Investigation and Contact Tracing Efforts From Health Departments in the United States, November 2020 to December 2021.%%%64 HD accross US and collonies%%%manual",1138136,672360.206401409,"04/01/2021"
-"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,170.564899160195,"04/01/2021"
-"ENPA and ENCV metrics reported by States%%%CA%%%digital",NA,14641.2554916215,"04/01/2021"
-"Defining Key Performance Indicators for the California COVID-19 Exposure Notification System (CA Notify).%%%California%%%digital",2136.78545004567,2477.39505254874,"04/01/2021"
-"Unified Response to COVID-19 Case Investigation and Contact Tracing, Chicago, December 2020-April 2021.%%%Chicago%%%manual",4657.17754507543,2498.49479994905,"04/01/2021"
-"Centering Health Equity Within COVID-19 Contact Tracing: Connecticut's Community Outreach Specialist Program.%%%Connecticut%%%manual",NA,3487.6772878814,"04/01/2021"
-"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,13894.3621164992,"04/01/2021"
-"ENPA and ENCV metrics reported by States%%%HI%%%digital",NA,1432.20772920182,"04/01/2021"
-"A Multifaceted Evaluation of a COVID-19 Contact Tracing Program in King County, Washington.%%%King County%%%manual",3925.27150777168,NA,"04/01/2021"
-"ENPA and ENCV metrics reported by States%%%MD%%%digital",NA,22515.5344657333,"04/01/2021"
-"ENPA and ENCV metrics reported by States%%%MN%%%digital",NA,18151.835211672,"04/01/2021"
-"ENPA and ENCV metrics reported by States%%%MO%%%digital",NA,333.660061907323,"04/01/2021"
-"A State Health Department and Health Information Exchange Partnership: An Effective Collaboration for a Data-Driven Response for COVID-19 Contact Tracing  in Maryland.%%%Maryland%%%manual",29058.6204598137,26090.2960202977,"04/01/2021"
-"Factors Influencing the Results of COVID-19 Case Outreach-Results From a California Case Investigation/Contact Tracing Program.%%%Members of large CA health care plan%%%manual",276.503915585091,NA,"04/01/2021"
-"Centralized COVID-19 Contact Tracing in a Home-Rule State.%%%Michigan%%%manual",NA,54244.7606058007,"04/01/2021"
-"ENPA and ENCV metrics reported by States%%%NM%%%digital",NA,2458.30553484997,"04/01/2021"
-"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,5823.06903133653,"04/01/2021"
-"Lessons Learned from the Launch and Implementation of the COVID-19 Contact Tracing Program in New York City: a Qualitative Study.%%%New York%%%manual",74428.7293522734,NA,"04/01/2021"
-"COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.%%%New York City%%%manual",51426.0948404147,42677.8342548298,"04/01/2021"
-"Contact tracing reveals community transmission of COVID-19 in New York City.%%%New York City%%%manual",54040.4684955444,NA,"04/01/2021"
-"Contact tracing: Characteristics of COVID-19 cases that provided contacts.%%%New York except NYC%%%manual",66061.4669264745,NA,"04/01/2021"
-"ENPA and ENCV metrics reported by States%%%WA%%%digital",NA,34362.9224195468,"04/01/2021"
-"Centering Health Equity Within COVID-19 Contact Tracing: Connecticut's Community Outreach Specialist Program.%%% Connecticut%%%manual",NA,NA,"04/01/2021"
-"Case Investigation and Contact Tracing Efforts From Health Departments in the United States, November 2020 to December 2021.%%%64 HD accross US and collonies%%%manual",615707,427278.882270284,"05/01/2021"
-"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,156.775802360179,"05/01/2021"
-"ENPA and ENCV metrics reported by States%%%CA%%%digital",NA,9226.15970516964,"05/01/2021"
-"Defining Key Performance Indicators for the California COVID-19 Exposure Notification System (CA Notify).%%%California%%%digital",1346.49134625687,1561.12584885167,"05/01/2021"
-"Centering Health Equity Within COVID-19 Contact Tracing: Connecticut's Community Outreach Specialist Program.%%%Connecticut%%%manual",NA,908.038117762156,"05/01/2021"
-"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,5613.93435940156,"05/01/2021"
-"ENPA and ENCV metrics reported by States%%%HI%%%digital",NA,1216.94080682078,"05/01/2021"
-"A Multifaceted Evaluation of a COVID-19 Contact Tracing Program in King County, Washington.%%%King County%%%manual",3425.31811253118,NA,"05/01/2021"
-"ENPA and ENCV metrics reported by States%%%MD%%%digital",NA,8056.25293590194,"05/01/2021"
-"ENPA and ENCV metrics reported by States%%%MN%%%digital",NA,8541.89148878605,"05/01/2021"
-"ENPA and ENCV metrics reported by States%%%MO%%%digital",NA,263.691790308803,"05/01/2021"
-"A State Health Department and Health Information Exchange Partnership: An Effective Collaboration for a Data-Driven Response for COVID-19 Contact Tracing  in Maryland.%%%Maryland%%%manual",10397.4256862043,9335.33353303094,"05/01/2021"
-"Factors Influencing the Results of COVID-19 Case Outreach-Results From a California Case Investigation/Contact Tracing Program.%%%Members of large CA health care plan%%%manual",174.238424140106,NA,"05/01/2021"
-"Centralized COVID-19 Contact Tracing in a Home-Rule State.%%%Michigan%%%manual",NA,16473.3333460808,"05/01/2021"
-"ENPA and ENCV metrics reported by States%%%NM%%%digital",NA,2197.71954038733,"05/01/2021"
-"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,4598.81408271603,"05/01/2021"
-"Lessons Learned from the Launch and Implementation of the COVID-19 Contact Tracing Program in New York City: a Qualitative Study.%%%New York%%%manual",26592.5268371115,NA,"05/01/2021"
-"COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.%%%New York City%%%manual",18373.9507455369,15248.2981054236,"05/01/2021"
-"Contact tracing reveals community transmission of COVID-19 in New York City.%%%New York City%%%manual",9164.36880925415,NA,"05/01/2021"
-"Contact tracing: Characteristics of COVID-19 cases that provided contacts.%%%New York except NYC%%%manual",23603.0004465953,NA,"05/01/2021"
-"ENPA and ENCV metrics reported by States%%%WA%%%digital",NA,29986.1908482341,"05/01/2021"
-"Centering Health Equity Within COVID-19 Contact Tracing: Connecticut's Community Outreach Specialist Program.%%% Connecticut%%%manual",NA,NA,"05/01/2021"
-"Case Investigation and Contact Tracing Efforts From Health Departments in the United States, November 2020 to December 2021.%%%64 HD accross US and collonies%%%manual",217527,147334.071075156,"06/01/2021"
-"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,115.014333616508,"06/01/2021"
-"ENPA and ENCV metrics reported by States%%%CA%%%digital",NA,6031.9078754978,"06/01/2021"
-"Defining Key Performance Indicators for the California COVID-19 Exposure Notification System (CA Notify).%%%California%%%digital",880.31337146977,1020.63779549093,"06/01/2021"
-"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,1747.14266368328,"06/01/2021"
-"ENPA and ENCV metrics reported by States%%%HI%%%digital",NA,766.216609689617,"06/01/2021"
-"A Multifaceted Evaluation of a COVID-19 Contact Tracing Program in King County, Washington.%%%King County%%%manual",1561.39539368541,NA,"06/01/2021"
-"ENPA and ENCV metrics reported by States%%%MA%%%digital",NA,376.980049346803,"06/01/2021"
-"ENPA and ENCV metrics reported by States%%%MD%%%digital",NA,1612.15324857377,"06/01/2021"
-"ENPA and ENCV metrics reported by States%%%MN%%%digital",NA,1451.45440057454,"06/01/2021"
-"ENPA and ENCV metrics reported by States%%%MO%%%digital",NA,358.016283619009,"06/01/2021"
-"A State Health Department and Health Information Exchange Partnership: An Effective Collaboration for a Data-Driven Response for COVID-19 Contact Tracing  in Maryland.%%%Maryland%%%manual",2080.65011490878,1868.11268235219,"06/01/2021"
-"Factors Influencing the Results of COVID-19 Case Outreach-Results From a California Case Investigation/Contact Tracing Program.%%%Members of large CA health care plan%%%manual",113.914148071395,NA,"06/01/2021"
-"Centralized COVID-19 Contact Tracing in a Home-Rule State.%%%Michigan%%%manual",NA,2159.68678963216,"06/01/2021"
-"ENPA and ENCV metrics reported by States%%%NM%%%digital",NA,1025.63750073414,"06/01/2021"
-"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,4796.91617312726,"06/01/2021"
-"Lessons Learned from the Launch and Implementation of the COVID-19 Contact Tracing Program in New York City: a Qualitative Study.%%%New York%%%manual",5369.81523649106,NA,"06/01/2021"
-"COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.%%%New York City%%%manual",3710.24240277263,3079.08097634378,"06/01/2021"
-"Contact tracing: Characteristics of COVID-19 cases that provided contacts.%%%New York except NYC%%%manual",4766.14171347395,NA,"06/01/2021"
-"Adapting COVID-19 Contact Tracing Protocols to Accommodate Resource Constraints, Philadelphia, Pennsylvania, USA, 2021.%%%Philadelphia%%%manual",105.501645017271,29.3688375000789,"06/01/2021"
-"ENPA and ENCV metrics reported by States%%%WA%%%digital",NA,13668.8911004549,"06/01/2021"
-"Case Investigation and Contact Tracing Efforts From Health Departments in the United States, November 2020 to December 2021.%%%64 HD accross US and collonies%%%manual",526305,203668.338052208,"07/01/2021"
-"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,272.253384845778,"07/01/2021"
-"ENPA and ENCV metrics reported by States%%%CA%%%digital",NA,29769.877891167,"07/01/2021"
-"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,5117.88631669751,"07/01/2021"
-"ENPA and ENCV metrics reported by States%%%HI%%%digital",NA,2419.21092594892,"07/01/2021"
-"ENPA and ENCV metrics reported by States%%%MA%%%digital",NA,4497.04594862603,"07/01/2021"
-"ENPA and ENCV metrics reported by States%%%MD%%%digital",NA,3934.33994917896,"07/01/2021"
-"ENPA and ENCV metrics reported by States%%%MN%%%digital",NA,2635.90743884638,"07/01/2021"
-"ENPA and ENCV metrics reported by States%%%MO%%%digital",NA,1123.04988115818,"07/01/2021"
-"A State Health Department and Health Information Exchange Partnership: An Effective Collaboration for a Data-Driven Response for COVID-19 Contact Tracing  in Maryland.%%%Maryland%%%manual",5077.67166340505,4558.98988650629,"07/01/2021"
-"Factors Influencing the Results of COVID-19 Case Outreach-Results From a California Case Investigation/Contact Tracing Program.%%%Members of large CA health care plan%%%manual",562.21188190509,NA,"07/01/2021"
-"ENPA and ENCV metrics reported by States%%%NM%%%digital",NA,2199.82245359079,"07/01/2021"
-"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,11788.5625043685,"07/01/2021"
-"Lessons Learned from the Launch and Implementation of the COVID-19 Contact Tracing Program in New York City: a Qualitative Study.%%%New York%%%manual",12429.0339723881,NA,"07/01/2021"
-"COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.%%%New York City%%%manual",8587.76826369724,7126.8750177182,"07/01/2021"
-"Contact tracing: Characteristics of COVID-19 cases that provided contacts.%%%New York except NYC%%%manual",11031.7645328694,NA,"07/01/2021"
-"Adapting COVID-19 Contact Tracing Protocols to Accommodate Resource Constraints, Philadelphia, Pennsylvania, USA, 2021.%%%Philadelphia%%%manual",1013.13227707016,282.028940937249,"07/01/2021"
-"ENPA and ENCV metrics reported by States%%%WA%%%digital",NA,23675.2888421853,"07/01/2021"
-"Case Investigation and Contact Tracing Efforts From Health Departments in the United States, November 2020 to December 2021.%%%64 HD accross US and collonies%%%manual",1265108,525501.358113477,"08/01/2021"
-"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,712.814968062734,"08/01/2021"
-"ENPA and ENCV metrics reported by States%%%CA%%%digital",NA,78938.6879683206,"08/01/2021"
-"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,21278.0152831205,"08/01/2021"
-"ENPA and ENCV metrics reported by States%%%HI%%%digital",NA,10705.1717584493,"08/01/2021"
-"ENPA and ENCV metrics reported by States%%%MA%%%digital",NA,16869.9331021431,"08/01/2021"
-"ENPA and ENCV metrics reported by States%%%MD%%%digital",NA,18111.6300597189,"08/01/2021"
-"ENPA and ENCV metrics reported by States%%%MN%%%digital",NA,11929.2578169449,"08/01/2021"
-"ENPA and ENCV metrics reported by States%%%MO%%%digital",NA,1412.58935102492,"08/01/2021"
-"A State Health Department and Health Information Exchange Partnership: An Effective Collaboration for a Data-Driven Response for COVID-19 Contact Tracing  in Maryland.%%%Maryland%%%manual",20423.1069985747,18336.896205514,"08/01/2021"
-"ENPA and ENCV metrics reported by States%%%NM%%%digital",NA,8884.28255633652,"08/01/2021"
-"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,17270.669454847,"08/01/2021"
-"Lessons Learned from the Launch and Implementation of the COVID-19 Contact Tracing Program in New York City: a Qualitative Study.%%%New York%%%manual",56968.7800912389,NA,"08/01/2021"
-"COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.%%%New York City%%%manual",39362.2451089889,32666.2053160455,"08/01/2021"
-"Contact tracing: Characteristics of COVID-19 cases that provided contacts.%%%New York except NYC%%%manual",50564.3615656328,NA,"08/01/2021"
-"Adapting COVID-19 Contact Tracing Protocols to Accommodate Resource Constraints, Philadelphia, Pennsylvania, USA, 2021.%%%Philadelphia%%%manual",2053.36607791256,571.602221562672,"08/01/2021"
-"The public health impact of COVID-19 variants of concern on the effectiveness of contact tracing in Vermont, United States.%%%VT%%%manual",2638.72338949073,NA,"08/01/2021"
-"ENPA and ENCV metrics reported by States%%%WA%%%digital",NA,80157.5086580473,"08/01/2021"
-"Case Investigation and Contact Tracing Efforts From Health Departments in the United States, November 2020 to December 2021.%%%64 HD accross US and collonies%%%manual",1318087,599157.317029699,"09/01/2021"
-"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,669.956707009467,"09/01/2021"
-"ENPA and ENCV metrics reported by States%%%CA%%%digital",NA,53868.4215195515,"09/01/2021"
-"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,25321.6534365411,"09/01/2021"
-"ENPA and ENCV metrics reported by States%%%HI%%%digital",NA,8103.81189817793,"09/01/2021"
-"ENPA and ENCV metrics reported by States%%%MA%%%digital",NA,21867.696471765,"09/01/2021"
-"ENPA and ENCV metrics reported by States%%%MD%%%digital",NA,22027.9167810304,"09/01/2021"
-"ENPA and ENCV metrics reported by States%%%MN%%%digital",NA,20137.6666159651,"09/01/2021"
-"ENPA and ENCV metrics reported by States%%%MO%%%digital",NA,1075.18532130494,"09/01/2021"
-"ENPA and ENCV metrics reported by States%%%NM%%%digital",NA,8206.7356050314,"09/01/2021"
-"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,15194.6989229378,"09/01/2021"
-"Lessons Learned from the Launch and Implementation of the COVID-19 Contact Tracing Program in New York City: a Qualitative Study.%%%New York%%%manual",79186.0692216413,NA,"09/01/2021"
-"COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.%%%New York City%%%manual",54713.1509737024,45405.7185571107,"09/01/2021"
-"Contact tracing: Characteristics of COVID-19 cases that provided contacts.%%%New York except NYC%%%manual",70283.987627463,NA,"09/01/2021"
-"Adapting COVID-19 Contact Tracing Protocols to Accommodate Resource Constraints, Philadelphia, Pennsylvania, USA, 2021.%%%Philadelphia%%%manual",2402.66404598882,653.490727959048,"09/01/2021"
-"The public health impact of COVID-19 variants of concern on the effectiveness of contact tracing in Vermont, United States.%%%VT%%%manual",4671.9210749181,NA,"09/01/2021"
-"ENPA and ENCV metrics reported by States%%%WA%%%digital",NA,84404.1569303035,"09/01/2021"
-"Case Investigation and Contact Tracing Efforts From Health Departments in the United States, November 2020 to December 2021.%%%64 HD accross US and collonies%%%manual",964733,432784.320394768,"10/01/2021"
-"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,617.358310993999,"10/01/2021"
-"ENPA and ENCV metrics reported by States%%%CA%%%digital",NA,35858.0830946901,"10/01/2021"
-"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,14062.4289628262,"10/01/2021"
-"ENPA and ENCV metrics reported by States%%%HI%%%digital",NA,2523.86667330084,"10/01/2021"
-"ENPA and ENCV metrics reported by States%%%MA%%%digital",NA,18021.6985291215,"10/01/2021"
-"ENPA and ENCV metrics reported by States%%%MD%%%digital",NA,18155.5896695765,"10/01/2021"
-"ENPA and ENCV metrics reported by States%%%MN%%%digital",NA,28011.6102425476,"10/01/2021"
-"ENPA and ENCV metrics reported by States%%%MO%%%digital",NA,629.48715029709,"10/01/2021"
-"ENPA and ENCV metrics reported by States%%%NM%%%digital",NA,9824.98572935296,"10/01/2021"
-"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,9709.9786799511,"10/01/2021"
-"Lessons Learned from the Launch and Implementation of the COVID-19 Contact Tracing Program in New York City: a Qualitative Study.%%%New York%%%manual",78201.5683478616,NA,"10/01/2021"
-"COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.%%%New York City%%%manual",54032.9158582292,44841.200453946,"10/01/2021"
-"Contact tracing: Characteristics of COVID-19 cases that provided contacts.%%%New York except NYC%%%manual",69410.1641391638,NA,"10/01/2021"
-"Adapting COVID-19 Contact Tracing Protocols to Accommodate Resource Constraints, Philadelphia, Pennsylvania, USA, 2021.%%%Philadelphia%%%manual",2134.33595401118,580.509272040952,"10/01/2021"
-"The public health impact of COVID-19 variants of concern on the effectiveness of contact tracing in Vermont, United States.%%%VT%%%manual",5186.5571422602,NA,"10/01/2021"
-"ENPA and ENCV metrics reported by States%%%WA%%%digital",NA,62175.0656339951,"10/01/2021"
-"Case Investigation and Contact Tracing Efforts From Health Departments in the United States, November 2020 to December 2021.%%%64 HD accross US and collonies%%%manual",922639,356020.475912168,"11/01/2021"
-"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,854.60842075187,"11/01/2021"
-"ENPA and ENCV metrics reported by States%%%CA%%%digital",NA,31176.6204965084,"11/01/2021"
-"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,11547.6974189031,"11/01/2021"
-"ENPA and ENCV metrics reported by States%%%HI%%%digital",NA,1518.12566752058,"11/01/2021"
-"ENPA and ENCV metrics reported by States%%%MA%%%digital",NA,28665.4196646974,"11/01/2021"
-"ENPA and ENCV metrics reported by States%%%MD%%%digital",NA,16144.3698189901,"11/01/2021"
-"ENPA and ENCV metrics reported by States%%%MN%%%digital",NA,37899.0351429029,"11/01/2021"
-"ENPA and ENCV metrics reported by States%%%MO%%%digital",NA,820.038767217932,"11/01/2021"
-"ENPA and ENCV metrics reported by States%%%NM%%%digital",NA,15618.8036761758,"11/01/2021"
-"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,8983.77372851323,"11/01/2021"
-"Lessons Learned from the Launch and Implementation of the COVID-19 Contact Tracing Program in New York City: a Qualitative Study.%%%New York%%%manual",109304.730717735,NA,"11/01/2021"
-"Contact tracing: Characteristics of COVID-19 cases that provided contacts.%%%New York except NYC%%%manual",97016.7154008562,NA,"11/01/2021"
-"The public health impact of COVID-19 variants of concern on the effectiveness of contact tracing in Vermont, United States.%%%VT%%%manual",5063.79839333097,NA,"11/01/2021"
-"ENPA and ENCV metrics reported by States%%%WA%%%digital",NA,42484.9743267719,"11/01/2021"
-"Case Investigation and Contact Tracing Efforts From Health Departments in the United States, November 2020 to December 2021.%%%64 HD accross US and collonies%%%manual",1569451,539048.423342689,"12/01/2021"
-"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,940.333278956306,"12/01/2021"
-"ENPA and ENCV metrics reported by States%%%CA%%%digital",NA,90804.6067330685,"12/01/2021"
-"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,128603.120310192,"12/01/2021"
-"ENPA and ENCV metrics reported by States%%%HI%%%digital",NA,13338.4149449437,"12/01/2021"
-"ENPA and ENCV metrics reported by States%%%MA%%%digital",NA,89556.3495358057,"12/01/2021"
-"ENPA and ENCV metrics reported by States%%%MD%%%digital",NA,84296.5687450077,"12/01/2021"
-"ENPA and ENCV metrics reported by States%%%MN%%%digital",NA,36907.9440514327,"12/01/2021"
-"ENPA and ENCV metrics reported by States%%%MO%%%digital",NA,1994.45455875539,"12/01/2021"
-"ENPA and ENCV metrics reported by States%%%NM%%%digital",NA,15058.4941359639,"12/01/2021"
-"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,15060.1143587669,"12/01/2021"
-"Lessons Learned from the Launch and Implementation of the COVID-19 Contact Tracing Program in New York City: a Qualitative Study.%%%New York%%%manual",282173.007497446,NA,"12/01/2021"
-"ENPA and ENCV metrics reported by States%%%WA%%%digital",NA,80981.6691845468,"12/01/2021"
-"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,3992.02271653471,"01/01/2022"
-"ENPA and ENCV metrics reported by States%%%CA%%%digital",NA,555207.784832852,"01/01/2022"
-"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,150858.808031461,"01/01/2022"
-"ENPA and ENCV metrics reported by States%%%HI%%%digital",NA,54583.0198321177,"01/01/2022"
-"ENPA and ENCV metrics reported by States%%%MA%%%digital",NA,202589.102805011,"01/01/2022"
-"ENPA and ENCV metrics reported by States%%%MD%%%digital",NA,161960.832902168,"01/01/2022"
-"ENPA and ENCV metrics reported by States%%%MN%%%digital",NA,99025.6916896881,"01/01/2022"
-"ENPA and ENCV metrics reported by States%%%MO%%%digital",NA,5593.67945207624,"01/01/2022"
-"ENPA and ENCV metrics reported by States%%%NM%%%digital",NA,51403.4351027186,"01/01/2022"
-"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,83673.1980327278,"01/01/2022"
-"ENPA and ENCV metrics reported by States%%%WA%%%digital",NA,393839.965078144,"01/01/2022"
-"ENPA and ENCV metrics reported by States%%%AK%%%digital",NA,10520.26532755,"02/01/2022"
-"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,948.046551257343,"02/01/2022"
-"ENPA and ENCV metrics reported by States%%%CA%%%digital",NA,106190.60018522,"02/01/2022"
-"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,17054.3950965064,"02/01/2022"
-"ENPA and ENCV metrics reported by States%%%HI%%%digital",NA,8430.56152158964,"02/01/2022"
-"ENPA and ENCV metrics reported by States%%%MA%%%digital",NA,26638.9925223236,"02/01/2022"
-"ENPA and ENCV metrics reported by States%%%MD%%%digital",NA,16367.1466508759,"02/01/2022"
-"ENPA and ENCV metrics reported by States%%%MN%%%digital",NA,28392.1585307849,"02/01/2022"
-"ENPA and ENCV metrics reported by States%%%MO%%%digital",NA,1123.42529948592,"02/01/2022"
-"ENPA and ENCV metrics reported by States%%%NM%%%digital",NA,14005.0514495395,"02/01/2022"
-"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,12978.7720589242,"02/01/2022"
-"ENPA and ENCV metrics reported by States%%%WA%%%digital",NA,105997.984573668,"02/01/2022"
-"ENPA and ENCV metrics reported by States%%%AK%%%digital",NA,4347.72565985799,"03/01/2022"
-"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,273.04531414641,"03/01/2022"
-"ENPA and ENCV metrics reported by States%%%CA%%%digital",NA,26110.220083787,"03/01/2022"
-"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,9766.06342481686,"03/01/2022"
-"ENPA and ENCV metrics reported by States%%%HI%%%digital",NA,2014.38709823234,"03/01/2022"
-"ENPA and ENCV metrics reported by States%%%MA%%%digital",NA,11405.0884763407,"03/01/2022"
-"ENPA and ENCV metrics reported by States%%%MD%%%digital",NA,6278.73212006126,"03/01/2022"
-"ENPA and ENCV metrics reported by States%%%MN%%%digital",NA,5022.3578488163,"03/01/2022"
-"ENPA and ENCV metrics reported by States%%%MO%%%digital",NA,271.062248090069,"03/01/2022"
-"ENPA and ENCV metrics reported by States%%%NM%%%digital",NA,2512.63079260613,"03/01/2022"
-"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,14985.8532966596,"03/01/2022"
-"ENPA and ENCV metrics reported by States%%%WA%%%digital",NA,29835.4329083603,"03/01/2022"
-"ENPA and ENCV metrics reported by States%%%AK%%%digital",NA,3452.27481909963,"04/01/2022"
-"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,125.414211184048,"04/01/2022"
-"ENPA and ENCV metrics reported by States%%%CA%%%digital",NA,25442.0829528024,"04/01/2022"
-"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,22833.2607267438,"04/01/2022"
-"ENPA and ENCV metrics reported by States%%%HI%%%digital",NA,4841.54482007004,"04/01/2022"
-"ENPA and ENCV metrics reported by States%%%MA%%%digital",NA,25552.3743965127,"04/01/2022"
-"ENPA and ENCV metrics reported by States%%%MD%%%digital",NA,12710.8264108575,"04/01/2022"
-"ENPA and ENCV metrics reported by States%%%MN%%%digital",NA,7855.04253137131,"04/01/2022"
-"ENPA and ENCV metrics reported by States%%%MO%%%digital",NA,274.895601218856,"04/01/2022"
-"ENPA and ENCV metrics reported by States%%%NM%%%digital",NA,1862.94744124691,"04/01/2022"
-"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,3249.41145953747,"04/01/2022"
-"ENPA and ENCV metrics reported by States%%%WA%%%digital",NA,40278.951627374,"04/01/2022"
-"ENPA and ENCV metrics reported by States%%%AK%%%digital",NA,4396.27818558542,"05/01/2022"
-"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,313.484915937147,"05/01/2022"
-"ENPA and ENCV metrics reported by States%%%CA%%%digital",NA,71081.2605037413,"05/01/2022"
-"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,35423.850554012,"05/01/2022"
-"ENPA and ENCV metrics reported by States%%%HI%%%digital",NA,16392.1694271825,"05/01/2022"
-"ENPA and ENCV metrics reported by States%%%MA%%%digital",NA,47582.2408975587,"05/01/2022"
-"ENPA and ENCV metrics reported by States%%%MD%%%digital",NA,37437.1591612531,"05/01/2022"
-"ENPA and ENCV metrics reported by States%%%MN%%%digital",NA,17812.7851200989,"05/01/2022"
-"ENPA and ENCV metrics reported by States%%%MO%%%digital",NA,592.527599011411,"05/01/2022"
-"ENPA and ENCV metrics reported by States%%%NM%%%digital",NA,5526.68955572724,"05/01/2022"
-"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,10814.8206792398,"05/01/2022"
-"ENPA and ENCV metrics reported by States%%%WA%%%digital",NA,74117.4316053153,"05/01/2022"
-"ENPA and ENCV metrics reported by States%%%AK%%%digital",NA,5502.56444044808,"06/01/2022"
-"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,563.90844212146,"06/01/2022"
-"ENPA and ENCV metrics reported by States%%%CA%%%digital",NA,98348.0067074659,"06/01/2022"
-"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,29196.5976285364,"06/01/2022"
-"ENPA and ENCV metrics reported by States%%%HI%%%digital",NA,14153.5096378865,"06/01/2022"
-"ENPA and ENCV metrics reported by States%%%MA%%%digital",NA,22739.2617171142,"06/01/2022"
-"ENPA and ENCV metrics reported by States%%%MD%%%digital",NA,27118.4757089876,"06/01/2022"
-"ENPA and ENCV metrics reported by States%%%MN%%%digital",NA,15184.6907577384,"06/01/2022"
-"ENPA and ENCV metrics reported by States%%%MO%%%digital",NA,904.561522148202,"06/01/2022"
-"ENPA and ENCV metrics reported by States%%%NM%%%digital",NA,11303.9762682007,"06/01/2022"
-"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,16899.3641443107,"06/01/2022"
-"ENPA and ENCV metrics reported by States%%%WA%%%digital",NA,72582.1148002625,"06/01/2022"
-"ENPA and ENCV metrics reported by States%%%AK%%%digital",NA,5617.53549796278,"07/01/2022"
-"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,638.273580628568,"07/01/2022"
-"ENPA and ENCV metrics reported by States%%%CA%%%digital",NA,116650.245949424,"07/01/2022"
-"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,26600.3411218427,"07/01/2022"
-"ENPA and ENCV metrics reported by States%%%HI%%%digital",NA,9363.60273340789,"07/01/2022"
-"ENPA and ENCV metrics reported by States%%%MA%%%digital",NA,16209.7171162199,"07/01/2022"
-"ENPA and ENCV metrics reported by States%%%MD%%%digital",NA,30169.0198879098,"07/01/2022"
-"ENPA and ENCV metrics reported by States%%%MN%%%digital",NA,13904.843330517,"07/01/2022"
-"ENPA and ENCV metrics reported by States%%%MO%%%digital",NA,1122.31436769976,"07/01/2022"
-"ENPA and ENCV metrics reported by States%%%NM%%%digital",NA,11669.0069517687,"07/01/2022"
-"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,27321.9005814904,"07/01/2022"
-"ENPA and ENCV metrics reported by States%%%WA%%%digital",NA,67625.0807329617,"07/01/2022"
-"ENPA and ENCV metrics reported by States%%%AK%%%digital",NA,4236.31126095706,"08/01/2022"
-"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,411.112531073628,"08/01/2022"
-"ENPA and ENCV metrics reported by States%%%CA%%%digital",NA,72883.9075768243,"08/01/2022"
-"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,15113.4738674684,"08/01/2022"
-"ENPA and ENCV metrics reported by States%%%HI%%%digital",NA,5897.83433393978,"08/01/2022"
-"ENPA and ENCV metrics reported by States%%%MA%%%digital",NA,18308.152365942,"08/01/2022"
-"ENPA and ENCV metrics reported by States%%%MD%%%digital",NA,26028.96340718,"08/01/2022"
-"ENPA and ENCV metrics reported by States%%%MN%%%digital",NA,13976.8452748982,"08/01/2022"
-"ENPA and ENCV metrics reported by States%%%MO%%%digital",NA,832.78000556538,"08/01/2022"
-"ENPA and ENCV metrics reported by States%%%NM%%%digital",NA,7838.72579442512,"08/01/2022"
-"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,6265.00583105201,"08/01/2022"
-"ENPA and ENCV metrics reported by States%%%WA%%%digital",NA,40808.14538395,"08/01/2022"
-"ENPA and ENCV metrics reported by States%%%AK%%%digital",NA,1855.66595348364,"09/01/2022"
-"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,152.325516951969,"09/01/2022"
-"ENPA and ENCV metrics reported by States%%%CA%%%digital",NA,36078.9354683711,"09/01/2022"
-"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,9981.79101860976,"09/01/2022"
-"ENPA and ENCV metrics reported by States%%%HI%%%digital",NA,2609.34884861882,"09/01/2022"
-"ENPA and ENCV metrics reported by States%%%MA%%%digital",NA,17487.6485188051,"09/01/2022"
-"ENPA and ENCV metrics reported by States%%%MD%%%digital",NA,16781.7390288546,"09/01/2022"
-"ENPA and ENCV metrics reported by States%%%MN%%%digital",NA,8941.90229090417,"09/01/2022"
-"ENPA and ENCV metrics reported by States%%%MO%%%digital",NA,609.127729149395,"09/01/2022"
-"ENPA and ENCV metrics reported by States%%%NM%%%digital",NA,2982.74872209174,"09/01/2022"
-"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,6981.12056974998,"09/01/2022"
-"ENPA and ENCV metrics reported by States%%%WA%%%digital",NA,27910.3798618107,"09/01/2022"
-"ENPA and ENCV metrics reported by States%%%AK%%%digital",NA,1128.12248449135,"10/01/2022"
-"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,157.882121638805,"10/01/2022"
-"ENPA and ENCV metrics reported by States%%%CA%%%digital",NA,20726.035342507,"10/01/2022"
-"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,6612.301595792,"10/01/2022"
-"ENPA and ENCV metrics reported by States%%%HI%%%digital",NA,2476.80426921754,"10/01/2022"
-"ENPA and ENCV metrics reported by States%%%MA%%%digital",NA,18984.8828587781,"10/01/2022"
-"ENPA and ENCV metrics reported by States%%%MD%%%digital",NA,12499.9647093643,"10/01/2022"
-"ENPA and ENCV metrics reported by States%%%MN%%%digital",NA,7571.80681253821,"10/01/2022"
-"ENPA and ENCV metrics reported by States%%%MO%%%digital",NA,384.908494442545,"10/01/2022"
-"ENPA and ENCV metrics reported by States%%%NM%%%digital",NA,4014.75337669193,"10/01/2022"
-"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,3304.79874241902,"10/01/2022"
-"ENPA and ENCV metrics reported by States%%%WA%%%digital",NA,19784.9891927144,"10/01/2022"
-"ENPA and ENCV metrics reported by States%%%AK%%%digital",NA,879.818085456005,"11/01/2022"
-"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,383.439067783294,"11/01/2022"
-"ENPA and ENCV metrics reported by States%%%CA%%%digital",NA,29389.580876975,"11/01/2022"
-"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,7295.22993777014,"11/01/2022"
-"ENPA and ENCV metrics reported by States%%%HI%%%digital",NA,2211.2793474142,"11/01/2022"
-"ENPA and ENCV metrics reported by States%%%MA%%%digital",NA,10405.1715118227,"11/01/2022"
-"ENPA and ENCV metrics reported by States%%%MD%%%digital",NA,11913.8666666437,"11/01/2022"
-"ENPA and ENCV metrics reported by States%%%MN%%%digital",NA,7693.0264602912,"11/01/2022"
-"ENPA and ENCV metrics reported by States%%%MO%%%digital",NA,415.462949361138,"11/01/2022"
-"ENPA and ENCV metrics reported by States%%%NM%%%digital",NA,7420.71338098091,"11/01/2022"
-"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,5184.91751913239,"11/01/2022"
-"ENPA and ENCV metrics reported by States%%%WA%%%digital",NA,20006.8884432272,"11/01/2022"
-"ENPA and ENCV metrics reported by States%%%AK%%%digital",NA,996.443402791059,"12/01/2022"
-"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,362.108184124784,"12/01/2022"
-"ENPA and ENCV metrics reported by States%%%CA%%%digital",NA,61124.4233581419,"12/01/2022"
-"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,11577.1718285201,"12/01/2022"
-"ENPA and ENCV metrics reported by States%%%HI%%%digital",NA,2582.47679690459,"12/01/2022"
-"ENPA and ENCV metrics reported by States%%%MA%%%digital",NA,18894.9030821422,"12/01/2022"
-"ENPA and ENCV metrics reported by States%%%MD%%%digital",NA,19006.1675005569,"12/01/2022"
-"ENPA and ENCV metrics reported by States%%%MN%%%digital",NA,7726.7583653587,"12/01/2022"
-"ENPA and ENCV metrics reported by States%%%MO%%%digital",NA,595.377713662794,"12/01/2022"
-"ENPA and ENCV metrics reported by States%%%NM%%%digital",NA,5136.48232797328,"12/01/2022"
-"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,6413.67313818363,"12/01/2022"
-"ENPA and ENCV metrics reported by States%%%WA%%%digital",NA,23431.559225592,"12/01/2022"
-"ENPA and ENCV metrics reported by States%%%AK%%%digital",NA,1542.84542145444,"01/01/2023"
-"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,165.55847693485,"01/01/2023"
-"ENPA and ENCV metrics reported by States%%%CA%%%digital",NA,29991.752345877,"01/01/2023"
-"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,9309.52363330162,"01/01/2023"
-"ENPA and ENCV metrics reported by States%%%HI%%%digital",NA,2335.9075656348,"01/01/2023"
-"ENPA and ENCV metrics reported by States%%%MA%%%digital",NA,16879.3439424795,"01/01/2023"
-"ENPA and ENCV metrics reported by States%%%MD%%%digital",NA,17584.2952737073,"01/01/2023"
-"ENPA and ENCV metrics reported by States%%%MN%%%digital",NA,6519.84858030128,"01/01/2023"
-"ENPA and ENCV metrics reported by States%%%MO%%%digital",NA,381.923024883883,"01/01/2023"
-"ENPA and ENCV metrics reported by States%%%NM%%%digital",NA,2360.98738493408,"01/01/2023"
-"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,3541.15653149156,"01/01/2023"
-"ENPA and ENCV metrics reported by States%%%WA%%%digital",NA,20544.5575183992,"01/01/2023"
-"ENPA and ENCV metrics reported by States%%%AK%%%digital",NA,1214.85524553776,"02/01/2023"
-"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,351.143602091916,"02/01/2023"
-"ENPA and ENCV metrics reported by States%%%CA%%%digital",NA,23150.8532555537,"02/01/2023"
-"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,13035.3967846202,"02/01/2023"
-"ENPA and ENCV metrics reported by States%%%HI%%%digital",NA,846.825568213087,"02/01/2023"
-"ENPA and ENCV metrics reported by States%%%MA%%%digital",NA,10984.4352818594,"02/01/2023"
-"ENPA and ENCV metrics reported by States%%%MD%%%digital",NA,8817.76665185358,"02/01/2023"
-"ENPA and ENCV metrics reported by States%%%MN%%%digital",NA,2436.14207766955,"02/01/2023"
-"ENPA and ENCV metrics reported by States%%%MO%%%digital",NA,373.647327395798,"02/01/2023"
-"ENPA and ENCV metrics reported by States%%%NM%%%digital",NA,9824.60583273714,"02/01/2023"
-"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,6704.5717139031,"02/01/2023"
-"ENPA and ENCV metrics reported by States%%%WA%%%digital",NA,27743.7207044191,"02/01/2023"
-"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,70.4826301829536,"03/01/2023"
-"ENPA and ENCV metrics reported by States%%%MD%%%digital",NA,1331.99161424808,"03/01/2023"
-"ENPA and ENCV metrics reported by States%%%MO%%%digital",NA,68.7029061264814,"03/01/2023"
+"Declines in SARS-CoV-2 Transmission, Hospitalizations, and Mortality After Implementation of Mitigation Measures- Delaware, March-June 2020.%%%DE%%%manual",294.449576378351,39.7892640364188,2020-03-01
+"Coronavirus Disease Contact Tracing Outcomes and Cost, Salt Lake County, Utah, USA, March-May 2020.%%%Salt Lake City%%%manual",16.8358945729145,85.4613155679038,2020-03-01
+"Declines in SARS-CoV-2 Transmission, Hospitalizations, and Mortality After Implementation of Mitigation Measures- Delaware, March-June 2020.%%%DE%%%manual",3339.43373798685,451.26100151745,2020-04-01
+"Lessons Learned From COVID-19 Contact Tracing During a Public Health Emergency: A Prospective Implementation Study.%%%New Haven%%%manual",562.867964693666,468.148052959502,2020-04-01
+"Coronavirus Disease Contact Tracing Outcomes and Cost, Salt Lake County, Utah, USA, March-May 2020.%%%Salt Lake City%%%manual",70.8524079569829,359.656564071091,2020-04-01
+"Outcomes of Contact Tracing in San Francisco, California-Test and Trace During Shelter-in-Place.%%%San Francisco%%%manual",342.828376970569,178.735390567679,2020-04-01
+"Declines in SARS-CoV-2 Transmission, Hospitalizations, and Mortality After Implementation of Mitigation Measures- Delaware, March-June 2020.%%%DE%%%manual",2893.1166856348,390.949734446131,2020-05-01
+"Implementation of close contact elicitation at the time of COVID-19 testing-Atlanta, GA, October-November 2020.%%%Fulton County%%%manual",851.683520747895,NA,2020-05-01
+"Lessons Learned From COVID-19 Contact Tracing During a Public Health Emergency: A Prospective Implementation Study.%%%New Haven%%%manual",263.132035306335,218.851947040499,2020-05-01
+"Coronavirus Disease Contact Tracing Outcomes and Cost, Salt Lake County, Utah, USA, March-May 2020.%%%Salt Lake City%%%manual",96.3116974701026,488.891417959743,2020-05-01
+"Outcomes of Contact Tracing in San Francisco, California-Test and Trace During Shelter-in-Place.%%%San Francisco%%%manual",781.259840000416,407.313956537805,2020-05-01
+"A Patient-Initiated Digital COVID-19 Contact Notification Tool (TellYourContacts): Evaluation Study.%%%United States*%%%digital",NA,105.315776803313,2020-05-01
+"Implementation of close contact elicitation at the time of COVID-19 testing-Atlanta, GA, October-November 2020.%%%Fulton County%%%manual",1451.67468164023,NA,2020-06-01
+"A State Health Department and Health Information Exchange Partnership: An Effective Collaboration for a Data-Driven Response for COVID-19 Contact Tracing  in Maryland.%%%Maryland%%%manual",4952.43656410343,4446.54749381152,2020-06-01
+"COVID-19 Contact Tracing in Two Counties - North Carolina, June-July 2020.%%%Mecklenburg%%%manual",5514,9815,2020-06-01
+"Centralized COVID-19 Contact Tracing in a Home-Rule State.%%%Michigan%%%manual",NA,2412.85237787109,2020-06-01
+"Lessons Learned from the Launch and Implementation of the COVID-19 Contact Tracing Program in New York City: a Qualitative Study.%%%New York%%%manual",8814.06258750125,NA,2020-06-01
+"COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.%%%New York City%%%manual",6090.02494734038,5054.03095679189,2020-06-01
+"COVID-19 Contact Tracing in Two Counties - North Carolina, June-July 2020.%%%Randolph County%%%manual",301.24026692265,284.733950926889,2020-06-01
+"Outcomes of Contact Tracing in San Francisco, California-Test and Trace During Shelter-in-Place.%%%San Francisco%%%manual",269.911783029015,140.719938019165,2020-06-01
+"A Patient-Initiated Digital COVID-19 Contact Notification Tool (TellYourContacts): Evaluation Study.%%%United States*%%%digital",NA,293.577133294059,2020-06-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%across US%%%manual",4920.24074640203,4267.09334627599,2020-06-01
+"COVID-19 Case Investigation and Contact Tracing in Central Washington State, June-July 2020.%%%central WA%%%manual",1672.97977490988,918.860708290911,2020-06-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_A%%%manual",4.47997154301248,4.96229484692785,2020-06-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_B%%%manual",65.4075845279822,48.1822822233962,2020-06-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_C%%%manual",16.1278975548449,30.5741392181684,2020-06-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_D%%%manual",15.2319032462424,27.2926216581032,2020-06-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_E%%%manual",73.3595340168294,48.3423562507165,2020-06-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_F%%%manual",45.3597118730014,78.5963474142444,2020-06-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_G%%%manual",652.171857374042,531.845955771542,2020-06-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_H%%%manual",443.629182046811,440.123538117036,2020-06-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_I%%%manual",617.564077204271,805.972727557475,2020-06-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_J%%%manual",41.3277374842901,12.4057371173196,2020-06-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_K%%%manual",875.83443665894,542.090693520038,2020-06-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_L%%%manual",585.532280671731,198.011571795153,2020-06-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_M%%%manual",1152.47267943996,1433.38287763921,2020-06-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_N%%%manual",331.741892760074,65.3102031466633,2020-06-01
+"Implementation of close contact elicitation at the time of COVID-19 testing-Atlanta, GA, October-November 2020.%%%Fulton County%%%manual",4258.84333906601,NA,2020-07-01
+"A Multifaceted Evaluation of a COVID-19 Contact Tracing Program in King County, Washington.%%%King County%%%manual",18150.0169015816,NA,2020-07-01
+"Using Automation, Prioritization, and Collaboration to Manage a COVID-19 Case Surge in Maricopa County, Arizona, 2020.%%%Maricopa%%%manual",43283.9427776846,NA,2020-07-01
+"A State Health Department and Health Information Exchange Partnership: An Effective Collaboration for a Data-Driven Response for COVID-19 Contact Tracing  in Maryland.%%%Maryland%%%manual",16719.2934989501,15011.425516263,2020-07-01
+"Centralized COVID-19 Contact Tracing in a Home-Rule State.%%%Michigan%%%manual",NA,5646.94321734744,2020-07-01
+"Lessons Learned from the Launch and Implementation of the COVID-19 Contact Tracing Program in New York City: a Qualitative Study.%%%New York%%%manual",9330.28851625843,NA,2020-07-01
+"COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.%%%New York City%%%manual",6446.70823083026,5350.03768453366,2020-07-01
+"Community-Based Workforce for COVID-19 Contact Tracing and Prevention Activities in New York City, July-December 2020.%%%New York City%%%manual",1312.49640705416,826.448710766493,2020-07-01
+"COVID-19 Contact Tracing in Two Counties - North Carolina, June-July 2020.%%%Randolph County%%%manual",282.75973307735,267.266049073111,2020-07-01
+"A Patient-Initiated Digital COVID-19 Contact Notification Tool (TellYourContacts): Evaluation Study.%%%United States*%%%digital",NA,662.182530396043,2020-07-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%across US%%%manual",11097.9265689156,9624.70965558112,2020-07-01
+"COVID-19 Case Investigation and Contact Tracing in Central Washington State, June-July 2020.%%%central WA%%%manual",1861.02022509012,1022.13929170909,2020-07-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_A%%%manual",10.1048704276393,11.1927823582179,2020-07-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_B%%%manual",147.531108243534,108.678306123342,2020-07-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_C%%%manual",36.3775335395016,68.9619816264394,2020-07-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_D%%%manual",34.3565594539738,61.5603029701985,2020-07-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_E%%%manual",165.467253252594,109.039363618768,2020-07-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_F%%%manual",102.311813079848,177.279230254355,2020-07-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_G%%%manual",1471.0165125036,1199.61352855416,2020-07-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_H%%%manual",1000.63479409699,992.727583674843,2020-07-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_I%%%manual",1392.95638845008,1817.92448947184,2020-07-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_J%%%manual",93.217429694973,27.9819558955448,2020-07-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_K%%%manual",1975.50216860349,1222.72120826145,2020-07-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_L%%%manual",1320.70656489246,446.628121842437,2020-07-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_M%%%manual",2599.47791751022,3233.08934279556,2020-07-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_N%%%manual",748.265655166693,147.311458133965,2020-07-01
+"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,59.5654014460317,2020-08-01
+"Implementation of close contact elicitation at the time of COVID-19 testing-Atlanta, GA, October-November 2020.%%%Fulton County%%%manual",3542.43721832694,NA,2020-08-01
+"A Multifaceted Evaluation of a COVID-19 Contact Tracing Program in King County, Washington.%%%King County%%%manual",14099.5782287143,NA,2020-08-01
+"A State Health Department and Health Information Exchange Partnership: An Effective Collaboration for a Data-Driven Response for COVID-19 Contact Tracing  in Maryland.%%%Maryland%%%manual",16457.6395147348,14776.4993637118,2020-08-01
+"Centralized COVID-19 Contact Tracing in a Home-Rule State.%%%Michigan%%%manual",NA,6514.73426158007,2020-08-01
+"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,2469.21980260903,2020-08-01
+"Lessons Learned from the Launch and Implementation of the COVID-19 Contact Tracing Program in New York City: a Qualitative Study.%%%New York%%%manual",8755.34000597109,NA,2020-08-01
+"COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.%%%New York City%%%manual",6049.45092339392,5020.35911228547,2020-08-01
+"Community-Based Workforce for COVID-19 Contact Tracing and Prevention Activities in New York City, July-December 2020.%%%New York City%%%manual",1641.69554227815,1033.73781222922,2020-08-01
+"Integrating Contact Tracers Into Point-of-Care Testing Workflow to Accelerate the Tracing of People With Exposure to COVID-19, August-December 2020, New York City.%%%New York City communities with higher than average COVID-19 incidence rates%%%manual",134.984535571436,77.5727754545469,2020-08-01
+"A Patient-Initiated Digital COVID-19 Contact Notification Tool (TellYourContacts): Evaluation Study.%%%United States*%%%digital",NA,337.43733334035,2020-08-01
+"COVID-19 Contact Tracing Outcomes in Washington State, August and October 2020.%%%WA%%%manual",3000,2212,2020-08-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%across US%%%manual",9247.92580818791,8020.29102170039,2020-08-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_A%%%manual",8.42041001405651,9.32696933911213,2020-08-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_B%%%manual",122.937986205225,90.561863582992,2020-08-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_C%%%manual",30.3134760506034,57.466165928078,2020-08-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_D%%%manual",28.6293940477921,51.2983313651167,2020-08-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_E%%%manual",137.884213980175,90.862733561673,2020-08-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_F%%%manual",85.2566513923221,147.727159532389,2020-08-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_G%%%manual",1225.80118779628,999.640504167744,2020-08-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_H%%%manual",833.831101641946,827.24200638351,2020-08-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_I%%%manual",1160.75352043769,1514.88034265902,2020-08-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_J%%%manual",77.6782823796713,23.3174233477803,2020-08-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_K%%%manual",1646.19015774805,1018.89618280333,2020-08-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_L%%%manual",1100.54758883719,372.176163628442,2020-08-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_M%%%manual",2166.15047611604,2694.14022409934,2020-08-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_N%%%manual",623.531361540884,122.754951301863,2020-08-01
+"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,137.355879032361,2020-09-01
+"Implementation of close contact elicitation at the time of COVID-19 testing-Atlanta, GA, October-November 2020.%%%Fulton County%%%manual",1963.36124021892,NA,2020-09-01
+"A Multifaceted Evaluation of a COVID-19 Contact Tracing Program in King County, Washington.%%%King County%%%manual",10650.4048697042,NA,2020-09-01
+"A State Health Department and Health Information Exchange Partnership: An Effective Collaboration for a Data-Driven Response for COVID-19 Contact Tracing  in Maryland.%%%Maryland%%%manual",13456.6570421676,12082.0658420213,2020-09-01
+"Centralized COVID-19 Contact Tracing in a Home-Rule State.%%%Michigan%%%manual",NA,7172.83342568874,2020-09-01
+"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,5569.25796835135,2020-09-01
+"Lessons Learned from the Launch and Implementation of the COVID-19 Contact Tracing Program in New York City: a Qualitative Study.%%%New York%%%manual",11369.9426794655,NA,2020-09-01
+"COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.%%%New York City%%%manual",7855.99533476939,6519.58636650196,2020-09-01
+"Community-Based Workforce for COVID-19 Contact Tracing and Prevention Activities in New York City, July-December 2020.%%%New York City%%%manual",2131.95423594133,1342.44240230836,2020-09-01
+"Integrating Contact Tracers Into Point-of-Care Testing Workflow to Accelerate the Tracing of People With Exposure to COVID-19, August-December 2020, New York City.%%%New York City communities with higher than average COVID-19 incidence rates%%%manual",354.112557961133,203.501044234929,2020-09-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%across US%%%manual",7238.1738113433,6277.32765559445,2020-09-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_A%%%manual",6.59049310176714,7.30003966400675,2020-09-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_B%%%manual",96.2211992858002,70.881030286001,2020-09-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_C%%%manual",23.7257751663617,44.9776637362996,2020-09-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_D%%%manual",22.4076765460083,40.1502181520371,2020-09-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_E%%%manual",107.919324541437,71.1165154364528,2020-09-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_F%%%manual",66.7287426553923,115.623208871849,2020-09-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_G%%%manual",959.411033289751,782.399412376207,2020-09-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_H%%%manual",652.623579402491,647.466421167308,2020-09-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_I%%%manual",908.4994740786,1185.66773252497,2020-09-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_J%%%manual",60.7972988638018,18.2500991600169,2020-09-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_K%%%manual",1288.44140139548,797.470462005124,2020-09-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_L%%%manual",861.377448400965,291.295131108914,2020-09-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_M%%%manual",1695.4043504296,2108.65177972092,2020-09-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_N%%%manual",488.026014185856,96.0779413843469,2020-09-01
+"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,220.834828838467,2020-10-01
+"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,3695.24599065738,2020-10-01
+"A State Health Department and Health Information Exchange Partnership: An Effective Collaboration for a Data-Driven Response for COVID-19 Contact Tracing  in Maryland.%%%Maryland%%%manual",16649.3948388748,14948.6669715031,2020-10-01
+"Centralized COVID-19 Contact Tracing in a Home-Rule State.%%%Michigan%%%manual",NA,16997.5219947305,2020-10-01
+"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,10271.9976795077,2020-10-01
+"Lessons Learned from the Launch and Implementation of the COVID-19 Contact Tracing Program in New York City: a Qualitative Study.%%%New York%%%manual",23921.0547602023,NA,2020-10-01
+"COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.%%%New York City%%%manual",16528.1127527853,13716.4616290126,2020-10-01
+"Community-Based Workforce for COVID-19 Contact Tracing and Prevention Activities in New York City, July-December 2020.%%%New York City%%%manual",4485.38708258423,2824.34477669199,2020-10-01
+"Contact tracing reveals community transmission of COVID-19 in New York City.%%%New York City%%%manual",17368.3605430168,NA,2020-10-01
+"Integrating Contact Tracers Into Point-of-Care Testing Workflow to Accelerate the Tracing of People With Exposure to COVID-19, August-December 2020, New York City.%%%New York City communities with higher than average COVID-19 incidence rates%%%manual",745.012189512793,428.142846462522,2020-10-01
+"COVID-19 Contact Tracing Outcomes in Washington State, August and October 2020.%%%WA%%%manual",1639,1730,2020-10-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%across US%%%manual",11426.7330651512,9909.86806237759,2020-10-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_A%%%manual",10.4042549135245,11.5243992172302,2020-10-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_B%%%manual",151.902121737458,111.898198851171,2020-10-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_C%%%manual",37.4553176886883,71.0051693706763,2020-10-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_D%%%manual",35.3744667059834,63.384195694766,2020-10-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_E%%%manual",170.369674208964,112.26995366463,2020-10-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_F%%%manual",105.343080999436,182.531613408388,2020-10-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_G%%%manual",1514.59940903633,1235.15536771766,2020-10-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_H%%%manual",1030.28134281177,1022.13985960563,2020-10-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_I%%%manual",1434.22653982936,1871.78548576626,2020-10-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_J%%%manual",95.9792515772638,28.8109980430755,2020-10-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_K%%%manual",2034.03183559405,1258.94767577903,2020-10-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_L%%%manual",1359.83611719766,459.86070424883,2020-10-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_M%%%manual",2676.49457650419,3328.87847711896,2020-10-01
+"COVID-19 Case Investigation and Contact Tracing in the US, 2020.%%%loc_N%%%manual",770.435076346491,151.675963891288,2020-10-01
+"Case Investigation and Contact Tracing Efforts From Health Departments in the United States, November 2020 to December 2021.%%%64 HD accross US and collonies%%%manual",1859220,1024483.1408376,2020-11-01
+"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,720.401253698084,2020-11-01
+"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,18377.9554428469,2020-11-01
+"ENPA and ENCV metrics reported by States%%%MN%%%digital",NA,17515.5671507561,2020-11-01
+"A State Health Department and Health Information Exchange Partnership: An Effective Collaboration for a Data-Driven Response for COVID-19 Contact Tracing  in Maryland.%%%Maryland%%%manual",43931.1913595737,39443.6407840049,2020-11-01
+"Centralized COVID-19 Contact Tracing in a Home-Rule State.%%%Michigan%%%manual",NA,54975.5212084018,2020-11-01
+"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,26495.8867744933,2020-11-01
+"Lessons Learned from the Launch and Implementation of the COVID-19 Contact Tracing Program in New York City: a Qualitative Study.%%%New York%%%manual",75264.9759768251,NA,2020-11-01
+"COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.%%%New York City%%%manual",52003.8945502637,43157.3425730474,2020-11-01
+"Community-Based Workforce for COVID-19 Contact Tracing and Prevention Activities in New York City, July-December 2020.%%%New York City%%%manual",14112.7786546904,8886.4911643301,2020-11-01
+"Contact tracing reveals community transmission of COVID-19 in New York City.%%%New York City%%%manual",54647.6420931844,NA,2020-11-01
+"Integrating Contact Tracers Into Point-of-Care Testing Workflow to Accelerate the Tracing of People With Exposure to COVID-19, August-December 2020, New York City.%%%New York City communities with higher than average COVID-19 incidence rates%%%manual",2344.09916737501,1347.1045226343,2020-11-01
+"The public health impact of COVID-19 variants of concern on the effectiveness of contact tracing in Vermont, United States.%%%VT%%%manual",400.855215988528,NA,2020-11-01
+"Trading-off privacy and utility: the Washington State experience assessing the performance of a public health digital exposure notification system for  coronavirus disease 2019.%%%Washington%%%digital",NA,96338.1740831695,2020-11-01
+"Case Investigation and Contact Tracing Efforts From Health Departments in the United States, November 2020 to December 2021.%%%64 HD accross US and collonies%%%manual",2573653,1012405.33583475,2020-12-01
+"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,1562.37426359491,2020-12-01
+"Assessment of a COVID-19 Control Plan on an Urban University Campus During a Second Wave of the Pandemic.%%%Boston University%%%manual",194.852968538358,226.831619842289,2020-12-01
+"ENPA and ENCV metrics reported by States%%%CA%%%digital",NA,168517.071731189,2020-12-01
+"Defining Key Performance Indicators for the California COVID-19 Exposure Notification System (CA Notify).%%%California%%%digital",24840.3107622769,28799.9260688165,2020-12-01
+"Unified Response to COVID-19 Case Investigation and Contact Tracing, Chicago, December 2020-April 2021.%%%Chicago%%%manual",1758.89801598858,943.618211685982,2020-12-01
+"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,32833.6383361087,2020-12-01
+"ENPA and ENCV metrics reported by States%%%HI%%%digital",NA,881.790942510636,2020-12-01
+"ENPA and ENCV metrics reported by States%%%MD%%%digital",NA,36881.8703331299,2020-12-01
+"ENPA and ENCV metrics reported by States%%%MN%%%digital",NA,31876.4894583427,2020-12-01
+"ENPA and ENCV metrics reported by States%%%MO%%%digital",NA,1996.5463719606,2020-12-01
+"A State Health Department and Health Information Exchange Partnership: An Effective Collaboration for a Data-Driven Response for COVID-19 Contact Tracing  in Maryland.%%%Maryland%%%manual",63134.9162331344,56685.7141761829,2020-12-01
+"Centralized COVID-19 Contact Tracing in a Home-Rule State.%%%Michigan%%%manual",NA,41205.8091491424,2020-12-01
+"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,36345.4865728182,2020-12-01
+"Lessons Learned from the Launch and Implementation of the COVID-19 Contact Tracing Program in New York City: a Qualitative Study.%%%New York%%%manual",170167.153852956,NA,2020-12-01
+"COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.%%%New York City%%%manual",117575.998796737,97574.7624735015,2020-12-01
+"Community-Based Workforce for COVID-19 Contact Tracing and Prevention Activities in New York City, July-December 2020.%%%New York City%%%manual",31907.6880774517,20091.5351336738,2020-12-01
+"Contact tracing reveals community transmission of COVID-19 in New York City.%%%New York City%%%manual",123553.267626572,NA,2020-12-01
+"Integrating Contact Tracers Into Point-of-Care Testing Workflow to Accelerate the Tracing of People With Exposure to COVID-19, August-December 2020, New York City.%%%New York City communities with higher than average COVID-19 incidence rates%%%manual",5299.79154957962,3045.6788112137,2020-12-01
+"The public health impact of COVID-19 variants of concern on the effectiveness of contact tracing in Vermont, United States.%%%VT%%%manual",2679.81649937265,NA,2020-12-01
+"ENPA and ENCV metrics reported by States%%%WA%%%digital",NA,67205.7889379425,2020-12-01
+"Trading-off privacy and utility: the Washington State experience assessing the performance of a public health digital exposure notification system for  coronavirus disease 2019.%%%Washington%%%digital",NA,183507.096907289,2020-12-01
+"WA Notify: the planning and implementation of a Bluetooth exposure notification tool for COVID-19 pandemic response in Washington State.%%%Washington%%%digital",3612.02160685039,NA,2020-12-01
+"Case Investigation and Contact Tracing Efforts From Health Departments in the United States, November 2020 to December 2021.%%%64 HD accross US and collonies%%%manual",2681000,1027954.05373617,2021-01-01
+"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,1931.48844417343,2021-01-01
+"Assessment of a COVID-19 Control Plan on an Urban University Campus During a Second Wave of the Pandemic.%%%Boston University%%%manual",524.147031461642,610.168380157711,2021-01-01
+"ENPA and ENCV metrics reported by States%%%CA%%%digital",NA,196123.043751959,2021-01-01
+"Defining Key Performance Indicators for the California COVID-19 Exposure Notification System (CA Notify).%%%California%%%digital",28909.5775543352,33517.8454172147,2021-01-01
+"Unified Response to COVID-19 Case Investigation and Contact Tracing, Chicago, December 2020-April 2021.%%%Chicago%%%manual",10397.7372721091,5578.20530872207,2021-01-01
+"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,33190.0389340967,2021-01-01
+"ENPA and ENCV metrics reported by States%%%HI%%%digital",NA,2216.49292153791,2021-01-01
+"ENPA and ENCV metrics reported by States%%%MD%%%digital",NA,47501.1704388288,2021-01-01
+"ENPA and ENCV metrics reported by States%%%MN%%%digital",NA,14851.3376613733,2021-01-01
+"ENPA and ENCV metrics reported by States%%%MO%%%digital",NA,1506.15148906577,2021-01-01
+"A State Health Department and Health Information Exchange Partnership: An Effective Collaboration for a Data-Driven Response for COVID-19 Contact Tracing  in Maryland.%%%Maryland%%%manual",62276.3276918758,55914.8300513825,2021-01-01
+"Factors Influencing the Results of COVID-19 Case Outreach-Results From a California Case Investigation/Contact Tracing Program.%%%Members of large CA health care plan%%%manual",3740.95180754517,NA,2021-01-01
+"Centralized COVID-19 Contact Tracing in a Home-Rule State.%%%Michigan%%%manual",NA,22700.131263262,2021-01-01
+"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,26809.1670072311,2021-01-01
+"Lessons Learned from the Launch and Implementation of the COVID-19 Contact Tracing Program in New York City: a Qualitative Study.%%%New York%%%manual",210637.205006866,NA,2021-01-01
+"COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.%%%New York City%%%manual",145538.543729984,120780.507761135,2021-01-01
+"Contact tracing reveals community transmission of COVID-19 in New York City.%%%New York City%%%manual",152937.358197899,NA,2021-01-01
+"Automated Digital Notification of COVID-19 Diagnoses Through Text and Email Messaging - North Carolina, December 2020-January 2021.%%%North Carolina%%%digital",102387.922169759,NA,2021-01-01
+"The public health impact of COVID-19 variants of concern on the effectiveness of contact tracing in Vermont, United States.%%%VT%%%manual",2429.32828463882,NA,2021-01-01
+"ENPA and ENCV metrics reported by States%%%WA%%%digital",NA,57589.2312739553,2021-01-01
+"Trading-off privacy and utility: the Washington State experience assessing the performance of a public health digital exposure notification system for  coronavirus disease 2019.%%%Washington%%%digital",NA,157248.844351258,2021-01-01
+"WA Notify: the planning and implementation of a Bluetooth exposure notification tool for COVID-19 pandemic response in Washington State.%%%Washington%%%digital",3095.17306426548,NA,2021-01-01
+"Case Investigation and Contact Tracing Efforts From Health Departments in the United States, November 2020 to December 2021.%%%64 HD accross US and collonies%%%manual",1553633,784966.568351769,2021-02-01
+"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,507.757258016431,2021-02-01
+"ENPA and ENCV metrics reported by States%%%CA%%%digital",NA,48091.2224190373,2021-02-01
+"Defining Key Performance Indicators for the California COVID-19 Exposure Notification System (CA Notify).%%%California%%%digital",7088.9014243746,8218.89222260288,2021-02-01
+"Unified Response to COVID-19 Case Investigation and Contact Tracing, Chicago, December 2020-April 2021.%%%Chicago%%%manual",3921.03674409701,2103.56805612763,2021-02-01
+"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,16613.3681889343,2021-02-01
+"ENPA and ENCV metrics reported by States%%%HI%%%digital",NA,808.182074243114,2021-02-01
+"ENPA and ENCV metrics reported by States%%%MD%%%digital",NA,17922.490322147,2021-02-01
+"ENPA and ENCV metrics reported by States%%%MN%%%digital",NA,7491.40889790805,2021-02-01
+"ENPA and ENCV metrics reported by States%%%MO%%%digital",NA,501.339183969569,2021-02-01
+"A State Health Department and Health Information Exchange Partnership: An Effective Collaboration for a Data-Driven Response for COVID-19 Contact Tracing  in Maryland.%%%Maryland%%%manual",23497.2500686874,21097.0170040531,2021-02-01
+"Factors Influencing the Results of COVID-19 Case Outreach-Results From a California Case Investigation/Contact Tracing Program.%%%Members of large CA health care plan%%%manual",917.316710947473,NA,2021-02-01
+"Centralized COVID-19 Contact Tracing in a Home-Rule State.%%%Michigan%%%manual",NA,10297.0289709028,2021-02-01
+"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,7972.08343460498,2021-02-01
+"Lessons Learned from the Launch and Implementation of the COVID-19 Contact Tracing Program in New York City: a Qualitative Study.%%%New York%%%manual",89881.2234198549,NA,2021-02-01
+"COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.%%%New York City%%%manual",62102.9051575604,51538.3775743141,2021-02-01
+"Contact tracing reveals community transmission of COVID-19 in New York City.%%%New York City%%%manual",65260.0610655635,NA,2021-02-01
+"Contact tracing: Characteristics of COVID-19 cases that provided contacts.%%%New York except NYC%%%manual",79776.7947932924,NA,2021-02-01
+"ENPA and ENCV metrics reported by States%%%WA%%%digital",NA,24593.3012789621,2021-02-01
+"Trading-off privacy and utility: the Washington State experience assessing the performance of a public health digital exposure notification system for  coronavirus disease 2019.%%%Washington%%%digital",NA,67152.627658846,2021-02-01
+"WA Notify: the planning and implementation of a Bluetooth exposure notification tool for COVID-19 pandemic response in Washington State.%%%Washington%%%digital",1321.7839862786,NA,2021-02-01
+"Case Investigation and Contact Tracing Efforts From Health Departments in the United States, November 2020 to December 2021.%%%64 HD accross US and collonies%%%manual",948154,559943.933565938,2021-03-01
+"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,209.590146987374,2021-03-01
+"ENPA and ENCV metrics reported by States%%%CA%%%digital",NA,19704.9898832521,2021-03-01
+"Defining Key Performance Indicators for the California COVID-19 Exposure Notification System (CA Notify).%%%California%%%digital",2904.62009124095,3367.62469223113,2021-03-01
+"Unified Response to COVID-19 Case Investigation and Contact Tracing, Chicago, December 2020-April 2021.%%%Chicago%%%manual",3715.15042272992,1993.11362351527,2021-03-01
+"Centering Health Equity Within COVID-19 Contact Tracing: Connecticut's Community Outreach Specialist Program.%%%Connecticut%%%manual",NA,1284.80479834448,2021-03-01
+"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,17720.511407815,2021-03-01
+"ENPA and ENCV metrics reported by States%%%HI%%%digital",NA,1247.67031713449,2021-03-01
+"ENPA and ENCV metrics reported by States%%%MD%%%digital",NA,18491.6289335956,2021-03-01
+"ENPA and ENCV metrics reported by States%%%MN%%%digital",NA,11499.0103094565,2021-03-01
+"ENPA and ENCV metrics reported by States%%%MO%%%digital",NA,334.92735740677,2021-03-01
+"A State Health Department and Health Information Exchange Partnership: An Effective Collaboration for a Data-Driven Response for COVID-19 Contact Tracing  in Maryland.%%%Maryland%%%manual",24243.4182649915,21766.9644693648,2021-03-01
+"Factors Influencing the Results of COVID-19 Case Outreach-Results From a California Case Investigation/Contact Tracing Program.%%%Members of large CA health care plan%%%manual",375.863111805672,NA,2021-03-01
+"Centralized COVID-19 Contact Tracing in a Home-Rule State.%%%Michigan%%%manual",NA,28637.8433895597,2021-03-01
+"ENPA and ENCV metrics reported by States%%%NM%%%digital",NA,715.77217183224,2021-03-01
+"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,5154.29336613005,2021-03-01
+"Lessons Learned from the Launch and Implementation of the COVID-19 Contact Tracing Program in New York City: a Qualitative Study.%%%New York%%%manual",88257.4919199117,NA,2021-03-01
+"COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.%%%New York City%%%manual",60980.9973829935,50607.3211874593,2021-03-01
+"Contact tracing reveals community transmission of COVID-19 in New York City.%%%New York City%%%manual",64081.1183141349,NA,2021-03-01
+"Contact tracing: Characteristics of COVID-19 cases that provided contacts.%%%New York except NYC%%%manual",78335.6028541787,NA,2021-03-01
+"ENPA and ENCV metrics reported by States%%%WA%%%digital",NA,22002.4939333504,2021-03-01
+"Trading-off privacy and utility: the Washington State experience assessing the performance of a public health digital exposure notification system for  coronavirus disease 2019.%%%Washington%%%digital",NA,26241.9532062141,2021-03-01
+"WA Notify: the planning and implementation of a Bluetooth exposure notification tool for COVID-19 pandemic response in Washington State.%%%Washington%%%digital",444.021342605535,NA,2021-03-01
+"Centering Health Equity Within COVID-19 Contact Tracing: Connecticut's Community Outreach Specialist Program.%%% Connecticut%%%manual",NA,NA,2021-03-01
+"Case Investigation and Contact Tracing Efforts From Health Departments in the United States, November 2020 to December 2021.%%%64 HD accross US and collonies%%%manual",1138136,672360.206401409,2021-04-01
+"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,169.139051405844,2021-04-01
+"ENPA and ENCV metrics reported by States%%%CA%%%digital",NA,14495.9872042479,2021-04-01
+"Defining Key Performance Indicators for the California COVID-19 Exposure Notification System (CA Notify).%%%California%%%digital",2136.78545004567,2477.39505254874,2021-04-01
+"Unified Response to COVID-19 Case Investigation and Contact Tracing, Chicago, December 2020-April 2021.%%%Chicago%%%manual",4657.17754507543,2498.49479994905,2021-04-01
+"Centering Health Equity Within COVID-19 Contact Tracing: Connecticut's Community Outreach Specialist Program.%%%Connecticut%%%manual",NA,3487.6772878814,2021-04-01
+"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,13780.8231222025,2021-04-01
+"ENPA and ENCV metrics reported by States%%%HI%%%digital",NA,1423.10478650542,2021-04-01
+"ENPA and ENCV metrics reported by States%%%MD%%%digital",NA,22164.4167910516,2021-04-01
+"ENPA and ENCV metrics reported by States%%%MN%%%digital",NA,17936.8213649062,2021-04-01
+"ENPA and ENCV metrics reported by States%%%MO%%%digital",NA,329.157916923078,2021-04-01
+"A State Health Department and Health Information Exchange Partnership: An Effective Collaboration for a Data-Driven Response for COVID-19 Contact Tracing  in Maryland.%%%Maryland%%%manual",29058.6204598137,26090.2960202977,2021-04-01
+"Factors Influencing the Results of COVID-19 Case Outreach-Results From a California Case Investigation/Contact Tracing Program.%%%Members of large CA health care plan%%%manual",276.503915585091,NA,2021-04-01
+"Centralized COVID-19 Contact Tracing in a Home-Rule State.%%%Michigan%%%manual",NA,54244.7606058007,2021-04-01
+"ENPA and ENCV metrics reported by States%%%NM%%%digital",NA,2435.72055303533,2021-04-01
+"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,5789.08095589328,2021-04-01
+"Lessons Learned from the Launch and Implementation of the COVID-19 Contact Tracing Program in New York City: a Qualitative Study.%%%New York%%%manual",74428.7293522734,NA,2021-04-01
+"COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.%%%New York City%%%manual",51426.0948404147,42677.8342548298,2021-04-01
+"Contact tracing reveals community transmission of COVID-19 in New York City.%%%New York City%%%manual",54040.4684955444,NA,2021-04-01
+"Contact tracing: Characteristics of COVID-19 cases that provided contacts.%%%New York except NYC%%%manual",66061.4669264745,NA,2021-04-01
+"ENPA and ENCV metrics reported by States%%%WA%%%digital",NA,33986.3273517793,2021-04-01
+"Centering Health Equity Within COVID-19 Contact Tracing: Connecticut's Community Outreach Specialist Program.%%% Connecticut%%%manual",NA,NA,2021-04-01
+"Case Investigation and Contact Tracing Efforts From Health Departments in the United States, November 2020 to December 2021.%%%64 HD accross US and collonies%%%manual",615707,427278.882270284,2021-05-01
+"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,155.465225407755,2021-05-01
+"ENPA and ENCV metrics reported by States%%%CA%%%digital",NA,9134.61916616518,2021-05-01
+"Defining Key Performance Indicators for the California COVID-19 Exposure Notification System (CA Notify).%%%California%%%digital",1346.49134625687,1561.12584885167,2021-05-01
+"Centering Health Equity Within COVID-19 Contact Tracing: Connecticut's Community Outreach Specialist Program.%%%Connecticut%%%manual",NA,908.038117762156,2021-05-01
+"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,5568.05960416846,2021-05-01
+"ENPA and ENCV metrics reported by States%%%HI%%%digital",NA,1209.20607518686,2021-05-01
+"ENPA and ENCV metrics reported by States%%%MD%%%digital",NA,7930.61999559548,2021-05-01
+"ENPA and ENCV metrics reported by States%%%MN%%%digital",NA,8440.71026241179,2021-05-01
+"ENPA and ENCV metrics reported by States%%%MO%%%digital",NA,260.133741843731,2021-05-01
+"A State Health Department and Health Information Exchange Partnership: An Effective Collaboration for a Data-Driven Response for COVID-19 Contact Tracing  in Maryland.%%%Maryland%%%manual",10397.4256862043,9335.33353303094,2021-05-01
+"Factors Influencing the Results of COVID-19 Case Outreach-Results From a California Case Investigation/Contact Tracing Program.%%%Members of large CA health care plan%%%manual",174.238424140106,NA,2021-05-01
+"Centralized COVID-19 Contact Tracing in a Home-Rule State.%%%Michigan%%%manual",NA,16473.3333460808,2021-05-01
+"ENPA and ENCV metrics reported by States%%%NM%%%digital",NA,2177.52861816482,2021-05-01
+"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,4571.97173563897,2021-05-01
+"Lessons Learned from the Launch and Implementation of the COVID-19 Contact Tracing Program in New York City: a Qualitative Study.%%%New York%%%manual",26592.5268371115,NA,2021-05-01
+"COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.%%%New York City%%%manual",18373.9507455369,15248.2981054236,2021-05-01
+"Contact tracing reveals community transmission of COVID-19 in New York City.%%%New York City%%%manual",9164.36880925415,NA,2021-05-01
+"Contact tracing: Characteristics of COVID-19 cases that provided contacts.%%%New York except NYC%%%manual",23603.0004465953,NA,2021-05-01
+"ENPA and ENCV metrics reported by States%%%WA%%%digital",NA,29657.5618848211,2021-05-01
+"Centering Health Equity Within COVID-19 Contact Tracing: Connecticut's Community Outreach Specialist Program.%%% Connecticut%%%manual",NA,NA,2021-05-01
+"Case Investigation and Contact Tracing Efforts From Health Departments in the United States, November 2020 to December 2021.%%%64 HD accross US and collonies%%%manual",217527,147334.071075156,2021-06-01
+"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,114.052864227949,2021-06-01
+"ENPA and ENCV metrics reported by States%%%CA%%%digital",NA,5972.06021235374,2021-06-01
+"Defining Key Performance Indicators for the California COVID-19 Exposure Notification System (CA Notify).%%%California%%%digital",880.31337146977,1020.63779549093,2021-06-01
+"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,1732.86573471999,2021-06-01
+"ENPA and ENCV metrics reported by States%%%HI%%%digital",NA,761.346627668976,2021-06-01
+"ENPA and ENCV metrics reported by States%%%MA%%%digital",NA,371.827877599807,2021-06-01
+"ENPA and ENCV metrics reported by States%%%MD%%%digital",NA,1587.01258399255,2021-06-01
+"ENPA and ENCV metrics reported by States%%%MN%%%digital",NA,1434.26149470946,2021-06-01
+"ENPA and ENCV metrics reported by States%%%MO%%%digital",NA,353.185495042278,2021-06-01
+"A State Health Department and Health Information Exchange Partnership: An Effective Collaboration for a Data-Driven Response for COVID-19 Contact Tracing  in Maryland.%%%Maryland%%%manual",2080.65011490878,1868.11268235219,2021-06-01
+"Factors Influencing the Results of COVID-19 Case Outreach-Results From a California Case Investigation/Contact Tracing Program.%%%Members of large CA health care plan%%%manual",113.914148071395,NA,2021-06-01
+"Centralized COVID-19 Contact Tracing in a Home-Rule State.%%%Michigan%%%manual",NA,2159.68678963216,2021-06-01
+"ENPA and ENCV metrics reported by States%%%NM%%%digital",NA,1016.21474836504,2021-06-01
+"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,4768.91754424105,2021-06-01
+"Lessons Learned from the Launch and Implementation of the COVID-19 Contact Tracing Program in New York City: a Qualitative Study.%%%New York%%%manual",5369.81523649106,NA,2021-06-01
+"COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.%%%New York City%%%manual",3710.24240277263,3079.08097634378,2021-06-01
+"Contact tracing: Characteristics of COVID-19 cases that provided contacts.%%%New York except NYC%%%manual",4766.14171347395,NA,2021-06-01
+"Adapting COVID-19 Contact Tracing Protocols to Accommodate Resource Constraints, Philadelphia, Pennsylvania, USA, 2021.%%%Philadelphia%%%manual",105.501645017271,29.3688375000789,2021-06-01
+"ENPA and ENCV metrics reported by States%%%WA%%%digital",NA,13519.0890286919,2021-06-01
+"Case Investigation and Contact Tracing Efforts From Health Departments in the United States, November 2020 to December 2021.%%%64 HD accross US and collonies%%%manual",526305,203668.338052208,2021-07-01
+"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,269.977465947411,2021-07-01
+"ENPA and ENCV metrics reported by States%%%CA%%%digital",NA,29474.5057368429,2021-07-01
+"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,5076.0650613962,2021-07-01
+"ENPA and ENCV metrics reported by States%%%HI%%%digital",NA,2403.83470783446,2021-07-01
+"ENPA and ENCV metrics reported by States%%%MA%%%digital",NA,4435.58499566154,2021-07-01
+"ENPA and ENCV metrics reported by States%%%MD%%%digital",NA,3872.98602944565,2021-07-01
+"ENPA and ENCV metrics reported by States%%%MN%%%digital",NA,2604.68433707535,2021-07-01
+"ENPA and ENCV metrics reported by States%%%MO%%%digital",NA,1107.89633427993,2021-07-01
+"A State Health Department and Health Information Exchange Partnership: An Effective Collaboration for a Data-Driven Response for COVID-19 Contact Tracing  in Maryland.%%%Maryland%%%manual",5077.67166340505,4558.98988650629,2021-07-01
+"Factors Influencing the Results of COVID-19 Case Outreach-Results From a California Case Investigation/Contact Tracing Program.%%%Members of large CA health care plan%%%manual",562.21188190509,NA,2021-07-01
+"ENPA and ENCV metrics reported by States%%%NM%%%digital",NA,2179.61221145228,2021-07-01
+"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,11719.7550508402,2021-07-01
+"Lessons Learned from the Launch and Implementation of the COVID-19 Contact Tracing Program in New York City: a Qualitative Study.%%%New York%%%manual",12429.0339723881,NA,2021-07-01
+"COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.%%%New York City%%%manual",8587.76826369724,7126.8750177182,2021-07-01
+"Contact tracing: Characteristics of COVID-19 cases that provided contacts.%%%New York except NYC%%%manual",11031.7645328694,NA,2021-07-01
+"Adapting COVID-19 Contact Tracing Protocols to Accommodate Resource Constraints, Philadelphia, Pennsylvania, USA, 2021.%%%Philadelphia%%%manual",1013.13227707016,282.028940937249,2021-07-01
+"ENPA and ENCV metrics reported by States%%%WA%%%digital",NA,23415.823221157,2021-07-01
+"Case Investigation and Contact Tracing Efforts From Health Departments in the United States, November 2020 to December 2021.%%%64 HD accross US and collonies%%%manual",1265108,525501.358113477,2021-08-01
+"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,706.856147540551,2021-08-01
+"ENPA and ENCV metrics reported by States%%%CA%%%digital",NA,78155.4704351497,2021-08-01
+"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,21104.1401216975,2021-08-01
+"ENPA and ENCV metrics reported by States%%%HI%%%digital",NA,10637.130954671,2021-08-01
+"ENPA and ENCV metrics reported by States%%%MA%%%digital",NA,16639.3723792264,2021-08-01
+"ENPA and ENCV metrics reported by States%%%MD%%%digital",NA,17829.1889104341,2021-08-01
+"ENPA and ENCV metrics reported by States%%%MN%%%digital",NA,11787.9522364141,2021-08-01
+"ENPA and ENCV metrics reported by States%%%MO%%%digital",NA,1393.52898753652,2021-08-01
+"A State Health Department and Health Information Exchange Partnership: An Effective Collaboration for a Data-Driven Response for COVID-19 Contact Tracing  in Maryland.%%%Maryland%%%manual",20423.1069985747,18336.896205514,2021-08-01
+"ENPA and ENCV metrics reported by States%%%NM%%%digital",NA,8802.66074117709,2021-08-01
+"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,17169.8640525363,2021-08-01
+"Lessons Learned from the Launch and Implementation of the COVID-19 Contact Tracing Program in New York City: a Qualitative Study.%%%New York%%%manual",56968.7800912389,NA,2021-08-01
+"COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.%%%New York City%%%manual",39362.2451089889,32666.2053160455,2021-08-01
+"Contact tracing: Characteristics of COVID-19 cases that provided contacts.%%%New York except NYC%%%manual",50564.3615656328,NA,2021-08-01
+"Adapting COVID-19 Contact Tracing Protocols to Accommodate Resource Constraints, Philadelphia, Pennsylvania, USA, 2021.%%%Philadelphia%%%manual",2053.36607791256,571.602221562672,2021-08-01
+"The public health impact of COVID-19 variants of concern on the effectiveness of contact tracing in Vermont, United States.%%%VT%%%manual",2638.72338949073,NA,2021-08-01
+"ENPA and ENCV metrics reported by States%%%WA%%%digital",NA,79279.0349928395,2021-08-01
+"Case Investigation and Contact Tracing Efforts From Health Departments in the United States, November 2020 to December 2021.%%%64 HD accross US and collonies%%%manual",1318087,599157.317029699,2021-09-01
+"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,664.356162753849,2021-09-01
+"ENPA and ENCV metrics reported by States%%%CA%%%digital",NA,53333.9473180638,2021-09-01
+"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,25114.7353325642,2021-09-01
+"ENPA and ENCV metrics reported by States%%%HI%%%digital",NA,8052.305029567,2021-09-01
+"ENPA and ENCV metrics reported by States%%%MA%%%digital",NA,21568.8315102665,2021-09-01
+"ENPA and ENCV metrics reported by States%%%MD%%%digital",NA,21684.4032424107,2021-09-01
+"ENPA and ENCV metrics reported by States%%%MN%%%digital",NA,19899.1300099693,2021-09-01
+"ENPA and ENCV metrics reported by States%%%MO%%%digital",NA,1060.67762094135,2021-09-01
+"ENPA and ENCV metrics reported by States%%%NM%%%digital",NA,8131.33855947724,2021-09-01
+"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,15106.0105404798,2021-09-01
+"Lessons Learned from the Launch and Implementation of the COVID-19 Contact Tracing Program in New York City: a Qualitative Study.%%%New York%%%manual",79186.0692216413,NA,2021-09-01
+"COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.%%%New York City%%%manual",54713.1509737024,45405.7185571107,2021-09-01
+"Contact tracing: Characteristics of COVID-19 cases that provided contacts.%%%New York except NYC%%%manual",70283.987627463,NA,2021-09-01
+"Adapting COVID-19 Contact Tracing Protocols to Accommodate Resource Constraints, Philadelphia, Pennsylvania, USA, 2021.%%%Philadelphia%%%manual",2402.66404598882,653.490727959048,2021-09-01
+"The public health impact of COVID-19 variants of concern on the effectiveness of contact tracing in Vermont, United States.%%%VT%%%manual",4671.9210749181,NA,2021-09-01
+"ENPA and ENCV metrics reported by States%%%WA%%%digital",NA,83479.1427882892,2021-09-01
+"Case Investigation and Contact Tracing Efforts From Health Departments in the United States, November 2020 to December 2021.%%%64 HD accross US and collonies%%%manual",964733,432784.320394768,2021-10-01
+"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,612.197466261615,2021-10-01
+"ENPA and ENCV metrics reported by States%%%CA%%%digital",NA,35502.3047037833,2021-10-01
+"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,13947.516595607,2021-10-01
+"ENPA and ENCV metrics reported by States%%%HI%%%digital",NA,2507.82527565162,2021-10-01
+"ENPA and ENCV metrics reported by States%%%MA%%%digital",NA,17775.3966726824,2021-10-01
+"ENPA and ENCV metrics reported by States%%%MD%%%digital",NA,17872.4629937714,2021-10-01
+"ENPA and ENCV metrics reported by States%%%MN%%%digital",NA,27679.8044497932,2021-10-01
+"ENPA and ENCV metrics reported by States%%%MO%%%digital",NA,620.993348551216,2021-10-01
+"ENPA and ENCV metrics reported by States%%%NM%%%digital",NA,9734.72147176546,2021-10-01
+"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,9653.30349953499,2021-10-01
+"Lessons Learned from the Launch and Implementation of the COVID-19 Contact Tracing Program in New York City: a Qualitative Study.%%%New York%%%manual",78201.5683478616,NA,2021-10-01
+"COVID-19 Case Investigation and Contact Tracing in New York City, June 1, 2020, to October 31, 2021.%%%New York City%%%manual",54032.9158582292,44841.200453946,2021-10-01
+"Contact tracing: Characteristics of COVID-19 cases that provided contacts.%%%New York except NYC%%%manual",69410.1641391638,NA,2021-10-01
+"Adapting COVID-19 Contact Tracing Protocols to Accommodate Resource Constraints, Philadelphia, Pennsylvania, USA, 2021.%%%Philadelphia%%%manual",2134.33595401118,580.509272040952,2021-10-01
+"The public health impact of COVID-19 variants of concern on the effectiveness of contact tracing in Vermont, United States.%%%VT%%%manual",5186.5571422602,NA,2021-10-01
+"ENPA and ENCV metrics reported by States%%%WA%%%digital",NA,61493.6677374483,2021-10-01
+"Case Investigation and Contact Tracing Efforts From Health Departments in the United States, November 2020 to December 2021.%%%64 HD accross US and collonies%%%manual",922639,356020.475912168,2021-11-01
+"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,847.464269149882,2021-11-01
+"ENPA and ENCV metrics reported by States%%%CA%%%digital",NA,30867.2908581987,2021-11-01
+"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,11453.3344002634,2021-11-01
+"ENPA and ENCV metrics reported by States%%%HI%%%digital",NA,1508.47664058432,2021-11-01
+"ENPA and ENCV metrics reported by States%%%MA%%%digital",NA,28273.6504833623,2021-11-01
+"ENPA and ENCV metrics reported by States%%%MD%%%digital",NA,15892.6070372239,2021-11-01
+"ENPA and ENCV metrics reported by States%%%MN%%%digital",NA,37450.1098832933,2021-11-01
+"ENPA and ENCV metrics reported by States%%%MO%%%digital",NA,808.973812660253,2021-11-01
+"ENPA and ENCV metrics reported by States%%%NM%%%digital",NA,15475.3103666616,2021-11-01
+"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,8931.33725942682,2021-11-01
+"Lessons Learned from the Launch and Implementation of the COVID-19 Contact Tracing Program in New York City: a Qualitative Study.%%%New York%%%manual",109304.730717735,NA,2021-11-01
+"Contact tracing: Characteristics of COVID-19 cases that provided contacts.%%%New York except NYC%%%manual",97016.7154008562,NA,2021-11-01
+"The public health impact of COVID-19 variants of concern on the effectiveness of contact tracing in Vermont, United States.%%%VT%%%manual",5063.79839333097,NA,2021-11-01
+"ENPA and ENCV metrics reported by States%%%WA%%%digital",NA,42019.3669028647,2021-11-01
+"Case Investigation and Contact Tracing Efforts From Health Departments in the United States, November 2020 to December 2021.%%%64 HD accross US and collonies%%%manual",1569451,539048.423342689,2021-12-01
+"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,932.472505135064,2021-12-01
+"ENPA and ENCV metrics reported by States%%%CA%%%digital",NA,89903.6573771003,2021-12-01
+"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,127552.228673641,2021-12-01
+"ENPA and ENCV metrics reported by States%%%HI%%%digital",NA,13253.6375593529,2021-12-01
+"ENPA and ENCV metrics reported by States%%%MA%%%digital",NA,88332.3863721264,2021-12-01
+"ENPA and ENCV metrics reported by States%%%MD%%%digital",NA,82982.0090019806,2021-12-01
+"ENPA and ENCV metrics reported by States%%%MN%%%digital",NA,36470.758558386,2021-12-01
+"ENPA and ENCV metrics reported by States%%%MO%%%digital",NA,1967.54296635001,2021-12-01
+"ENPA and ENCV metrics reported by States%%%NM%%%digital",NA,14920.1485107374,2021-12-01
+"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,14972.2115191723,2021-12-01
+"Lessons Learned from the Launch and Implementation of the COVID-19 Contact Tracing Program in New York City: a Qualitative Study.%%%New York%%%manual",282173.007497446,NA,2021-12-01
+"ENPA and ENCV metrics reported by States%%%WA%%%digital",NA,80094.1632610946,2021-12-01
+"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,3958.65115735862,2022-01-01
+"ENPA and ENCV metrics reported by States%%%CA%%%digital",NA,549699.098498863,2022-01-01
+"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,149626.052097717,2022-01-01
+"ENPA and ENCV metrics reported by States%%%HI%%%digital",NA,54236.0966228669,2022-01-01
+"ENPA and ENCV metrics reported by States%%%MA%%%digital",NA,199820.325376259,2022-01-01
+"ENPA and ENCV metrics reported by States%%%MD%%%digital",NA,159435.140646243,2022-01-01
+"ENPA and ENCV metrics reported by States%%%MN%%%digital",NA,97852.703137811,2022-01-01
+"ENPA and ENCV metrics reported by States%%%MO%%%digital",NA,5518.20276558077,2022-01-01
+"ENPA and ENCV metrics reported by States%%%NM%%%digital",NA,50931.1806857852,2022-01-01
+"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,83184.8145098794,2022-01-01
+"ENPA and ENCV metrics reported by States%%%WA%%%digital",NA,389523.737647681,2022-01-01
+"ENPA and ENCV metrics reported by States%%%AK%%%digital",NA,10156.6228220317,2022-02-01
+"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,940.121297862383,2022-02-01
+"ENPA and ENCV metrics reported by States%%%CA%%%digital",NA,105136.993366262,2022-02-01
+"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,16915.0336165506,2022-02-01
+"ENPA and ENCV metrics reported by States%%%HI%%%digital",NA,8376.97787107248,2022-02-01
+"ENPA and ENCV metrics reported by States%%%MA%%%digital",NA,26274.9184423298,2022-02-01
+"ENPA and ENCV metrics reported by States%%%MD%%%digital",NA,16111.9097839929,2022-02-01
+"ENPA and ENCV metrics reported by States%%%MN%%%digital",NA,28055.8450312129,2022-02-01
+"ENPA and ENCV metrics reported by States%%%MO%%%digital",NA,1108.26668700967,2022-02-01
+"ENPA and ENCV metrics reported by States%%%NM%%%digital",NA,13876.3840289049,2022-02-01
+"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,12903.0175931046,2022-02-01
+"ENPA and ENCV metrics reported by States%%%WA%%%digital",NA,104836.316258722,2022-02-01
+"ENPA and ENCV metrics reported by States%%%AK%%%digital",NA,4197.44258209981,2022-03-01
+"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,270.762775066396,2022-03-01
+"ENPA and ENCV metrics reported by States%%%CA%%%digital",NA,25851.158491925,2022-03-01
+"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,9686.25918406116,2022-03-01
+"ENPA and ENCV metrics reported by States%%%HI%%%digital",NA,2001.58389241959,2022-03-01
+"ENPA and ENCV metrics reported by States%%%MA%%%digital",NA,11249.21557346,2022-03-01
+"ENPA and ENCV metrics reported by States%%%MD%%%digital",NA,6180.81866278577,2022-03-01
+"ENPA and ENCV metrics reported by States%%%MN%%%digital",NA,4962.86653742458,2022-03-01
+"ENPA and ENCV metrics reported by States%%%MO%%%digital",NA,267.404748496977,2022-03-01
+"ENPA and ENCV metrics reported by States%%%NM%%%digital",NA,2489.54671296126,2022-03-01
+"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,14898.3839038553,2022-03-01
+"ENPA and ENCV metrics reported by States%%%WA%%%digital",NA,29508.4561529838,2022-03-01
+"ENPA and ENCV metrics reported by States%%%AK%%%digital",NA,3332.94381119553,2022-04-01
+"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,124.365803379975,2022-04-01
+"ENPA and ENCV metrics reported by States%%%CA%%%digital",NA,25189.6505148954,2022-04-01
+"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,22646.6767412616,2022-04-01
+"ENPA and ENCV metrics reported by States%%%HI%%%digital",NA,4810.7725346253,2022-04-01
+"ENPA and ENCV metrics reported by States%%%MA%%%digital",NA,25203.1510843972,2022-04-01
+"ENPA and ENCV metrics reported by States%%%MD%%%digital",NA,12512.6078955717,2022-04-01
+"ENPA and ENCV metrics reported by States%%%MN%%%digital",NA,7761.99723366535,2022-04-01
+"ENPA and ENCV metrics reported by States%%%MO%%%digital",NA,271.186377390437,2022-04-01
+"ENPA and ENCV metrics reported by States%%%NM%%%digital",NA,1845.83214232019,2022-04-01
+"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,3230.44530247517,2022-04-01
+"ENPA and ENCV metrics reported by States%%%WA%%%digital",NA,39837.5207638254,2022-04-01
+"ENPA and ENCV metrics reported by States%%%AK%%%digital",NA,4244.31684577252,2022-05-01
+"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,310.86431952128,2022-05-01
+"ENPA and ENCV metrics reported by States%%%CA%%%digital",NA,70376.003158588,2022-05-01
+"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,35134.3814634343,2022-05-01
+"ENPA and ENCV metrics reported by States%%%HI%%%digital",NA,16287.9827397887,2022-05-01
+"ENPA and ENCV metrics reported by States%%%MA%%%digital",NA,46931.9362524297,2022-05-01
+"ENPA and ENCV metrics reported by States%%%MD%%%digital",NA,36853.346758692,2022-05-01
+"ENPA and ENCV metrics reported by States%%%MN%%%digital",NA,17601.7874217602,2022-05-01
+"ENPA and ENCV metrics reported by States%%%MO%%%digital",NA,584.532500219344,2022-05-01
+"ENPA and ENCV metrics reported by States%%%NM%%%digital",NA,5475.914669798,2022-05-01
+"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,10751.6967596755,2022-05-01
+"ENPA and ENCV metrics reported by States%%%WA%%%digital",NA,73305.1532188217,2022-05-01
+"ENPA and ENCV metrics reported by States%%%AK%%%digital",NA,5312.36331361335,2022-06-01
+"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,559.194414851974,2022-06-01
+"ENPA and ENCV metrics reported by States%%%CA%%%digital",NA,97372.2128959876,2022-06-01
+"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,28958.0150794539,2022-06-01
+"ENPA and ENCV metrics reported by States%%%HI%%%digital",NA,14063.551606967,2022-06-01
+"ENPA and ENCV metrics reported by States%%%MA%%%digital",NA,22428.4851071332,2022-06-01
+"ENPA and ENCV metrics reported by States%%%MD%%%digital",NA,26695.5776362662,2022-06-01
+"ENPA and ENCV metrics reported by States%%%MN%%%digital",NA,15004.8236129732,2022-06-01
+"ENPA and ENCV metrics reported by States%%%MO%%%digital",NA,892.356084384386,2022-06-01
+"ENPA and ENCV metrics reported by States%%%NM%%%digital",NA,11200.1242063511,2022-06-01
+"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,16800.7259759516,2022-06-01
+"ENPA and ENCV metrics reported by States%%%WA%%%digital",NA,71786.6624778965,2022-06-01
+"ENPA and ENCV metrics reported by States%%%AK%%%digital",NA,5423.36029232727,2022-07-01
+"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,632.937893414601,2022-07-01
+"ENPA and ENCV metrics reported by States%%%CA%%%digital",NA,115492.860132308,2022-07-01
+"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,26382.9741096977,2022-07-01
+"ENPA and ENCV metrics reported by States%%%HI%%%digital",NA,9304.08878345763,2022-07-01
+"ENPA and ENCV metrics reported by States%%%MA%%%digital",NA,15988.1795396354,2022-07-01
+"ENPA and ENCV metrics reported by States%%%MD%%%digital",NA,29698.550216111,2022-07-01
+"ENPA and ENCV metrics reported by States%%%MN%%%digital",NA,13740.1363563566,2022-07-01
+"ENPA and ENCV metrics reported by States%%%MO%%%digital",NA,1107.1707452584,2022-07-01
+"ENPA and ENCV metrics reported by States%%%NM%%%digital",NA,11561.8012744986,2022-07-01
+"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,27162.4281772961,2022-07-01
+"ENPA and ENCV metrics reported by States%%%WA%%%digital",NA,66883.9542492921,2022-07-01
+"ENPA and ENCV metrics reported by States%%%AK%%%digital",NA,4089.87932287128,2022-08-01
+"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,407.675810610608,2022-08-01
+"ENPA and ENCV metrics reported by States%%%CA%%%digital",NA,72160.7646443868,2022-08-01
+"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,14989.9727949575,2022-08-01
+"ENPA and ENCV metrics reported by States%%%HI%%%digital",NA,5860.34839745161,2022-08-01
+"ENPA and ENCV metrics reported by States%%%MA%%%digital",NA,18057.9355559995,2022-08-01
+"ENPA and ENCV metrics reported by States%%%MD%%%digital",NA,25623.0556940047,2022-08-01
+"ENPA and ENCV metrics reported by States%%%MN%%%digital",NA,13811.2854164507,2022-08-01
+"ENPA and ENCV metrics reported by States%%%MO%%%digital",NA,821.543130814463,2022-08-01
+"ENPA and ENCV metrics reported by States%%%NM%%%digital",NA,7766.70973417255,2022-08-01
+"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,6228.43825994951,2022-08-01
+"ENPA and ENCV metrics reported by States%%%WA%%%digital",NA,40360.9149042865,2022-08-01
+"ENPA and ENCV metrics reported by States%%%AK%%%digital",NA,1791.52317801935,2022-09-01
+"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,151.052142433849,2022-09-01
+"ENPA and ENCV metrics reported by States%%%CA%%%digital",NA,35720.9658141464,2022-09-01
+"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,9900.22394096844,2022-09-01
+"ENPA and ENCV metrics reported by States%%%HI%%%digital",NA,2592.76413638777,2022-09-01
+"ENPA and ENCV metrics reported by States%%%MA%%%digital",NA,17248.6455031917,2022-09-01
+"ENPA and ENCV metrics reported by States%%%MD%%%digital",NA,16520.0368163713,2022-09-01
+"ENPA and ENCV metrics reported by States%%%MN%%%digital",NA,8835.98281848986,2022-09-01
+"ENPA and ENCV metrics reported by States%%%MO%%%digital",NA,600.908641330259,2022-09-01
+"ENPA and ENCV metrics reported by States%%%NM%%%digital",NA,2955.34556789018,2022-09-01
+"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,6940.37318184745,2022-09-01
+"ENPA and ENCV metrics reported by States%%%WA%%%digital",NA,27604.5004238763,2022-09-01
+"ENPA and ENCV metrics reported by States%%%AK%%%digital",NA,1089.12790840232,2022-10-01
+"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,156.562296342398,2022-10-01
+"ENPA and ENCV metrics reported by States%%%CA%%%digital",NA,20520.3948043734,2022-10-01
+"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,6558.26859543702,2022-10-01
+"ENPA and ENCV metrics reported by States%%%HI%%%digital",NA,2461.0619946346,2022-10-01
+"ENPA and ENCV metrics reported by States%%%MA%%%digital",NA,18725.4171993765,2022-10-01
+"ENPA and ENCV metrics reported by States%%%MD%%%digital",NA,12305.0344691324,2022-10-01
+"ENPA and ENCV metrics reported by States%%%MN%%%digital",NA,7482.11652553709,2022-10-01
+"ENPA and ENCV metrics reported by States%%%MO%%%digital",NA,379.714843641961,2022-10-01
+"ENPA and ENCV metrics reported by States%%%NM%%%digital",NA,3977.8689737089,2022-10-01
+"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,3285.50930099602,2022-10-01
+"ENPA and ENCV metrics reported by States%%%WA%%%digital",NA,19568.1587015577,2022-10-01
+"ENPA and ENCV metrics reported by States%%%AK%%%digital",NA,849.406375956847,2022-11-01
+"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,380.233685336958,2022-11-01
+"ENPA and ENCV metrics reported by States%%%CA%%%digital",NA,29097.9819711934,2022-11-01
+"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,7235.61632878595,2022-11-01
+"ENPA and ENCV metrics reported by States%%%HI%%%digital",NA,2197.22471778553,2022-11-01
+"ENPA and ENCV metrics reported by States%%%MA%%%digital",NA,10262.9644354038,2022-11-01
+"ENPA and ENCV metrics reported by States%%%MD%%%digital",NA,11728.0763107974,2022-11-01
+"ENPA and ENCV metrics reported by States%%%MN%%%digital",NA,7601.90029077666,2022-11-01
+"ENPA and ENCV metrics reported by States%%%MO%%%digital",NA,409.857020911345,2022-11-01
+"ENPA and ENCV metrics reported by States%%%NM%%%digital",NA,7352.53769069947,2022-11-01
+"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,5154.65420491459,2022-11-01
+"ENPA and ENCV metrics reported by States%%%WA%%%digital",NA,19787.6260819792,2022-11-01
+"ENPA and ENCV metrics reported by States%%%AK%%%digital",NA,962.000433501187,2022-12-01
+"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,359.081118511,2022-12-01
+"ENPA and ENCV metrics reported by States%%%CA%%%digital",NA,60517.9562212891,2022-12-01
+"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,11482.5679571664,2022-12-01
+"ENPA and ENCV metrics reported by States%%%HI%%%digital",NA,2566.06288025151,2022-12-01
+"ENPA and ENCV metrics reported by States%%%MA%%%digital",NA,18636.6671728661,2022-12-01
+"ENPA and ENCV metrics reported by States%%%MD%%%digital",NA,18709.7765200291,2022-12-01
+"ENPA and ENCV metrics reported by States%%%MN%%%digital",NA,7635.23263147049,2022-12-01
+"ENPA and ENCV metrics reported by States%%%MO%%%digital",NA,587.344157677772,2022-12-01
+"ENPA and ENCV metrics reported by States%%%NM%%%digital",NA,5089.29235979239,2022-12-01
+"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,6376.2378260972,2022-12-01
+"ENPA and ENCV metrics reported by States%%%WA%%%digital",NA,23174.7647211339,2022-12-01
+"ENPA and ENCV metrics reported by States%%%AK%%%digital",NA,1489.51557118765,2023-01-01
+"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,164.174480674696,2023-01-01
+"ENPA and ENCV metrics reported by States%%%CA%%%digital",NA,29694.178787304,2023-01-01
+"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,9233.4500473504,2023-01-01
+"ENPA and ENCV metrics reported by States%%%HI%%%digital",NA,2321.06081381206,2023-01-01
+"ENPA and ENCV metrics reported by States%%%MA%%%digital",NA,16648.6546019721,2023-01-01
+"ENPA and ENCV metrics reported by States%%%MD%%%digital",NA,17310.0776273611,2023-01-01
+"ENPA and ENCV metrics reported by States%%%MN%%%digital",NA,6442.61904911426,2023-01-01
+"ENPA and ENCV metrics reported by States%%%MO%%%digital",NA,376.769657648321,2023-01-01
+"ENPA and ENCV metrics reported by States%%%NM%%%digital",NA,2339.2964858992,2023-01-01
+"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,3520.48751748864,2023-01-01
+"ENPA and ENCV metrics reported by States%%%WA%%%digital",NA,20319.4026571091,2023-01-01
+"ENPA and ENCV metrics reported by States%%%AK%%%digital",NA,2752.20332769638,2023-02-01
+"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,479.182054133611,2023-02-01
+"ENPA and ENCV metrics reported by States%%%CA%%%digital",NA,43354.8116563122,2023-02-01
+"ENPA and ENCV metrics reported by States%%%DC%%%digital",NA,18773.8818056276,2023-02-01
+"ENPA and ENCV metrics reported by States%%%HI%%%digital",NA,1959.76279019517,2023-02-01
+"ENPA and ENCV metrics reported by States%%%MA%%%digital",NA,19642.8926590361,2023-02-01
+"ENPA and ENCV metrics reported by States%%%MD%%%digital",NA,18483.1708958974,2023-02-01
+"ENPA and ENCV metrics reported by States%%%MN%%%digital",NA,8234.72112927228,2023-02-01
+"ENPA and ENCV metrics reported by States%%%MO%%%digital",NA,664.40445311694,2023-02-01
+"ENPA and ENCV metrics reported by States%%%NM%%%digital",NA,11609.08772826,2023-02-01
+"ENPA and ENCV metrics reported by States%%%NV%%%digital",NA,9136.40861843376,2023-02-01
+"ENPA and ENCV metrics reported by States%%%WA%%%digital",NA,44861.6683509477,2023-02-01
+"ENPA and ENCV metrics reported by States%%%AZ%%%digital",NA,96.1829044032151,2023-03-01
+"ENPA and ENCV metrics reported by States%%%MD%%%digital",NA,2792.02541982376,2023-03-01
+"ENPA and ENCV metrics reported by States%%%MO%%%digital",NA,122.164708337809,2023-03-01

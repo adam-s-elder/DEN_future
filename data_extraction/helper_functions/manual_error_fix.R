@@ -6,6 +6,7 @@ manual_error_fix <- function(combined_data) {
           cd$param_value == 72 &
         grepl("COVID-19 Contact Tracing During", cd$source))
   cd <- cd[-remove_row, ]
+  cd[cd$pm_location == "state_a", ]$param_type <- "digital"
   duplicate_row <- which(
     cd$param_name == "contacts_named_count" &
     cd$pm_start_date == "12/27/2020" &

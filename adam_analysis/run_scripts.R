@@ -1,0 +1,12 @@
+# Constructing data for timeliness analysis
+source("capacity/data_visualization.R", chdir = TRUE)
+rm(list = ls())
+source("elicitation/data_construction_elictation.R", chdir = TRUE)
+rm(list = ls())
+source("elicitation/report_plots.R", chdir = TRUE)
+rm(list = ls())
+source("elicitation/supplemental_plots.R", chdir = TRUE)
+rm(list = ls())
+source("timeliness/data_prep.R", chdir = TRUE)
+rm(list = ls())
+source("timeliness/data_viz.R", chdir = TRUE)

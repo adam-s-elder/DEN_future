@@ -53,7 +53,7 @@ Experimental,contact_tested_count,Number of contacts who eventually tested.,,spr
 ,notifications_recieved_total,Number of times contacts were notified.  Nearly identica to number of contacts notified or contacts reached.,,spread_cases
 ,quarantine_adherent_perc,Percentage of inidividuals who didn't leave home for any nonmedical reason during isolation period,,translate
 ,hd_case_interviewed_perc,Mean % of Cases Completing an Interview across all health departments reporting the metrics.,,translate
-,hd_percent_naming_contcts,Mean % of Cases that Provided at Least 1 Contact during Interview,,translate
+,hd_percent_naming_contacts,Mean % of Cases that Provided at Least 1 Contact during Interview,,translate
 ,hd_contacts_named_ratio_mean,Mean # of Contacts Identified from Cases Completing an Interview,,translate
 ,hd_contacts_named_ratio_mean_case_naming,Mean # of Contacts Identified from Cases Providing Contacts,,translate
 ,hd_contact_reached_perc,Mean % of Contacts Identified who were Notified,,translate
@@ -69,3 +69,4 @@ Experimental,contact_tested_count,Number of contacts who eventually tested.,,spr
 ,staff_hired_ct_per_health_dept_mean,The mean number of contact tracers hired across reporting health departments,,spread_cases
 ,cases_per_staff_month,The number of cases divided by the number of case investigators across all health departments,,translate
 ,contacts_per_staff_month,The number of contacts divided by the number of contact tracers across all health departments,,translate
+,contacts_reached_per_case_assigned,The number of contacts reached divided by the number of cases assigned,,translate

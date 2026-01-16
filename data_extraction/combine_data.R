@@ -45,10 +45,12 @@ var_descr <- read.csv("datasets/variable_definitions.csv") |>
          Name = str_replace(Name, "contact_", "contacts_"))
 source("helper_functions/add_variable_description.R")
 
+combined_data <- fill_in_vars(combined_data)
 combined_data <- add_variable_description(combined_data, var_descr)
 params_missing_description <-
   combined_data |> filter(is.na(Desc)) |> pull(param_name) |> unique()
 params_missing_description
+
 
 write.csv(combined_data, "output/combined_data.csv")
 

@@ -1,0 +1,173 @@
+month_year,metric,periods,average,imputed
+2020-03-01,med,Symptoms to Test,48,FALSE
+2020-03-01,med,Test to Result,24.17148877784976,FALSE
+2020-03-01,med,Result to Case Notified,182.9044342911937,FALSE
+2020-03-01,med,Contact Named to Reached,48,FALSE
+2020-04-01,mean,Symptoms to Test,64.8,TRUE
+2020-04-01,mean,Test to Result,40.668,FALSE
+2020-04-01,mean,Result to Case Notified,43.803611068434584,TRUE
+2020-04-01,mean,Contact Named to Reached,36.03290829843836,TRUE
+2020-04-01,med,Symptoms to Test,48,FALSE
+2020-04-01,med,Test to Result,68.95310796141942,FALSE
+2020-04-01,med,Result to Case Notified,163.56618659542224,FALSE
+2020-04-01,med,Contact Named to Reached,65.4458849285731,FALSE
+2020-05-01,mean,Symptoms to Test,64.8,TRUE
+2020-05-01,mean,Test to Result,13.68,FALSE
+2020-05-01,mean,Result to Case Notified,43.803611068434584,TRUE
+2020-05-01,mean,Contact Named to Reached,36.03290829843836,TRUE
+2020-05-01,med,Symptoms to Test,48,FALSE
+2020-05-01,med,Test to Result,47.46117226531177,FALSE
+2020-05-01,med,Result to Case Notified,160.3645853514272,FALSE
+2020-05-01,med,Contact Named to Reached,66.21355344802632,FALSE
+2020-06-01,mean,Symptoms to Test,64.8,TRUE
+2020-06-01,mean,Test to Result,13.68,FALSE
+2020-06-01,mean,Result to Case Notified,43.803611068434584,TRUE
+2020-06-01,mean,Contact Named to Reached,36.03290829843836,TRUE
+2020-06-01,med,Symptoms to Test,50.4,FALSE
+2020-06-01,med,Test to Result,33.45623954788313,FALSE
+2020-06-01,med,Result to Case Notified,42.98915298321272,FALSE
+2020-06-01,med,Contact Named to Reached,27.46470305436081,FALSE
+2020-07-01,mean,Symptoms to Test,64.80000000000001,FALSE
+2020-07-01,mean,Test to Result,27.385765461172298,FALSE
+2020-07-01,mean,Result to Case Notified,40.508469077655405,FALSE
+2020-07-01,mean,Contact Named to Reached,36.03290829843836,TRUE
+2020-07-01,med,Symptoms to Test,50.4,FALSE
+2020-07-01,med,Test to Result,27.824837946696704,FALSE
+2020-07-01,med,Result to Case Notified,40.321529584317645,FALSE
+2020-07-01,med,Contact Named to Reached,6.939564349946246,FALSE
+2020-08-01,mean,Symptoms to Test,68.07959277450634,FALSE
+2020-08-01,mean,Test to Result,33.86275720806471,FALSE
+2020-08-01,mean,Result to Case Notified,44.579913888632376,FALSE
+2020-08-01,mean,Contact Named to Reached,0,FALSE
+2020-08-01,med,Symptoms to Test,57.7728718842749,FALSE
+2020-08-01,med,Test to Result,30.87767477503775,FALSE
+2020-08-01,med,Result to Case Notified,41.898548492786055,FALSE
+2020-08-01,med,Contact Named to Reached,5.240385004075685,FALSE
+2020-09-01,mean,Symptoms to Test,64.80000000000001,FALSE
+2020-09-01,mean,Test to Result,23.816792604629686,FALSE
+2020-09-01,mean,Result to Case Notified,18.472314911415626,FALSE
+2020-09-01,mean,Contact Named to Reached,4.558469942080618,FALSE
+2020-09-01,med,Symptoms to Test,51.33163589953952,FALSE
+2020-09-01,med,Test to Result,27.84636129846349,FALSE
+2020-09-01,med,Result to Case Notified,40.30188382808995,FALSE
+2020-09-01,med,Contact Named to Reached,5.128130063098927,FALSE
+2020-10-01,mean,Symptoms to Test,71.13540705754806,FALSE
+2020-10-01,mean,Test to Result,31.229181471661068,FALSE
+2020-10-01,mean,Result to Case Notified,48.08622999912982,FALSE
+2020-10-01,mean,Contact Named to Reached,0,FALSE
+2020-10-01,med,Symptoms to Test,53.122838573168764,FALSE
+2020-10-01,med,Test to Result,28.617534815378235,FALSE
+2020-10-01,med,Result to Case Notified,39.67809666636588,FALSE
+2020-10-01,med,Contact Named to Reached,10.492318421144741,FALSE
+2020-11-01,mean,Symptoms to Test,64.8,TRUE
+2020-11-01,mean,Test to Result,59.55218802084164,FALSE
+2020-11-01,mean,Result to Case Notified,64.80000000000001,FALSE
+2020-11-01,mean,Contact Named to Reached,31.200000000000003,FALSE
+2020-11-01,med,Symptoms to Test,51.33163589953952,FALSE
+2020-11-01,med,Test to Result,46.68204294918117,FALSE
+2020-11-01,med,Result to Case Notified,47.49354120524549,FALSE
+2020-11-01,med,Contact Named to Reached,4.327125677607186,FALSE
+2020-12-01,mean,Symptoms to Test,64.8,TRUE
+2020-12-01,mean,Test to Result,52.57850977797994,FALSE
+2020-12-01,mean,Result to Case Notified,52.84121218277439,FALSE
+2020-12-01,mean,Contact Named to Reached,34.04440899058972,FALSE
+2020-12-01,med,Symptoms to Test,51.33163589953951,FALSE
+2020-12-01,med,Test to Result,45.925384683960154,FALSE
+2020-12-01,med,Result to Case Notified,25.72543471884191,FALSE
+2020-12-01,med,Contact Named to Reached,4.455213281872291,FALSE
+2021-01-01,mean,Symptoms to Test,64.8,TRUE
+2021-01-01,mean,Test to Result,52.58725975426795,FALSE
+2021-01-01,mean,Result to Case Notified,55.216974985236845,FALSE
+2021-01-01,mean,Contact Named to Reached,41.010820441703864,FALSE
+2021-01-01,med,Symptoms to Test,50.4,FALSE
+2021-01-01,med,Test to Result,45.53370199848273,FALSE
+2021-01-01,med,Result to Case Notified,26.08221805228581,FALSE
+2021-01-01,med,Contact Named to Reached,4.461971960224852,FALSE
+2021-02-01,mean,Symptoms to Test,64.8,TRUE
+2021-02-01,mean,Test to Result,38.65023163084494,FALSE
+2021-02-01,mean,Result to Case Notified,29.15124426319497,FALSE
+2021-02-01,mean,Contact Named to Reached,48.02720132445398,FALSE
+2021-02-01,med,Symptoms to Test,50.4,FALSE
+2021-02-01,med,Test to Result,37.4122485408082,FALSE
+2021-02-01,med,Result to Case Notified,25.574768302303738,FALSE
+2021-02-01,med,Contact Named to Reached,4.710335779007147,FALSE
+2021-03-01,mean,Symptoms to Test,73.1678472591923,FALSE
+2021-03-01,mean,Test to Result,39.016557359261284,FALSE
+2021-03-01,mean,Result to Case Notified,27.43019682243747,FALSE
+2021-03-01,mean,Contact Named to Reached,25.302671761918788,FALSE
+2021-03-01,med,Symptoms to Test,50.400000000000006,FALSE
+2021-03-01,med,Test to Result,24.493226827830103,FALSE
+2021-03-01,med,Result to Case Notified,26.392940799218728,FALSE
+2021-03-01,med,Contact Named to Reached,4.717914075016662,FALSE
+2021-04-01,mean,Symptoms to Test,64.8,TRUE
+2021-04-01,mean,Test to Result,38.74014925537852,FALSE
+2021-04-01,mean,Result to Case Notified,31.63978714580742,FALSE
+2021-04-01,mean,Contact Named to Reached,48.712467494989305,FALSE
+2021-04-01,med,Symptoms to Test,50.4,FALSE
+2021-04-01,med,Test to Result,24.390259668738206,FALSE
+2021-04-01,med,Result to Case Notified,25.77976871563363,FALSE
+2021-04-01,med,Contact Named to Reached,4.657467327051819,FALSE
+2021-05-01,mean,Symptoms to Test,64.8,TRUE
+2021-05-01,mean,Test to Result,39.020502443242236,FALSE
+2021-05-01,mean,Result to Case Notified,27.33970689344005,FALSE
+2021-05-01,mean,Contact Named to Reached,48.712467494989305,FALSE
+2021-05-01,med,Symptoms to Test,50.4,FALSE
+2021-05-01,med,Test to Result,24.206438814725562,FALSE
+2021-05-01,med,Result to Case Notified,25.162727449569516,FALSE
+2021-05-01,med,Contact Named to Reached,5.038382532768248,FALSE
+2021-06-01,mean,Symptoms to Test,81.29760806576921,FALSE
+2021-06-01,mean,Test to Result,35.64750727531563,FALSE
+2021-06-01,mean,Result to Case Notified,28.93900282492598,FALSE
+2021-06-01,mean,Contact Named to Reached,48.712467494989305,FALSE
+2021-06-01,med,Symptoms to Test,50.4,FALSE
+2021-06-01,med,Test to Result,24.12718328472484,FALSE
+2021-06-01,med,Result to Case Notified,24.693429983154466,FALSE
+2021-06-01,med,Contact Named to Reached,5.462880473389511,FALSE
+2021-07-01,mean,Symptoms to Test,64.45396680985144,FALSE
+2021-07-01,mean,Test to Result,33.972282960914406,FALSE
+2021-07-01,mean,Result to Case Notified,31.63456687108353,FALSE
+2021-07-01,mean,Contact Named to Reached,36.03290829843836,TRUE
+2021-07-01,med,Symptoms to Test,50.4,FALSE
+2021-07-01,med,Test to Result,24.1389016874591,FALSE
+2021-07-01,med,Result to Case Notified,24.68585563256355,FALSE
+2021-07-01,med,Contact Named to Reached,5.623604480790139,FALSE
+2021-08-01,mean,Symptoms to Test,81.29760806576921,FALSE
+2021-08-01,mean,Test to Result,38.42810938475368,FALSE
+2021-08-01,mean,Result to Case Notified,40.82293852808719,FALSE
+2021-08-01,mean,Contact Named to Reached,36.03290829843836,TRUE
+2021-08-01,med,Symptoms to Test,50.4,FALSE
+2021-08-01,med,Test to Result,24.255975018774418,FALSE
+2021-08-01,med,Result to Case Notified,25.242180741681118,FALSE
+2021-08-01,med,Contact Named to Reached,7.397989036994379,FALSE
+2021-09-01,mean,Symptoms to Test,69.44170688951121,FALSE
+2021-09-01,mean,Test to Result,40.81240365389833,FALSE
+2021-09-01,mean,Result to Case Notified,40.811174285256875,FALSE
+2021-09-01,mean,Contact Named to Reached,36.03290829843836,TRUE
+2021-09-01,med,Symptoms to Test,50.400000000000006,FALSE
+2021-09-01,med,Test to Result,45.97966328948487,FALSE
+2021-09-01,med,Result to Case Notified,25.582402090503336,FALSE
+2021-09-01,med,Contact Named to Reached,5.7557650689771025,FALSE
+2021-10-01,mean,Symptoms to Test,69.44170688951121,FALSE
+2021-10-01,mean,Test to Result,40.815048301639926,FALSE
+2021-10-01,mean,Result to Case Notified,36.02415269528918,FALSE
+2021-10-01,mean,Contact Named to Reached,36.03290829843836,TRUE
+2021-10-01,med,Symptoms to Test,50.4,FALSE
+2021-10-01,med,Test to Result,41.13792545905126,FALSE
+2021-10-01,med,Result to Case Notified,26.03984156629937,FALSE
+2021-10-01,med,Contact Named to Reached,4.652295009204029,FALSE
+2021-11-01,mean,Symptoms to Test,64.8,TRUE
+2021-11-01,mean,Test to Result,33.599999999999994,FALSE
+2021-11-01,mean,Result to Case Notified,38.40000000000001,FALSE
+2021-11-01,mean,Contact Named to Reached,36.03290829843836,TRUE
+2021-11-01,med,Symptoms to Test,64.8,TRUE
+2021-11-01,med,Test to Result,24.000837394689405,FALSE
+2021-11-01,med,Result to Case Notified,26.528858353493224,FALSE
+2021-11-01,med,Contact Named to Reached,2.88,FALSE
+2021-12-01,mean,Symptoms to Test,64.8,TRUE
+2021-12-01,mean,Test to Result,36,FALSE
+2021-12-01,mean,Result to Case Notified,45.60000000000001,FALSE
+2021-12-01,mean,Contact Named to Reached,36.03290829843836,TRUE
+2021-12-01,med,Symptoms to Test,64.8,TRUE
+2021-12-01,med,Test to Result,23.999999999999996,FALSE
+2021-12-01,med,Result to Case Notified,27.657412170352867,FALSE
+2021-12-01,med,Contact Named to Reached,5.76,FALSE
